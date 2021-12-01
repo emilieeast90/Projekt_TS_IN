@@ -18,3 +18,46 @@
 2021-11-25 12:39:09:399 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
 2021-11-25 12:39:09:399 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
 2021-11-25 12:39:09:399 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-11-26 11:39:52:3952 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-11-26 11:39:52:3952 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-11-26 11:40:14:4014 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-11-30 11:45:29:4529 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-11-30 11:45:29:4529 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-11-30 11:45:43:4543 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-11-30 11:46:14:4614 [35mhttp[39m: [35m{}[39m
+2021-11-30 11:46:14:4614 [37mdebug[39m: [37m{ _id: new ObjectId("61a600f6bfd5c61bf4f51350") }[39m
+2021-11-30 11:46:14:4614 [35mhttp[39m: [35mPOST /users 500 151 - 11.818 ms[39m
+[35m[39m
+2021-11-30 11:47:14:4714 [37mdebug[39m: [37mAPI is Alive with TypeScript[39m
+2021-11-30 11:47:14:4714 [35mhttp[39m: [35mGET / 200 28 - 1.010 ms[39m
+[35m[39m
+2021-11-30 11:48:29:4829 [35mhttp[39m: [35m{}[39m
+2021-11-30 11:48:29:4829 [37mdebug[39m: [37m{ _id: new ObjectId("61a6017dbfd5c61bf4f51351") }[39m
+2021-11-30 11:48:29:4829 [35mhttp[39m: [35mPOST /users 500 151 - 3.114 ms[39m
+[35m[39m
+2021-11-30 11:49:18:4918 [35mhttp[39m: [35mGET /users 404 1401 - 3.281 ms[39m
+[35m[39m
+2021-11-30 11:49:23:4923 [35mhttp[39m: [35mGET /todos 404 1401 - 0.443 ms[39m
+[35m[39m
+2021-11-30 11:49:26:4926 [35mhttp[39m: [35mGET /todo 404 1400 - 0.481 ms[39m
+[35m[39m
+2021-11-30 11:51:52:5152 [37mdebug[39m: [37mAPI is Alive with TypeScript[39m
+2021-11-30 11:51:52:5152 [35mhttp[39m: [35mGET / 200 28 - 0.996 ms[39m
+[35m[39m
+2021-11-30 11:51:56:5156 [35mhttp[39m: [35m{}[39m
+2021-11-30 11:51:56:5156 [37mdebug[39m: [37m{ _id: new ObjectId("61a6024cbfd5c61bf4f51352") }[39m
+2021-11-30 11:51:56:5156 [35mhttp[39m: [35mPOST /users 500 151 - 2.083 ms[39m
+[35m[39m
+2021-11-30 11:52:11:5211 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-11-30 11:52:11:5211 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-11-30 11:52:11:5211 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-11-30 11:52:30:5230 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-11-30 11:52:30:5230 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-11-30 11:52:30:5230 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-11-30 11:53:00:530 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-11-30 11:53:00:530 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-11-30 11:53:00:530 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-11-30 11:53:07:537 [35mhttp[39m: [35m{}[39m
+2021-11-30 11:53:07:537 [37mdebug[39m: [37m{ _id: new ObjectId("61a602934ed3b29e433193f3") }[39m
+2021-11-30 11:53:07:537 [35mhttp[39m: [35mPOST /users 500 151 - 10.892 ms[39m
+[35m[39m
