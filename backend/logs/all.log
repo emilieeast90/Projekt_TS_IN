@@ -255,3 +255,54 @@
 [37m][39m
 2021-12-01 21:14:52:1452 [35mhttp[39m: [35mGET /users 200 105 - 5.797 ms[39m
 [35m[39m
+2021-12-01 21:33:17:3317 [35mhttp[39m: [35mID: 61a7d6eef1029502a4c7ad35[39m
+2021-12-01 21:33:17:3317 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61a7d6eef1029502a4c7ad35"),[39m
+[37m  username: 'zerdar',[39m
+[37m  password: 'hemligt',[39m
+[37m  email: 'mattias@gmail.com'[39m
+[37m}[39m
+2021-12-01 21:33:17:3317 [35mhttp[39m: [35mGET /users/61a7d6eef1029502a4c7ad35 200 103 - 6.975 ms[39m
+[35m[39m
+2021-12-01 21:33:35:3335 [35mhttp[39m: [35mID: 61a7d6eef1029502a4c7ad35[39m
+2021-12-01 21:33:35:3335 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61a7d6eef1029502a4c7ad35"),[39m
+[37m  username: 'zerdar',[39m
+[37m  password: 'hemligt',[39m
+[37m  email: 'mattias@gmail.com'[39m
+[37m}[39m
+2021-12-01 21:33:35:3335 [35mhttp[39m: [35mGET /users/61a7d6eef1029502a4c7ad35 200 103 - 7.314 ms[39m
+[35m[39m
+2021-12-01 21:36:08:368 [35mhttp[39m: [35mID: 61a7d6eef1029502a4c7ad35[39m
+2021-12-01 21:36:08:368 [35mhttp[39m: [35mBody is: [object Object][39m
+2021-12-01 21:36:08:368 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61a7d6eef1029502a4c7ad35"),[39m
+[37m  username: 'zerdar',[39m
+[37m  password: 'hemligt',[39m
+[37m  email: 'mattias@gmail.com',[39m
+[37m  updatedAt: 2021-12-01T20:36:08.712Z[39m
+[37m}[39m
+2021-12-01 21:36:08:368 [35mhttp[39m: [35mPUT /users/61a7d6eef1029502a4c7ad35 200 142 - 68.244 ms[39m
+[35m[39m
+2021-12-01 21:36:15:3615 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61a7d6eef1029502a4c7ad35"),[39m
+[37m    username: 'zerdar',[39m
+[37m    password: 'hemligt',[39m
+[37m    email: 'mattias@gmail.com',[39m
+[37m    updatedAt: 2021-12-01T20:36:08.712Z[39m
+[37m  }[39m
+[37m][39m
+2021-12-01 21:36:15:3615 [35mhttp[39m: [35mGET /users 200 144 - 9.876 ms[39m
+[35m[39m
+2021-12-01 21:36:29:3629 [35mhttp[39m: [35mID: 61a7d6eef1029502a4c7ad35[39m
+2021-12-01 21:36:29:3629 [35mhttp[39m: [35mBody is: [object Object][39m
+2021-12-01 21:36:29:3629 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61a7d6eef1029502a4c7ad35"),[39m
+[37m  username: 'zerdar',[39m
+[37m  password: 'hemligt',[39m
+[37m  email: 'mattias@gmail.com',[39m
+[37m  updatedAt: 2021-12-01T20:36:29.186Z[39m
+[37m}[39m
+2021-12-01 21:36:29:3629 [35mhttp[39m: [35mPUT /users/61a7d6eef1029502a4c7ad35 200 142 - 48.695 ms[39m
+[35m[39m

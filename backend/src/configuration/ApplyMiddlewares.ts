@@ -16,6 +16,7 @@ const ApplyMiddlewares = (app: express.Application) => {
     app.use(helmet())
     app.use(cors(options))
     app.use(express.urlencoded({extended: false}))
+    app.use(express.json())
     app.use(MorganMiddleware)
     app.use(errorHandler)
 }
