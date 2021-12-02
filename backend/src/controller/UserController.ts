@@ -33,7 +33,6 @@ const getUsers = async (req: Request, res: Response) => {
     }
 }
 
-
 const getUserWithId = async (req: Request, res: Response) => {
     try {
         const {userId} = req.params

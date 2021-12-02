@@ -1,34 +1,41 @@
 import {useState} from 'react'
 import {JsonToTable} from 'react-json-to-table'
-import http from '../utils/api/BookfaceApi'
-import {CreateUserObject, UserDataObject} from '../utils/interfaces/UserData'
+import http from '../../utils/api/BookfaceApi'
+import {CreateUserObject, UserDataObject} from '../../utils/interfaces/UserData'
 
-function CreateUser() {
+function UpdateUser() {
     const [userObject, setUserObject] = useState<UserDataObject>()
-    const [userName, setUserName] = useState<string>('NewUser')
-    const [passWord, setPassWord] = useState<string>('password')
-    const [eMail, setEMail] = useState<string>('email@email.com')
+    const [id, setId] = useState<string>('')
+    const [userName, setUserName] = useState<string>('changeUserName')
+    const [passWord, setPassWord] = useState<string>('changePassWord')
+    const [eMail, setEmail] = useState<string>('changeEmail')
 
-    function createUser() {
+    function updateUser() {
         const payload: CreateUserObject = {
             username: userName,
             password: passWord,
             email: eMail
         }
-        http.post(`/users/`, payload)
-            .then((response) => {
+        console.log(payload)
+        http.put(`/users/${id}`, payload)
+            .then(((response) => {
                 console.log(response.data)
                 setUserObject(response.data)
-            })
+            }))
             .catch((error) => {
                 console.log(error)
             })
     }
-
     return (
         <>
-            <h1>Create User</h1>
             <article>
+                <section>
+                    ID:
+                    <input type='text'
+                           value={id}
+                           onChange={event => setId(event.target.value)}
+                    />
+                </section>
                 <section>
                     Username:
                     <input type='text'
@@ -47,19 +54,17 @@ function CreateUser() {
                     Email:
                     <input type='text'
                            value={eMail}
-                           onChange={event => setEMail(event.target.value)}
+                           onChange={event => setEmail(event.target.value)}
                     />
                 </section>
                 <section>
-                    <button onClick={createUser}>Create</button>
+                    <button onClick={updateUser}>Update User</button>
                     <button onClick={() => setUserObject(undefined)}>Clear</button>
                 </section>
-                <section>
-                    <JsonToTable json={userObject} />
-                </section>
+                <JsonToTable json={userObject} />
             </article>
         </>
     )
 }
 
-export default CreateUser
+export default UpdateUser

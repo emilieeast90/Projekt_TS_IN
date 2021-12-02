@@ -1,4 +1,4 @@
-import GetUsers from '../components/GetUsers'
+import GetUsers from '../components/functionComponents/GetUsers'
 
 function Admin() {
     return (
