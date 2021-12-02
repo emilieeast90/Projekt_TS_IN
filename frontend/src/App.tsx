@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import GetUsers from './components/GetUsers'
 import CreateUser from './components/CreateUser'
+import UpdateUser from './components/UpdateUser'
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
 
             <GetUsers />
             <CreateUser />
+            <UpdateUser />
         </>
     )
 }
