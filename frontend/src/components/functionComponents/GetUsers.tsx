@@ -1,8 +1,8 @@
-import { useState } from 'react'
-import { JsonToTable } from 'react-json-to-table'
+import {useState} from 'react'
+import {JsonToTable} from 'react-json-to-table'
 import http from '../../utils/api/BookfaceApi'
 import styled from 'styled-components'
-import { UserDataObject } from '../../utils/interfaces/UserData'
+import {UserDataObject} from '../../utils/interfaces/UserData'
 
 function GetUsers() {
     const initialState: Array<UserDataObject> = []
@@ -20,13 +20,28 @@ function GetUsers() {
     }
 
     return (
-        <>
-            <h1>Get users</h1>
+        <Article>
+            <Section><h1>Get users</h1></Section>
 
-            <button onClick={getUsers}>Get users</button>
-            <JsonToTable json={allUsersInDatabase}/>
-        </>
+            <Section>
+                <button onClick={getUsers}>Get users</button>
+                <JsonToTable json={allUsersInDatabase}/>
+            </Section>
+        </Article>
+
     )
 }
+
+const Article = styled.article`
+  padding: 0.5em;
+
+`
+
+const Section = styled.section`
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.5em;
+  margin: 0.5em;
+`
 
 export default GetUsers

@@ -3,10 +3,16 @@ import Logger from '../utils/Logger'
 import {Response, Request} from 'express'
 import StatusCode from '../configuration/StatusCode'
 import {User} from '../utils/interface/Interface'
+import bcrypt from 'bcrypt'
 
 const createUser = async (req: Request, res: Response) => {
     Logger.http(req.body)
-    const {username, password, email}: User = req.body
+    let {username, password, email}: User = req.body
+    const saltRounds: number = 10
+    await bcrypt.hash(password, saltRounds).then((hash) => {
+        password = hash
+    })
+    Logger.warn(`hashed password is ${password}`)
     const user = new UserModel({
         username,
         password,
@@ -29,7 +35,8 @@ const getUsers = async (req: Request, res: Response) => {
         Logger.debug(response)
         res.status(StatusCode.OK).send(response)
     } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({message: error.message})
+        res.status(StatusCode.INTERNAL_SERVER_ERROR)
+            .send({message: error.message})
     }
 }
 
@@ -41,10 +48,11 @@ const getUserWithId = async (req: Request, res: Response) => {
         Logger.debug(response)
         res.status(StatusCode.OK).send(response)
     } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-            message: `Error while trying to retrieve user with ID: ${req.params.userId}`,
-            error: error.message
-        })
+        res.status(StatusCode.INTERNAL_SERVER_ERROR)
+            .send({
+                message: `Error while trying to retrieve user with ID: ${req.params.userId}`,
+                error: error.message
+            })
     }
 }
 
@@ -62,10 +70,11 @@ const updateUser = async (req: Request, res: Response) => {
         Logger.debug(response)
         res.status(StatusCode.OK).send(response)
     } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-            message: `Error while trying to update user with ID: ${req.params.userId}`,
-            error: error.message
-        })
+        res.status(StatusCode.INTERNAL_SERVER_ERROR)
+            .send({
+                message: `Error while trying to update user with ID: ${req.params.userId}`,
+                error: error.message
+            })
     }
 }
 
@@ -77,10 +86,11 @@ const deleteUser = async (req: Request, res: Response) => {
             message: `Successfully deleted user with ID: ${userId}`
         })
     } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-            message: `Error while trying to delete user with ID: ${req.params.userId}`,
-            error: error.message
-        })
+        res.status(StatusCode.INTERNAL_SERVER_ERROR)
+            .send({
+                message: `Error while trying to delete user with ID: ${req.params.userId}`,
+                error: error.message
+            })
     }
 }
 

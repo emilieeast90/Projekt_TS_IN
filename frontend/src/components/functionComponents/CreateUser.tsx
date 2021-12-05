@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import {JsonToTable} from 'react-json-to-table'
+import styled from 'styled-components'
 import http from '../../utils/api/BookfaceApi'
 import {CreateUserObject, UserDataObject} from '../../utils/interfaces/UserData'
 
@@ -28,38 +29,51 @@ function CreateUser() {
     return (
         <>
             <h1>Create User</h1>
-            <article>
-                <section>
+            <Article>
+                <Section>
                     Username:
                     <input type='text'
                            value={userName}
                            onChange={event => setUserName(event.target.value)}
                     />
-                </section>
-                <section>
+                </Section>
+                <Section>
                     Password:
                     <input type='password'
                            value={passWord}
                            onChange={event => setPassWord(event.target.value)}
                     />
-                </section>
-                <section>
+                </Section>
+                <Section>
                     Email:
                     <input type='text'
                            value={eMail}
                            onChange={event => setEMail(event.target.value)}
                     />
-                </section>
-                <section>
+                </Section>
+                <Section>
                     <button onClick={createUser}>Create</button>
                     <button onClick={() => setUserObject(undefined)}>Clear</button>
-                </section>
-                <section>
+                </Section>
+                <Section>
                     <JsonToTable json={userObject} />
-                </section>
-            </article>
+                </Section>
+            </Article>
         </>
     )
 }
+
+const Article = styled.article`
+    padding: 0.5em;
+  
+`
+
+const Section = styled.section `
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.5em;
+  margin: 0.5em;
+`
+
 
 export default CreateUser

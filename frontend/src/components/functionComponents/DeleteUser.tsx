@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import http from '../../utils/api/BookfaceApi'
+import styled from 'styled-components'
 
 function DeleteUser() {
     const [text, setText] = useState<string>('')
@@ -17,20 +18,32 @@ function DeleteUser() {
     }
     return (
         <>
-            <article>
-                <section>
+            <Article>
+                <Section>
                     ID:
                     <input type='text'
                            value={id}
                            onChange={event => setId(event.target.value)} />
-                </section>
-                <section>
+                </Section>
+                <Section>
                     <button onClick={deleteUser}>Delete</button>
                     <button onClick={() => setText('')}>Clear</button>
-                </section>
-            </article>
+                </Section>
+            </Article>
         </>
     )
 }
+
+const Article = styled.article`
+    padding: 0.5em;
+  
+`
+
+const Section = styled.section `
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.5em;
+  margin: 0.5em;
+`
 
 export default DeleteUser

@@ -2,6 +2,7 @@ import {useState} from 'react'
 import {JsonToTable} from 'react-json-to-table'
 import http from '../../utils/api/BookfaceApi'
 import {CreateUserObject, UserDataObject} from '../../utils/interfaces/UserData'
+import styled from 'styled-components'
 
 function UpdateUser() {
     const [userObject, setUserObject] = useState<UserDataObject>()
@@ -26,45 +27,60 @@ function UpdateUser() {
                 console.log(error)
             })
     }
+
     return (
         <>
-            <article>
-                <section>
+            <Article>
+                <Section>
                     ID:
-                    <input type='text'
+                    <input type="text"
                            value={id}
                            onChange={event => setId(event.target.value)}
                     />
-                </section>
-                <section>
+                </Section>
+                <Section>
                     Username:
-                    <input type='text'
+                    <input type="text"
                            value={userName}
                            onChange={event => setUserName(event.target.value)}
                     />
-                </section>
-                <section>
+                </Section>
+                <Section>
                     Password:
-                    <input type='password'
+                    <input type="password"
                            value={passWord}
                            onChange={event => setPassWord(event.target.value)}
                     />
-                </section>
-                <section>
+                </Section>
+                <Section>
                     Email:
-                    <input type='text'
+                    <input type="text"
                            value={eMail}
                            onChange={event => setEmail(event.target.value)}
                     />
-                </section>
-                <section>
+                </Section>
+                <Section>
                     <button onClick={updateUser}>Update User</button>
                     <button onClick={() => setUserObject(undefined)}>Clear</button>
-                </section>
-                <JsonToTable json={userObject} />
-            </article>
+                </Section>
+                <Section>
+                    <JsonToTable json={userObject}/>
+                </Section>
+            </Article>
         </>
     )
 }
+
+const Article = styled.article`
+  padding: 0.5em;
+
+`
+
+const Section = styled.section`
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.5em;
+  margin: 0.5em;
+`
 
 export default UpdateUser
