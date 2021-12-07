@@ -22,3 +22,10 @@
 
 
 #### Vecka 3 - `1/12-8/12`
+
+
+Tester frontend -
+   1. Gjort enklare tester i webbläsare så att alla funktioner fungerar
+   2. Ska bygga om json-to-table så att det blir en egenbyggd tabell istället pga 
+   felmeddelande där två värden är identiska.
+   3. 

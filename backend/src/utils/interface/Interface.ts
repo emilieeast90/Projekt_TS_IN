@@ -4,6 +4,10 @@ export interface User {
     email: string;
 }
 
+export interface SearchUser {
+    username: string;
+}
+
 export interface UsersArray {
     users: Array<User>
 }

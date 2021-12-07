@@ -2,7 +2,7 @@ import UserModel from '../models/UserModel'
 import Logger from '../utils/Logger'
 import {Response, Request} from 'express'
 import StatusCode from '../configuration/StatusCode'
-import {User} from '../utils/interface/Interface'
+import {SearchUser, User} from '../utils/interface/Interface'
 import bcrypt from 'bcrypt'
 
 const createUser = async (req: Request, res: Response) => {
@@ -56,6 +56,24 @@ const getUserWithId = async (req: Request, res: Response) => {
     }
 }
 
+const getUserWithName = async (req: Request, res: Response) => {
+    try {
+        const {username} = req.query
+        const query: SearchUser = {username: String(username)}
+        Logger.http(`Name: ${username}`)
+        const response = await UserModel.find(query)
+        Logger.debug(response)
+        response.length !== 0
+            ? res.status(StatusCode.OK).send(response)
+            : res.status(StatusCode.NOT_FOUND).send({message: `Couldn't find user with username: ${username}`})
+    } catch (error) {
+        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
+            message: `Error while trying to retrieve user with username: ${req.query.username}`,
+            error: error.message
+        })
+    }
+}
+
 const updateUser = async (req: Request, res: Response) => {
     try {
         const {userId} = req.params
@@ -99,6 +117,7 @@ export default {
     createUser,
     getUsers,
     getUserWithId,
+    getUserWithName,
     updateUser,
     deleteUser
 }

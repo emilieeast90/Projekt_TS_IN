@@ -2077,3 +2077,59 @@
 [37m][39m
 2021-12-05 08:49:11:4911 [35mhttp[39m: [35mGET /users 200 243 - 4.781 ms[39m
 [35m[39m
+2021-12-07 11:08:40:840 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-07 11:08:40:840 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-07 11:08:40:840 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-07 11:08:44:844 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$1/yGk9wlY0lvbyLrMITnxu7MrGP8vDHO6pYMUj7wlWqj.YSMkJ/AK',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-07 11:08:44:844 [35mhttp[39m: [35mGET /users 200 243 - 17.663 ms[39m
+[35m[39m
+2021-12-07 11:09:21:921 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-07 11:09:21:921 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-07 11:09:21:921 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-07 11:09:27:927 [35mhttp[39m: [35mID: NewUser[39m
+2021-12-07 11:09:27:927 [35mhttp[39m: [35mGET /users/NewUser 500 172 - 6.013 ms[39m
+[35m[39m
+2021-12-07 11:10:59:1059 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-07 11:10:59:1059 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-07 11:10:59:1059 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-07 11:11:22:1122 [35mhttp[39m: [35mGET /searchUser/NewUser 404 1414 - 5.449 ms[39m
+[35m[39m
+2021-12-07 11:11:27:1127 [35mhttp[39m: [35mGET /searchUser:NewUser 404 1414 - 0.759 ms[39m
+[35m[39m
+2021-12-07 11:11:43:1143 [35mhttp[39m: [35mName: undefined[39m
+2021-12-07 11:11:43:1143 [37mdebug[39m: [37m[][39m
+2021-12-07 11:11:43:1143 [35mhttp[39m: [35mGET /searchUser 404 57 - 10.784 ms[39m
+[35m[39m
+2021-12-07 11:13:55:1355 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-07 11:13:55:1355 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-07 11:13:55:1355 [35mhttp[39m: [35mName: undefined[39m
+2021-12-07 11:13:55:1355 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-07 11:13:55:1355 [37mdebug[39m: [37m[][39m
+2021-12-07 11:13:55:1355 [35mhttp[39m: [35mGET /searchUser 404 57 - 27.297 ms[39m
+[35m[39m
+2021-12-07 11:14:10:1410 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$1/yGk9wlY0lvbyLrMITnxu7MrGP8vDHO6pYMUj7wlWqj.YSMkJ/AK',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-07 11:14:10:1410 [35mhttp[39m: [35mGET /users 200 243 - 8.259 ms[39m
+[35m[39m
+2021-12-07 11:14:46:1446 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-07 11:14:46:1446 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-07 11:14:46:1446 [32minfo[39m: [32mSuccessfully connected to database[39m
