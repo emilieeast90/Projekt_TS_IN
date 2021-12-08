@@ -3,7 +3,23 @@ export interface AuthenticatedUser {
     password?: string
 }
 
-export interface login {
+export interface User {
     username: string,
-    password: string
+    password: string,
+    email: string
+}
+
+export interface UserSetup {
+    username: string,
+    password: string,
+    email: string,
+}
+
+export interface UserDataObject {
+    _id: string,
+    username: string,
+    password: string,
+    email: string,
+    createdAt: string,
+    updatedAt: string,
 }

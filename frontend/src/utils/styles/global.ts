@@ -8,7 +8,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
   }
-
+  
   #root {
     margin: 0 auto;
   }

@@ -1,15 +1,15 @@
 import {useState} from 'react'
 import {JsonToTable} from 'react-json-to-table'
-import http from '../../utils/api/BookfaceApi'
 import styled from 'styled-components'
 import {UserDataObject} from '../../utils/interfaces/UserData'
+import UserService from '../../utils/api/service/UserService'
 
 function GetUsers() {
     const initialState: Array<UserDataObject> = []
     const [allUsersInDatabase, setAllUsersInDatabase] = useState<Array<UserDataObject>>(initialState)
 
     function getUsers() {
-        http.get<UserDataObject[]>('/users')
+        UserService.getAllUsers()
             .then(function (response) {
                 console.log(response.data)
                 setAllUsersInDatabase(response.data)
@@ -20,17 +20,22 @@ function GetUsers() {
     }
 
     return (
-        <Article>
-            <Section><h1>Get users</h1></Section>
+        <Wrapper>
+            <Article>
+                <h3>Get users</h3>
 
-            <Section>
-                <button onClick={getUsers}>Get users</button>
-                <JsonToTable json={allUsersInDatabase}/>
-            </Section>
-        </Article>
-
+                <Section>
+                    <button onClick={getUsers}>Get users</button>
+                    <JsonToTable json={allUsersInDatabase}/>
+                </Section>
+            </Article>
+        </Wrapper>
     )
 }
+
+const Wrapper = styled.div `
+    width: 50vw;
+`
 
 const Article = styled.article`
   padding: 0.5em;

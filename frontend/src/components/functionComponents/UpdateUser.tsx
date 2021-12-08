@@ -1,8 +1,8 @@
 import {useState} from 'react'
 import {JsonToTable} from 'react-json-to-table'
-import http from '../../utils/api/BookfaceApi'
 import {CreateUserObject, UserDataObject} from '../../utils/interfaces/UserData'
 import styled from 'styled-components'
+import UserService from '../../utils/api/service/UserService'
 
 function UpdateUser() {
     const [userObject, setUserObject] = useState<UserDataObject>()
@@ -18,7 +18,7 @@ function UpdateUser() {
             email: eMail
         }
         console.log(payload)
-        http.put(`/users/${id}`, payload)
+        UserService.updateUserById(id, payload)
             .then(((response) => {
                 console.log(response.data)
                 setUserObject(response.data)
@@ -31,6 +31,7 @@ function UpdateUser() {
     return (
         <>
             <Article>
+                <h3>Update User</h3>
                 <Section>
                     ID:
                     <input type="text"
@@ -60,7 +61,7 @@ function UpdateUser() {
                     />
                 </Section>
                 <Section>
-                    <button onClick={updateUser}>Update User</button>
+                    <button onClick={updateUser}>UpdateUser</button>
                     <button onClick={() => setUserObject(undefined)}>Clear</button>
                 </Section>
                 <Section>

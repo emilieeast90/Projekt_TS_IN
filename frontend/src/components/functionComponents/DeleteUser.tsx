@@ -1,24 +1,25 @@
 import {useState} from 'react'
-import http from '../../utils/api/BookfaceApi'
 import styled from 'styled-components'
+import UserService from '../../utils/api/service/UserService'
 
 function DeleteUser() {
-    const [text, setText] = useState<string>('')
-    const [id, setId] = useState<string>('')
+    const [text, setText] = useState<string>('no text')
+    const [id, setId] = useState<string>('no id')
 
     function deleteUser() {
-        http.delete(`/users/${id}`)
+        UserService.deleteUserById(id)
             .then((response) => {
                 console.log(response.data)
                 setText(response.data)
             })
             .catch((error) => {
-                console.log(error)
+                console.log({message: error.message})
             })
     }
     return (
         <>
             <Article>
+                <h3>Delete user</h3>
                 <Section>
                     ID:
                     <input type='text'
@@ -28,6 +29,7 @@ function DeleteUser() {
                 <Section>
                     <button onClick={deleteUser}>Delete</button>
                     <button onClick={() => setText('')}>Clear</button>
+                    <p>{text}</p>
                 </Section>
             </Article>
         </>
