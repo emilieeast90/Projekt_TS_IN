@@ -60,7 +60,7 @@ export const Article = styled.article`
 
 const H2 = styled.h2`
   padding-top: 2.5em;
-  margin: auto;
+  text-align: center;
 `
 
 export default App

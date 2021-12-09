@@ -65,21 +65,22 @@ const LiRight = styled.li`
 
 const LiLeft = styled.li`
   float: left;
+
   a {
     color: white;
     display: block;
     text-decoration: none;
     padding-left: 1.4em;
   }
-  
+
   a:hover {
     color: white;
   }
-  
+
   a:active {
     color: aquamarine;
   }
-  
+
   a:visited {
     color: aquamarine;
   }
