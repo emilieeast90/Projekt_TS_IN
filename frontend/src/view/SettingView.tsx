@@ -6,5 +6,4 @@ function SettingView() {
     )
 }
 
-
 export default SettingView

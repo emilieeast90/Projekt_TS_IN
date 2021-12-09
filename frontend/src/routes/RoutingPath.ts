@@ -1,23 +1,27 @@
 const wildCardView: string = '*'
 const homeView: string = '/'
-const counterView: string = '/counter'
-const somethingElseView: string = '/something-else'
+const flowView: string = '/flow'
+const messageView: string = '/messages'
+const signupView: string = '/signup'
 const signInView: string = '/signIn'
 const profileView: string = '/profile'
 const settingsView: string = '/settings'
 const notFoundView: string = '/404'
-const axiosView: string = '/axiosView'
+const adminView: string = '/adminView'
 const usersView: string = '/users'
+const logoutView: string = '/logout'
 
 export default {
     wildCardView,
     homeView,
-    counterView,
-    somethingElseView,
+    flowView,
     signInView,
     profileView,
     settingsView,
     notFoundView,
-    axiosView,
-    usersView
+    adminView,
+    usersView,
+    signupView,
+    messageView,
+    logoutView
 }

@@ -1,4 +1,4 @@
-function MessageFlow() {
+function MessageView() {
     return (
         <>
             <h1>Messages page</h1>
@@ -6,4 +6,4 @@ function MessageFlow() {
     )
 }
 
-export default MessageFlow
+export default MessageView
