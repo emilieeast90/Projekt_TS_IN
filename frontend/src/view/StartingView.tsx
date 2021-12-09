@@ -1,4 +1,4 @@
-function StartingPage() {
+function StartingView() {
     return (
         <>
             <h1>Starting page</h1>
@@ -6,4 +6,4 @@ function StartingPage() {
     )
 }
 
-export default StartingPage
+export default StartingView

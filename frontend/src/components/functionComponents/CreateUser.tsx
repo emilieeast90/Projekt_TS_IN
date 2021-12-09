@@ -2,8 +2,8 @@ import {useState} from 'react'
 import {JsonToTable} from 'react-json-to-table'
 import styled from 'styled-components'
 import UserService from '../../utils/api/service/UserService'
-import { User } from '../../../../backend/src/utils/interface/Interface'
-import { UserDataObject } from '../../utils/interfaces/UserData'
+import {User} from '../../../../backend/src/utils/interface/Interface'
+import {UserDataObject} from '../../utils/interfaces/UserData'
 
 function CreateUser() {
     const [userObject, setUserObject] = useState<UserDataObject>()
@@ -26,54 +26,47 @@ function CreateUser() {
                 console.log(error)
             })
     }
-
     return (
-        <Wrapper>
+        <Article>
             <h1>Create User</h1>
-            <Article>
-                <Section>
-                    Username:
-                    <input type='text'
-                           value={userName}
-                           onChange={event => setUserName(event.target.value)}
-                    />
-                </Section>
-                <Section>
-                    Password:
-                    <input type='password'
-                           value={passWord}
-                           onChange={event => setPassWord(event.target.value)}
-                    />
-                </Section>
-                <Section>
-                    Email:
-                    <input type='text'
-                           value={eMail}
-                           onChange={event => setEMail(event.target.value)}
-                    />
-                </Section>
-                <Section>
-                    <button onClick={createUsers}>Create</button>
-                    <button onClick={() => setUserObject(undefined)}>Clear</button>
-                </Section>
-                <Section>
-                    <JsonToTable json={userObject} />
-                </Section>
-            </Article>
-        </Wrapper>
+            <Section>
+                Username:
+                <input type="text"
+                       value={userName}
+                       onChange={event => setUserName(event.target.value)}
+                />
+            </Section>
+            <Section>
+                Password:
+                <input type="password"
+                       value={passWord}
+                       onChange={event => setPassWord(event.target.value)}
+                />
+            </Section>
+            <Section>
+                Email:
+                <input type="text"
+                       value={eMail}
+                       onChange={event => setEMail(event.target.value)}
+                />
+            </Section>
+            <Section>
+                <button onClick={createUsers}>Create</button>
+                <button onClick={() => setUserObject(undefined)}>Clear</button>
+            </Section>
+            <Section>
+                <JsonToTable json={userObject}/>
+            </Section>
+        </Article>
+
     )
 }
 
-const Wrapper = styled.div `
-    width: 50vw;
-`
-
 const Article = styled.article`
-    padding: 0.5em;
-  
+  padding: 0.5em;
 `
 
-const Section = styled.section `
+const Section = styled.section`
   border-style: solid;
   border-width: 1px;
   padding: 0.5em;

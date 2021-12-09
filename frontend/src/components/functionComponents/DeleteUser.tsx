@@ -1,47 +1,45 @@
 import {useState} from 'react'
+import http from '../../utils/api/BookfaceApi'
 import styled from 'styled-components'
-import UserService from '../../utils/api/service/UserService'
 
 function DeleteUser() {
-    const [text, setText] = useState<string>('no text')
-    const [id, setId] = useState<string>('no id')
+    const [text, setText] = useState<string>('')
+    const [id, setId] = useState<string>('')
 
     function deleteUser() {
-        UserService.deleteUserById(id)
+        http.delete(`/users/${id}`)
             .then((response) => {
-                console.log(response.data)
-                setText(response.data)
+                console.log(response.data.message)
+                setText(response.data.message)
             })
             .catch((error) => {
-                console.log({message: error.message})
+                console.log(error)
             })
     }
+
     return (
-        <>
-            <Article>
-                <h3>Delete user</h3>
-                <Section>
-                    ID:
-                    <input type='text'
-                           value={id}
-                           onChange={event => setId(event.target.value)} />
-                </Section>
-                <Section>
-                    <button onClick={deleteUser}>Delete</button>
-                    <button onClick={() => setText('')}>Clear</button>
-                    <p>{text}</p>
-                </Section>
-            </Article>
-        </>
+        <Article>
+            <h3>Delete User</h3>
+            <Section>
+                ID:
+                <input type="text"
+                       value={id}
+                       onChange={event => setId(event.target.value)}/>
+            </Section>
+            <Section>
+                <button onClick={deleteUser}>Delete</button>
+                <button onClick={() => setText('')}>Clear</button>
+                <p>{text}</p>
+            </Section>
+        </Article>
     )
 }
 
 const Article = styled.article`
-    padding: 0.5em;
-  
+  padding: 0.5em;
 `
 
-const Section = styled.section `
+const Section = styled.section`
   border-style: solid;
   border-width: 1px;
   padding: 0.5em;

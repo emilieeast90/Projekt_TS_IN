@@ -2133,3 +2133,963 @@
 2021-12-07 11:14:46:1446 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
 2021-12-07 11:14:46:1446 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
 2021-12-07 11:14:46:1446 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-07 11:15:32:1532 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$1/yGk9wlY0lvbyLrMITnxu7MrGP8vDHO6pYMUj7wlWqj.YSMkJ/AK',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-07 11:15:32:1532 [35mhttp[39m: [35mGET /users 200 243 - 15.308 ms[39m
+[35m[39m
+2021-12-07 11:15:38:1538 [35mhttp[39m: [35mName: undefined[39m
+2021-12-07 11:15:38:1538 [37mdebug[39m: [37m[][39m
+2021-12-07 11:15:38:1538 [35mhttp[39m: [35mGET /searchUser 404 57 - 5.262 ms[39m
+[35m[39m
+2021-12-07 11:21:03:213 [35mhttp[39m: [35mName: undefined[39m
+2021-12-07 11:21:03:213 [37mdebug[39m: [37m[][39m
+2021-12-07 11:21:03:213 [35mhttp[39m: [35mGET /searchUser 404 57 - 3.565 ms[39m
+[35m[39m
+2021-12-07 11:31:49:3149 [35mhttp[39m: [35mGET /searchUsers?userName=NewUser 404 1424 - 4.695 ms[39m
+[35m[39m
+2021-12-07 11:31:55:3155 [35mhttp[39m: [35mGET /searchUsers?username=NewUser 404 1424 - 0.498 ms[39m
+[35m[39m
+2021-12-07 11:33:46:3346 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-07 11:33:46:3346 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-07 11:33:46:3346 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-07 11:34:25:3425 [35mhttp[39m: [35mGET /searchUsers?userName=NewUser 404 1424 - 5.148 ms[39m
+[35m[39m
+2021-12-07 11:34:29:3429 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$1/yGk9wlY0lvbyLrMITnxu7MrGP8vDHO6pYMUj7wlWqj.YSMkJ/AK',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-07 11:34:29:3429 [35mhttp[39m: [35mGET /users 200 243 - 14.466 ms[39m
+[35m[39m
+2021-12-07 11:34:46:3446 [35mhttp[39m: [35mGET /searchUsers?userName=NewUser 404 1424 - 0.600 ms[39m
+[35m[39m
+2021-12-07 11:35:19:3519 [37mdebug[39m: [37mundefined[39m
+2021-12-07 11:35:19:3519 [35mhttp[39m: [35mName: undefined[39m
+2021-12-07 11:35:19:3519 [37mdebug[39m: [37m[][39m
+2021-12-07 11:35:19:3519 [35mhttp[39m: [35mGET /searchUser?userName=NewUser 404 57 - 5.976 ms[39m
+[35m[39m
+2021-12-07 11:36:08:368 [37mdebug[39m: [37mNewUser[39m
+2021-12-07 11:36:08:368 [35mhttp[39m: [35mName: NewUser[39m
+2021-12-07 11:36:08:368 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$1/yGk9wlY0lvbyLrMITnxu7MrGP8vDHO6pYMUj7wlWqj.YSMkJ/AK',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-07 11:36:08:368 [35mhttp[39m: [35mGET /searchUser?username=NewUser 200 243 - 5.753 ms[39m
+[35m[39m
+2021-12-07 11:53:49:5349 [37mdebug[39m: [37mAPI is Alive with TypeScript[39m
+2021-12-07 11:53:49:5349 [35mhttp[39m: [35mGET / 200 28 - 0.986 ms[39m
+[35m[39m
+2021-12-07 11:53:49:5349 [35mhttp[39m: [35mGET /favicon.ico 404 1407 - 0.805 ms[39m
+[35m[39m
+2021-12-07 12:17:17:1717 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$1/yGk9wlY0lvbyLrMITnxu7MrGP8vDHO6pYMUj7wlWqj.YSMkJ/AK',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-07 12:17:17:1717 [35mhttp[39m: [35mGET /users 200 243 - 15.973 ms[39m
+[35m[39m
+2021-12-07 19:14:05:145 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-07 19:14:05:145 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-07 19:14:08:148 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-07 19:42:32:4232 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$1/yGk9wlY0lvbyLrMITnxu7MrGP8vDHO6pYMUj7wlWqj.YSMkJ/AK',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-07 19:42:32:4232 [35mhttp[39m: [35mGET /users 200 243 - 37.588 ms[39m
+[35m[39m
+2021-12-08 09:25:11:2511 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 09:25:11:2511 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 09:25:41:2541 [31merror[39m: [31mERROR WHILE TRYING TO CONNECT TO DATABASE connect ECONNREFUSED 127.0.0.1:27017[39m
+2021-12-08 09:26:06:266 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 09:26:06:266 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 09:26:06:266 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 09:26:10:2610 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$1/yGk9wlY0lvbyLrMITnxu7MrGP8vDHO6pYMUj7wlWqj.YSMkJ/AK',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 09:26:10:2610 [35mhttp[39m: [35mGET /users 304 - - 27.594 ms[39m
+[35m[39m
+2021-12-08 09:26:37:2637 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$1/yGk9wlY0lvbyLrMITnxu7MrGP8vDHO6pYMUj7wlWqj.YSMkJ/AK',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 09:26:37:2637 [35mhttp[39m: [35mGET /users 200 243 - 5.799 ms[39m
+[35m[39m
+2021-12-08 09:26:49:2649 [35mhttp[39m: [35m{ username: 'NewUser', password: 'password', email: 'email@email.com' }[39m
+2021-12-08 09:26:49:2649 [33mwarn[39m: [33mhashed password is $2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy[39m
+2021-12-08 09:26:49:2649 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b06c49b8b83bbcc3a02429")[39m
+[37m}[39m
+2021-12-08 09:26:49:2649 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b06c49b8b83bbcc3a02429"),[39m
+[37m  createdAt: 2021-12-08T08:26:49.719Z,[39m
+[37m  updatedAt: 2021-12-08T08:26:49.719Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 09:26:49:2649 [35mhttp[39m: [35mPOST /users/ 201 241 - 94.975 ms[39m
+[35m[39m
+2021-12-08 09:26:55:2655 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$1/yGk9wlY0lvbyLrMITnxu7MrGP8vDHO6pYMUj7wlWqj.YSMkJ/AK',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b06c49b8b83bbcc3a02429"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    updatedAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 09:26:55:2655 [35mhttp[39m: [35mGET /users 200 485 - 8.088 ms[39m
+[35m[39m
+2021-12-08 09:27:02:272 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$1/yGk9wlY0lvbyLrMITnxu7MrGP8vDHO6pYMUj7wlWqj.YSMkJ/AK',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b06c49b8b83bbcc3a02429"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    updatedAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 09:27:02:272 [35mhttp[39m: [35mGET /users 304 - - 6.335 ms[39m
+[35m[39m
+2021-12-08 09:27:08:278 [35mhttp[39m: [35mID: 61ac6ea7169e7531582230d3[39m
+2021-12-08 09:27:08:278 [35mhttp[39m: [35mBody is: [object Object][39m
+2021-12-08 09:27:08:278 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m  username: 'changeUserName',[39m
+[37m  password: 'changePassWord',[39m
+[37m  email: 'changeEmail',[39m
+[37m  createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m  updatedAt: 2021-12-08T08:27:08.287Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 09:27:08:278 [35mhttp[39m: [35mPUT /users/61ac6ea7169e7531582230d3 200 198 - 18.743 ms[39m
+[35m[39m
+2021-12-08 09:27:13:2713 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61ac6ea7169e7531582230d3"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: 'changePassWord',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-05T07:47:51.912Z,[39m
+[37m    updatedAt: 2021-12-08T08:27:08.287Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b06c49b8b83bbcc3a02429"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    updatedAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 09:27:13:2713 [35mhttp[39m: [35mGET /users 200 442 - 7.430 ms[39m
+[35m[39m
+2021-12-08 09:27:22:2722 [35mhttp[39m: [35mDELETE /users/61ac6ea7169e7531582230d3 200 73 - 4.225 ms[39m
+[35m[39m
+2021-12-08 09:27:24:2724 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b06c49b8b83bbcc3a02429"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    updatedAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 09:27:24:2724 [35mhttp[39m: [35mGET /users 200 243 - 3.826 ms[39m
+[35m[39m
+2021-12-08 11:24:22:2422 [37mdebug[39m: [37mAPI is Alive with TypeScript[39m
+2021-12-08 11:24:22:2422 [35mhttp[39m: [35mGET / 200 28 - 5.110 ms[39m
+[35m[39m
+2021-12-08 11:24:22:2422 [35mhttp[39m: [35mGET /favicon.ico 404 1407 - 15.216 ms[39m
+[35m[39m
+2021-12-08 12:42:37:4237 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b06c49b8b83bbcc3a02429"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    updatedAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 12:42:37:4237 [35mhttp[39m: [35mGET /users 200 243 - 15.419 ms[39m
+[35m[39m
+2021-12-08 12:42:38:4238 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b06c49b8b83bbcc3a02429"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    updatedAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 12:42:38:4238 [35mhttp[39m: [35mGET /users 304 - - 3.355 ms[39m
+[35m[39m
+2021-12-08 12:42:48:4248 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b06c49b8b83bbcc3a02429"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    updatedAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 12:42:48:4248 [35mhttp[39m: [35mGET /users 304 - - 3.440 ms[39m
+[35m[39m
+2021-12-08 13:06:44:644 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b06c49b8b83bbcc3a02429"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    updatedAt: 2021-12-08T08:26:49.719Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 13:06:44:644 [35mhttp[39m: [35mGET /users 304 - - 4.835 ms[39m
+[35m[39m
+2021-12-08 13:06:50:650 [35mhttp[39m: [35mDELETE /users/$2b$10$QDOf5DGXvokeAqGaZX.LeOUzhyLRjaXu1qKgbWvcDPzj4xvh1ziTy 500 276 - 2.353 ms[39m
+[35m[39m
+2021-12-08 13:06:57:657 [35mhttp[39m: [35mDELETE /users/61b06c49b8b83bbcc3a02429 200 73 - 4.849 ms[39m
+[35m[39m
+2021-12-08 13:13:44:1344 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 13:13:44:1344 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 13:13:44:1344 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 13:14:55:1455 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 13:14:55:1455 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 13:14:55:1455 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 13:16:37:1637 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 13:16:37:1637 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 13:16:37:1637 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 13:16:44:1644 [37mdebug[39m: [37m[][39m
+2021-12-08 13:16:44:1644 [35mhttp[39m: [35mGET /users 200 2 - 13.562 ms[39m
+[35m[39m
+2021-12-08 13:16:48:1648 [35mhttp[39m: [35m{ username: 'NewUser', password: 'password', email: 'email@email.com' }[39m
+2021-12-08 13:16:48:1648 [33mwarn[39m: [33mhashed password is $2b$10$hHHpqEQ4rdZoKa.IDVZBgu3XKkggCaU8vD/KAwjvUGL8Arxf6KT4q[39m
+2021-12-08 13:16:48:1648 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$hHHpqEQ4rdZoKa.IDVZBgu3XKkggCaU8vD/KAwjvUGL8Arxf6KT4q',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b0a230e3e87ad49385caf2")[39m
+[37m}[39m
+2021-12-08 13:16:48:1648 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$hHHpqEQ4rdZoKa.IDVZBgu3XKkggCaU8vD/KAwjvUGL8Arxf6KT4q',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m  createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m  updatedAt: 2021-12-08T12:16:48.121Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 13:16:48:1648 [35mhttp[39m: [35mPOST /users/ 201 241 - 80.585 ms[39m
+[35m[39m
+2021-12-08 13:16:49:1649 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$hHHpqEQ4rdZoKa.IDVZBgu3XKkggCaU8vD/KAwjvUGL8Arxf6KT4q',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m    updatedAt: 2021-12-08T12:16:48.121Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 13:16:49:1649 [35mhttp[39m: [35mGET /users 200 243 - 5.963 ms[39m
+[35m[39m
+2021-12-08 13:16:54:1654 [33mwarn[39m: [33mhashed password is $2b$10$Ei7V9iVeRC8ds0yKHV83R.Th7bYbCavSaNvQxX0DdfNhUPvtCn2Zm[39m
+2021-12-08 13:16:54:1654 [35mhttp[39m: [35mID: 61b0a230e3e87ad49385caf2[39m
+2021-12-08 13:16:54:1654 [35mhttp[39m: [35mBody is: [object Object][39m
+2021-12-08 13:16:54:1654 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m  username: 'changeUserName',[39m
+[37m  password: '$2b$10$Ei7V9iVeRC8ds0yKHV83R.Th7bYbCavSaNvQxX0DdfNhUPvtCn2Zm',[39m
+[37m  email: 'changeEmail',[39m
+[37m  createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m  updatedAt: 2021-12-08T12:16:54.906Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 13:16:54:1654 [35mhttp[39m: [35mPUT /users/61b0a230e3e87ad49385caf2 200 244 - 70.689 ms[39m
+[35m[39m
+2021-12-08 13:42:23:4223 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$Ei7V9iVeRC8ds0yKHV83R.Th7bYbCavSaNvQxX0DdfNhUPvtCn2Zm',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m    updatedAt: 2021-12-08T12:16:54.906Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 13:42:23:4223 [35mhttp[39m: [35mGET /users 200 246 - 6.111 ms[39m
+[35m[39m
+2021-12-08 13:42:26:4226 [35mhttp[39m: [35m{ username: 'NewUser', password: 'password', email: 'email@email.com' }[39m
+2021-12-08 13:42:26:4226 [33mwarn[39m: [33mhashed password is $2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2[39m
+2021-12-08 13:42:26:4226 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b0a832e3e87ad49385caf7")[39m
+[37m}[39m
+2021-12-08 13:42:26:4226 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b0a832e3e87ad49385caf7"),[39m
+[37m  createdAt: 2021-12-08T12:42:26.569Z,[39m
+[37m  updatedAt: 2021-12-08T12:42:26.569Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 13:42:26:4226 [35mhttp[39m: [35mPOST /users 201 241 - 66.917 ms[39m
+[35m[39m
+2021-12-08 13:42:28:4228 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$Ei7V9iVeRC8ds0yKHV83R.Th7bYbCavSaNvQxX0DdfNhUPvtCn2Zm',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m    updatedAt: 2021-12-08T12:16:54.906Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a832e3e87ad49385caf7"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    updatedAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 13:42:28:4228 [35mhttp[39m: [35mGET /users 200 488 - 4.725 ms[39m
+[35m[39m
+2021-12-08 13:57:58:5758 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$Ei7V9iVeRC8ds0yKHV83R.Th7bYbCavSaNvQxX0DdfNhUPvtCn2Zm',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m    updatedAt: 2021-12-08T12:16:54.906Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a832e3e87ad49385caf7"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    updatedAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 13:57:58:5758 [35mhttp[39m: [35mGET /users 304 - - 6.526 ms[39m
+[35m[39m
+2021-12-08 13:58:35:5835 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$Ei7V9iVeRC8ds0yKHV83R.Th7bYbCavSaNvQxX0DdfNhUPvtCn2Zm',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m    updatedAt: 2021-12-08T12:16:54.906Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a832e3e87ad49385caf7"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    updatedAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 13:58:35:5835 [35mhttp[39m: [35mGET /users 304 - - 6.525 ms[39m
+[35m[39m
+2021-12-08 14:06:29:629 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$Ei7V9iVeRC8ds0yKHV83R.Th7bYbCavSaNvQxX0DdfNhUPvtCn2Zm',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m    updatedAt: 2021-12-08T12:16:54.906Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a832e3e87ad49385caf7"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    updatedAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 14:06:29:629 [35mhttp[39m: [35mGET /users 304 - - 5.073 ms[39m
+[35m[39m
+2021-12-08 14:06:33:633 [33mwarn[39m: [33mhashed password is $2b$10$pYkJbFJJQtCqIrkmNpr9TuvQ4j2wm9gbS9YwucfEYo7iC354TX2UG[39m
+2021-12-08 14:06:33:633 [35mhttp[39m: [35mID: 61b0a230e3e87ad49385caf2[39m
+2021-12-08 14:06:33:633 [35mhttp[39m: [35mBody is: [object Object][39m
+2021-12-08 14:06:33:633 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m  username: 'changeUserName',[39m
+[37m  password: '$2b$10$pYkJbFJJQtCqIrkmNpr9TuvQ4j2wm9gbS9YwucfEYo7iC354TX2UG',[39m
+[37m  email: 'changeEmail',[39m
+[37m  createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m  updatedAt: 2021-12-08T13:06:33.498Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 14:06:33:633 [35mhttp[39m: [35mPUT /users/61b0a230e3e87ad49385caf2 200 244 - 72.906 ms[39m
+[35m[39m
+2021-12-08 14:11:56:1156 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$pYkJbFJJQtCqIrkmNpr9TuvQ4j2wm9gbS9YwucfEYo7iC354TX2UG',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m    updatedAt: 2021-12-08T13:06:33.498Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a832e3e87ad49385caf7"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    updatedAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 14:11:56:1156 [35mhttp[39m: [35mGET /users 200 488 - 3.793 ms[39m
+[35m[39m
+2021-12-08 14:13:38:1338 [35mhttp[39m: [35m{ username: 'NewUser', password: 'password', email: 'email@email.com' }[39m
+2021-12-08 14:13:38:1338 [33mwarn[39m: [33mhashed password is $2b$10$aLV0bggpn9Woq/u7TQdkU.w6b2PXEtCMVqPLpc2fx45qfwR1m/uPm[39m
+2021-12-08 14:13:38:1338 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$aLV0bggpn9Woq/u7TQdkU.w6b2PXEtCMVqPLpc2fx45qfwR1m/uPm',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b0af82e3e87ad49385caff")[39m
+[37m}[39m
+2021-12-08 14:13:38:1338 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$aLV0bggpn9Woq/u7TQdkU.w6b2PXEtCMVqPLpc2fx45qfwR1m/uPm',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b0af82e3e87ad49385caff"),[39m
+[37m  createdAt: 2021-12-08T13:13:38.473Z,[39m
+[37m  updatedAt: 2021-12-08T13:13:38.473Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 14:13:38:1338 [35mhttp[39m: [35mPOST /users 201 241 - 66.886 ms[39m
+[35m[39m
+2021-12-08 14:13:47:1347 [33mwarn[39m: [33mhashed password is $2b$10$LshHt0eO5YG096Y9h/qj6ei4pGHfJW4scICenHO6YGcq8kTrHnTfW[39m
+2021-12-08 14:13:47:1347 [35mhttp[39m: [35mID: 61b0af82e3e87ad49385caff[39m
+2021-12-08 14:13:47:1347 [35mhttp[39m: [35mBody is: [object Object][39m
+2021-12-08 14:13:47:1347 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61b0af82e3e87ad49385caff"),[39m
+[37m  username: 'changeUserName',[39m
+[37m  password: '$2b$10$LshHt0eO5YG096Y9h/qj6ei4pGHfJW4scICenHO6YGcq8kTrHnTfW',[39m
+[37m  email: 'changeEmail',[39m
+[37m  createdAt: 2021-12-08T13:13:38.473Z,[39m
+[37m  updatedAt: 2021-12-08T13:13:47.994Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 14:13:47:1347 [35mhttp[39m: [35mPUT /users/61b0af82e3e87ad49385caff 200 244 - 64.964 ms[39m
+[35m[39m
+2021-12-08 14:13:51:1351 [35mhttp[39m: [35mDELETE /users//users/61b0af82e3e87ad49385caff 404 1433 - 5.387 ms[39m
+[35m[39m
+2021-12-08 14:13:55:1355 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$pYkJbFJJQtCqIrkmNpr9TuvQ4j2wm9gbS9YwucfEYo7iC354TX2UG',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m    updatedAt: 2021-12-08T13:06:33.498Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a832e3e87ad49385caf7"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    updatedAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0af82e3e87ad49385caff"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$LshHt0eO5YG096Y9h/qj6ei4pGHfJW4scICenHO6YGcq8kTrHnTfW',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-08T13:13:38.473Z,[39m
+[37m    updatedAt: 2021-12-08T13:13:47.994Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 14:13:55:1355 [35mhttp[39m: [35mGET /users 200 733 - 4.080 ms[39m
+[35m[39m
+2021-12-08 14:14:01:141 [35mhttp[39m: [35mDELETE /users//users/61b0af82e3e87ad49385caff 404 1433 - 0.502 ms[39m
+[35m[39m
+2021-12-08 14:14:36:1436 [35mhttp[39m: [35mDELETE /users/61b0af82e3e87ad49385caff 200 73 - 4.170 ms[39m
+[35m[39m
+2021-12-08 14:14:42:1442 [35mhttp[39m: [35mDELETE /users/61b0af82e3e87ad49385caff 200 73 - 2.251 ms[39m
+[35m[39m
+2021-12-08 14:16:44:1644 [35mhttp[39m: [35mDELETE /users/61b0af82e3e87ad49385caff 200 73 - 2.369 ms[39m
+[35m[39m
+2021-12-08 14:17:48:1748 [35mhttp[39m: [35mDELETE /users/61b0af82e3e87ad49385caff 200 73 - 2.554 ms[39m
+[35m[39m
+2021-12-08 14:19:58:1958 [35mhttp[39m: [35mDELETE /users/61b0af82e3e87ad49385caff 200 73 - 2.295 ms[39m
+[35m[39m
+2021-12-08 14:20:38:2038 [35mhttp[39m: [35mDELETE /users/61b0af82e3e87ad49385caff 200 73 - 2.165 ms[39m
+[35m[39m
+2021-12-08 14:26:35:2635 [35mhttp[39m: [35mDELETE /users/61b0af82e3e87ad49385caff 200 73 - 2.696 ms[39m
+[35m[39m
+2021-12-08 14:29:30:2930 [35mhttp[39m: [35mDELETE /users/61b0af82e3e87ad49385caff 200 73 - 2.120 ms[39m
+[35m[39m
+2021-12-08 14:34:00:340 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 14:34:00:340 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 14:34:00:340 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 14:34:17:3417 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$pYkJbFJJQtCqIrkmNpr9TuvQ4j2wm9gbS9YwucfEYo7iC354TX2UG',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m    updatedAt: 2021-12-08T13:06:33.498Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a832e3e87ad49385caf7"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    updatedAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 14:34:17:3417 [35mhttp[39m: [35mGET /users 200 488 - 19.395 ms[39m
+[35m[39m
+2021-12-08 14:34:23:3423 [35mhttp[39m: [35mDELETE /users/61b0af82e3e87ad49385caff 500 131 - 5.086 ms[39m
+[35m[39m
+2021-12-08 14:36:49:3649 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 14:36:49:3649 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 14:36:49:3649 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 14:37:51:3751 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 14:37:51:3751 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 14:37:51:3751 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 14:41:38:4138 [35mhttp[39m: [35mDELETE /users/61b0af82e3e87ad49385caff 200 73 - 8.968 ms[39m
+[35m[39m
+2021-12-08 14:42:42:4242 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a230e3e87ad49385caf2"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$pYkJbFJJQtCqIrkmNpr9TuvQ4j2wm9gbS9YwucfEYo7iC354TX2UG',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-08T12:16:48.121Z,[39m
+[37m    updatedAt: 2021-12-08T13:06:33.498Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a832e3e87ad49385caf7"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    updatedAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 14:42:42:4242 [35mhttp[39m: [35mGET /users 304 - - 16.635 ms[39m
+[35m[39m
+2021-12-08 14:42:47:4247 [35mhttp[39m: [35mDELETE /users/61b0a230e3e87ad49385caf2 200 73 - 4.439 ms[39m
+[35m[39m
+2021-12-08 14:43:09:439 [35mhttp[39m: [35mDELETE /users/61b0a230e3e87ad49385caf2 200 73 - 3.076 ms[39m
+[35m[39m
+2021-12-08 14:45:18:4518 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0a832e3e87ad49385caf7"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$I0hgpK1qGM8odMQzuF9IWehyDiWqg1vt9x3z7G6qsE0PamzNtU5E2',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    updatedAt: 2021-12-08T12:42:26.569Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 14:45:18:4518 [35mhttp[39m: [35mGET /users 200 243 - 3.461 ms[39m
+[35m[39m
+2021-12-08 14:45:21:4521 [35mhttp[39m: [35mDELETE /users/61b0a832e3e87ad49385caf7 200 73 - 3.625 ms[39m
+[35m[39m
+2021-12-08 14:46:28:4628 [35mhttp[39m: [35mDELETE /users/61b0a832e3e87ad49385caf7 200 73 - 2.548 ms[39m
+[35m[39m
+2021-12-08 14:47:30:4730 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 14:47:30:4730 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 14:47:30:4730 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 14:47:32:4732 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 14:47:32:4732 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 14:47:32:4732 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 14:49:19:4919 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 14:49:19:4919 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 14:49:19:4919 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 14:49:28:4928 [37mdebug[39m: [37m[][39m
+2021-12-08 14:49:28:4928 [35mhttp[39m: [35mGET /users 200 2 - 12.201 ms[39m
+[35m[39m
+2021-12-08 14:49:34:4934 [35mhttp[39m: [35m{ username: 'NewUser', password: 'password', email: 'email@email.com' }[39m
+2021-12-08 14:49:34:4934 [33mwarn[39m: [33mhashed password is $2b$10$BqBHjfJVyMaoy0N1iGKXYO8Z9yFCIW6miUtDKXKr.eJhZTTJ340FC[39m
+2021-12-08 14:49:34:4934 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$BqBHjfJVyMaoy0N1iGKXYO8Z9yFCIW6miUtDKXKr.eJhZTTJ340FC',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b0b7ee04afd709293338b8")[39m
+[37m}[39m
+2021-12-08 14:49:34:4934 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$BqBHjfJVyMaoy0N1iGKXYO8Z9yFCIW6miUtDKXKr.eJhZTTJ340FC',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b0b7ee04afd709293338b8"),[39m
+[37m  createdAt: 2021-12-08T13:49:34.516Z,[39m
+[37m  updatedAt: 2021-12-08T13:49:34.516Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 14:49:34:4934 [35mhttp[39m: [35mPOST /users 201 241 - 79.092 ms[39m
+[35m[39m
+2021-12-08 14:49:36:4936 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0b7ee04afd709293338b8"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$BqBHjfJVyMaoy0N1iGKXYO8Z9yFCIW6miUtDKXKr.eJhZTTJ340FC',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T13:49:34.516Z,[39m
+[37m    updatedAt: 2021-12-08T13:49:34.516Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 14:49:36:4936 [35mhttp[39m: [35mGET /users 200 243 - 8.765 ms[39m
+[35m[39m
+2021-12-08 14:49:47:4947 [33mwarn[39m: [33mhashed password is $2b$10$u3.4zwA.dv9ddbCwx6Lm3ep27JBTjDzKr0pXzfL7pIlzGtbSZ8vi2[39m
+2021-12-08 14:49:47:4947 [35mhttp[39m: [35mID: 61b0b7ee04afd709293338b8[39m
+2021-12-08 14:49:47:4947 [35mhttp[39m: [35mBody is: [object Object][39m
+2021-12-08 14:49:47:4947 [37mdebug[39m: [37mQuery {[39m
+[37m  _mongooseOptions: {},[39m
+[37m  _transforms: [],[39m
+[37m  _hooks: Kareem { _pres: Map(0) {}, _posts: Map(0) {} },[39m
+[37m  _executionStack: null,[39m
+[37m  mongooseCollection: Collection {[39m
+[37m    collection: Collection { s: [Object] },[39m
+[37m    Promise: [Function: Promise],[39m
+[37m    modelName: 'users',[39m
+[37m    _closed: false,[39m
+[37m    opts: {[39m
+[37m      autoIndex: true,[39m
+[37m      autoCreate: true,[39m
+[37m      schemaUserProvidedOptions: [Object],[39m
+[37m      capped: false,[39m
+[37m      Promise: [Function: Promise],[39m
+[37m      '$wasForceClosed': undefined[39m
+[37m    },[39m
+[37m    name: 'users',[39m
+[37m    collectionName: 'users',[39m
+[37m    conn: NativeConnection {[39m
+[37m      base: [Mongoose],[39m
+[37m      collections: [Object],[39m
+[37m      models: [Object],[39m
+[37m      config: {},[39m
+[37m      replica: false,[39m
+[37m      options: null,[39m
+[37m      otherDbs: [],[39m
+[37m      relatedDbs: {},[39m
+[37m      states: [Object: null prototype],[39m
+[37m      _readyState: 1,[39m
+[37m      _closeCalled: undefined,[39m
+[37m      _hasOpened: true,[39m
+[37m      plugins: [],[39m
+[37m      id: 0,[39m
+[37m      _queue: [],[39m
+[37m      _listening: false,[39m
+[37m      _connectionString: 'mongodb://localhost:27017/bookface',[39m
+[37m      _connectionOptions: [Object],[39m
+[37m      client: [MongoClient],[39m
+[37m      '$initialConnection': [Promise],[39m
+[37m      db: [Db],[39m
+[37m      host: 'localhost',[39m
+[37m      port: 27017,[39m
+[37m      name: 'bookface'[39m
+[37m    },[39m
+[37m    queue: [],[39m
+[37m    buffer: false,[39m
+[37m    emitter: EventEmitter {[39m
+[37m      _events: [Object: null prototype] {},[39m
+[37m      _eventsCount: 0,[39m
+[37m      _maxListeners: undefined,[39m
+[37m      [Symbol(kCapture)]: false[39m
+[37m    }[39m
+[37m  },[39m
+[37m  model: Model { users },[39m
+[37m  schema: Schema {[39m
+[37m    obj: { username: [Object], password: [Object], email: [Object] },[39m
+[37m    paths: {[39m
+[37m      username: [SchemaString],[39m
+[37m      password: [SchemaString],[39m
+[37m      email: [SchemaString],[39m
+[37m      _id: [ObjectId],[39m
+[37m      updatedAt: [SchemaDate],[39m
+[37m      createdAt: [SchemaDate],[39m
+[37m      __v: [SchemaNumber][39m
+[37m    },[39m
+[37m    aliases: {},[39m
+[37m    subpaths: {},[39m
+[37m    virtuals: { id: [VirtualType] },[39m
+[37m    singleNestedPaths: {},[39m
+[37m    nested: {},[39m
+[37m    inherits: {},[39m
+[37m    callQueue: [],[39m
+[37m    _indexes: [],[39m
+[37m    methods: { initializeTimestamps: [Function (anonymous)] },[39m
+[37m    methodOptions: {},[39m
+[37m    statics: {},[39m
+[37m    tree: {[39m
+[37m      username: [Object],[39m
+[37m      password: [Object],[39m
+[37m      email: [Object],[39m
+[37m      _id: [Object],[39m
+[37m      updatedAt: [Function: Date],[39m
+[37m      createdAt: [Object],[39m
+[37m      __v: [Function: Number],[39m
+[37m      id: [VirtualType][39m
+[37m    },[39m
+[37m    query: {},[39m
+[37m    childSchemas: [],[39m
+[37m    plugins: [ [Object], [Object], [Object], [Object], [Object], [Object] ],[39m
+[37m    '$id': 1,[39m
+[37m    mapPaths: [],[39m
+[37m    s: { hooks: [Kareem] },[39m
+[37m    _userProvidedOptions: { timestamps: true },[39m
+[37m    options: {[39m
+[37m      timestamps: true,[39m
+[37m      typeKey: 'type',[39m
+[37m      id: true,[39m
+[37m      _id: true,[39m
+[37m      validateBeforeSave: true,[39m
+[37m      read: null,[39m
+[37m      shardKey: null,[39m
+[37m      discriminatorKey: '__t',[39m
+[37m      autoIndex: null,[39m
+[37m      minimize: true,[39m
+[37m      optimisticConcurrency: false,[39m
+[37m      versionKey: '__v',[39m
+[37m      capped: false,[39m
+[37m      bufferCommands: true,[39m
+[37m      strictQuery: true,[39m
+[37m      strict: true,[39m
+[37m      pluralization: true[39m
+[37m    },[39m
+[37m    '$timestamps': { createdAt: 'createdAt', updatedAt: 'updatedAt' },[39m
+[37m    '$globalPluginsApplied': true,[39m
+[37m    _requiredpaths: [ 'email', 'password', 'username' ][39m
+[37m  },[39m
+[37m  op: 'findOneAndUpdate',[39m
+[37m  options: { new: true },[39m
+[37m  _conditions: { _id: '61b0b7ee04afd709293338b8' },[39m
+[37m  _fields: undefined,[39m
+[37m  _update: {[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$u3.4zwA.dv9ddbCwx6Lm3ep27JBTjDzKr0pXzfL7pIlzGtbSZ8vi2',[39m
+[37m    email: 'changeEmail'[39m
+[37m  },[39m
+[37m  _path: undefined,[39m
+[37m  _distinct: undefined,[39m
+[37m  _collection: NodeCollection {[39m
+[37m    collection: Collection {[39m
+[37m      collection: [Collection],[39m
+[37m      Promise: [Function: Promise],[39m
+[37m      modelName: 'users',[39m
+[37m      _closed: false,[39m
+[37m      opts: [Object],[39m
+[37m      name: 'users',[39m
+[37m      collectionName: 'users',[39m
+[37m      conn: [NativeConnection],[39m
+[37m      queue: [],[39m
+[37m      buffer: false,[39m
+[37m      emitter: [EventEmitter][39m
+[37m    },[39m
+[37m    collectionName: 'users'[39m
+[37m  },[39m
+[37m  _traceFunction: undefined,[39m
+[37m  '$useProjection': true[39m
+[37m}[39m
+2021-12-08 14:49:47:4947 [35mhttp[39m: [35mPUT /users/61b0b7ee04afd709293338b8 500 373 - 68.003 ms[39m
+[35m[39m
+2021-12-08 14:50:08:508 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 14:50:08:508 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 14:50:08:508 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 14:50:18:5018 [33mwarn[39m: [33mhashed password is $2b$10$7WqLKESFfUWCOQ.p5Sod/uy0OsmBhJ0RKgeyGd8LBeTaKkn.oh8/2[39m
+2021-12-08 14:50:18:5018 [35mhttp[39m: [35mID: 61b0b7ee04afd709293338b8[39m
+2021-12-08 14:50:18:5018 [35mhttp[39m: [35mBody is: [object Object][39m
+2021-12-08 14:50:18:5018 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61b0b7ee04afd709293338b8"),[39m
+[37m  username: 'changeUserName',[39m
+[37m  password: '$2b$10$7WqLKESFfUWCOQ.p5Sod/uy0OsmBhJ0RKgeyGd8LBeTaKkn.oh8/2',[39m
+[37m  email: 'changeEmail',[39m
+[37m  createdAt: 2021-12-08T13:49:34.516Z,[39m
+[37m  updatedAt: 2021-12-08T13:50:18.704Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 14:50:18:5018 [35mhttp[39m: [35mPUT /users/61b0b7ee04afd709293338b8 200 244 - 96.640 ms[39m
+[35m[39m
+2021-12-08 14:50:27:5027 [35mhttp[39m: [35mDELETE /users/61b0b7ee04afd709293338b8 200 102 - 4.696 ms[39m
+[35m[39m
+2021-12-08 14:50:32:5032 [37mdebug[39m: [37m[][39m
+2021-12-08 14:50:32:5032 [35mhttp[39m: [35mGET /users 200 2 - 5.783 ms[39m
+[35m[39m
+2021-12-08 14:53:16:5316 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 14:53:16:5316 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 14:53:16:5316 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 14:53:20:5320 [37mdebug[39m: [37m[][39m
+2021-12-08 14:53:20:5320 [35mhttp[39m: [35mGET /users 304 - - 13.989 ms[39m
+[35m[39m
+2021-12-08 14:53:22:5322 [35mhttp[39m: [35m{ username: 'NewUser', password: 'password', email: 'email@email.com' }[39m
+2021-12-08 14:53:22:5322 [33mwarn[39m: [33mhashed password is $2b$10$FBe6TeP7HUhiNFck4JelfO2LVt5vAfEB4KUMAN/ZUChHf8aM/3HKm[39m
+2021-12-08 14:53:22:5322 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$FBe6TeP7HUhiNFck4JelfO2LVt5vAfEB4KUMAN/ZUChHf8aM/3HKm',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b0b8d27c8710a23cd1769d")[39m
+[37m}[39m
+2021-12-08 14:53:22:5322 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$FBe6TeP7HUhiNFck4JelfO2LVt5vAfEB4KUMAN/ZUChHf8aM/3HKm',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b0b8d27c8710a23cd1769d"),[39m
+[37m  createdAt: 2021-12-08T13:53:22.176Z,[39m
+[37m  updatedAt: 2021-12-08T13:53:22.176Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 14:53:22:5322 [35mhttp[39m: [35mPOST /users 201 241 - 80.566 ms[39m
+[35m[39m
+2021-12-08 14:53:23:5323 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b0b8d27c8710a23cd1769d"),[39m
+[37m    username: 'NewUser',[39m
+[37m    password: '$2b$10$FBe6TeP7HUhiNFck4JelfO2LVt5vAfEB4KUMAN/ZUChHf8aM/3HKm',[39m
+[37m    email: 'email@email.com',[39m
+[37m    createdAt: 2021-12-08T13:53:22.176Z,[39m
+[37m    updatedAt: 2021-12-08T13:53:22.176Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-08 14:53:23:5323 [35mhttp[39m: [35mGET /users 200 243 - 6.446 ms[39m
+[35m[39m
+2021-12-08 14:53:27:5327 [35mhttp[39m: [35mID: 61b0b8d27c8710a23cd1769d[39m
+2021-12-08 14:53:27:5327 [35mhttp[39m: [35mBody is: [object Object][39m
+2021-12-08 14:53:27:5327 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61b0b8d27c8710a23cd1769d"),[39m
+[37m  username: 'changeUserName',[39m
+[37m  password: '$2b$10$ehvvbAkqcZwLRP1Imcmb5utsfkRYGrC02CPF4Ah1NBV/h5Ahr4XF6',[39m
+[37m  email: 'changeEmail',[39m
+[37m  createdAt: 2021-12-08T13:53:22.176Z,[39m
+[37m  updatedAt: 2021-12-08T13:53:27.221Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-08 14:53:27:5327 [35mhttp[39m: [35mPUT /users/61b0b8d27c8710a23cd1769d 200 244 - 72.083 ms[39m
+[35m[39m
+2021-12-08 14:54:21:5421 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 14:54:21:5421 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 14:54:21:5421 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 15:09:19:919 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 15:09:19:919 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 15:09:20:920 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-08 15:23:13:2313 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-08 15:23:13:2313 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-08 15:23:13:2313 [32minfo[39m: [32mSuccessfully connected to database[39m

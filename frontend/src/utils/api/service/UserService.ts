@@ -25,4 +25,5 @@ const UserService = {
         return http.put(`${usersUrl}/${id}`, userPayload)
     }
 }
+
 export default UserService

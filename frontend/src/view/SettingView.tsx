@@ -1,4 +1,4 @@
-function Settings() {
+function SettingView() {
     return (
         <>
             <h1>Settings page</h1>
@@ -7,4 +7,4 @@ function Settings() {
 }
 
 
-export default Settings
+export default SettingView

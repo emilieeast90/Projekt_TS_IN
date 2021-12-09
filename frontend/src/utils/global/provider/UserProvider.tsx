@@ -1,5 +1,5 @@
 import React, {useState, createContext} from 'react'
-import {AuthenticatedUser} from '../../../utils/interfaces/Interface'
+import {AuthenticatedUser} from '../../interfaces/Interface'
 
 const defaultValues = {
     id: undefined,

@@ -1,6 +1,6 @@
 import GetUsers from '../components/functionComponents/GetUsers'
 
-function Admin() {
+function AdminView() {
     return (
         <>
             <h1>Admin page</h1>
@@ -9,4 +9,4 @@ function Admin() {
     )
 }
 
-export default Admin
+export default AdminView

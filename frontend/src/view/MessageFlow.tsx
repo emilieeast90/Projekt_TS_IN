@@ -1,4 +1,4 @@
-function Messages() {
+function MessageFlow() {
     return (
         <>
             <h1>Messages page</h1>
@@ -6,4 +6,4 @@ function Messages() {
     )
 }
 
-export default Messages
+export default MessageFlow

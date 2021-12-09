@@ -10,7 +10,7 @@
    2. Start page
    3. Login page
    4. Register page
-   5. Flow page
+   5. FlowView page
    6. Message page
 2. Planera för hur jag ska gå till väga samt vad jag ska använda mig av
    1. npm-paket backend och frontend

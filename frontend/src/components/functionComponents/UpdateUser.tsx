@@ -29,52 +29,49 @@ function UpdateUser() {
     }
 
     return (
-        <>
-            <Article>
-                <h3>Update User</h3>
-                <Section>
-                    ID:
-                    <input type="text"
-                           value={id}
-                           onChange={event => setId(event.target.value)}
-                    />
-                </Section>
-                <Section>
-                    Username:
-                    <input type="text"
-                           value={userName}
-                           onChange={event => setUserName(event.target.value)}
-                    />
-                </Section>
-                <Section>
-                    Password:
-                    <input type="password"
-                           value={passWord}
-                           onChange={event => setPassWord(event.target.value)}
-                    />
-                </Section>
-                <Section>
-                    Email:
-                    <input type="text"
-                           value={eMail}
-                           onChange={event => setEmail(event.target.value)}
-                    />
-                </Section>
-                <Section>
-                    <button onClick={updateUser}>UpdateUser</button>
-                    <button onClick={() => setUserObject(undefined)}>Clear</button>
-                </Section>
-                <Section>
-                    <JsonToTable json={userObject}/>
-                </Section>
-            </Article>
-        </>
+        <Article>
+            <h3>Update User</h3>
+            <Section>
+                ID:
+                <input type="text"
+                       value={id}
+                       onChange={event => setId(event.target.value)}
+                />
+            </Section>
+            <Section>
+                Username:
+                <input type="text"
+                       value={userName}
+                       onChange={event => setUserName(event.target.value)}
+                />
+            </Section>
+            <Section>
+                Password:
+                <input type="password"
+                       value={passWord}
+                       onChange={event => setPassWord(event.target.value)}
+                />
+            </Section>
+            <Section>
+                Email:
+                <input type="text"
+                       value={eMail}
+                       onChange={event => setEmail(event.target.value)}
+                />
+            </Section>
+            <Section>
+                <button onClick={updateUser}>UpdateUser</button>
+                <button onClick={() => setUserObject(undefined)}>Clear</button>
+            </Section>
+            <Section>
+                <JsonToTable json={userObject}/>
+            </Section>
+        </Article>
     )
 }
 
 const Article = styled.article`
   padding: 0.5em;
-
 `
 
 const Section = styled.section`

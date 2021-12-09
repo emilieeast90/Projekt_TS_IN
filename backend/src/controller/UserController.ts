@@ -5,13 +5,20 @@ import StatusCode from '../configuration/StatusCode'
 import {SearchUser, User} from '../utils/interface/Interface'
 import bcrypt from 'bcrypt'
 
+const saltRounds: number = 10
+const encryptPassword = async (password: string) => {
+    let newPassword: string = ''
+    await bcrypt.hash(password, saltRounds)
+        .then((hash) => {
+            newPassword = hash
+        })
+    return newPassword
+}
+
 const createUser = async (req: Request, res: Response) => {
     Logger.http(req.body)
     let {username, password, email}: User = req.body
-    const saltRounds: number = 10
-    await bcrypt.hash(password, saltRounds).then((hash) => {
-        password = hash
-    })
+    password = await encryptPassword(password)
     Logger.warn(`hashed password is ${password}`)
     const user = new UserModel({
         username,
@@ -26,6 +33,37 @@ const createUser = async (req: Request, res: Response) => {
     } catch (error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR)
             .send({message: error.message})
+    }
+}
+
+interface VerifyUser {
+    message: boolean
+}
+
+const verifyUser = async (req: Request, res: Response) => {
+    try {
+        // Query
+        const {username, password} = req.body
+        const query: SearchUser = {username: String(username)}
+        const dbQuery = await UserModel.find(query)
+        Logger.debug(dbQuery)
+
+        // Verify password in bcrypt
+        let response: VerifyUser
+        await bcrypt.compare(String(password), dbQuery[0].password)
+            .then((result) => {
+                Logger.debug('bcrypt')
+                response = {
+                    message: result
+                }
+            })
+        Logger.debug(response)
+        res.status(StatusCode.OK).send(response)
+    } catch (error) {
+        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
+            message: `Error while trying to retrieve user with username: ${req.query.username}`,
+            error: error.message
+        })
     }
 }
 
@@ -58,6 +96,7 @@ const getUserWithId = async (req: Request, res: Response) => {
 
 const getUserWithName = async (req: Request, res: Response) => {
     try {
+        Logger.debug(`${req.query.username}`)
         const {username} = req.query
         const query: SearchUser = {username: String(username)}
         Logger.http(`Name: ${username}`)
@@ -76,10 +115,14 @@ const getUserWithName = async (req: Request, res: Response) => {
 
 const updateUser = async (req: Request, res: Response) => {
     try {
+        let {username, password, email}: User = req.body
+        password = await encryptPassword(password)
         const {userId} = req.params
         Logger.http(`ID: ${userId}`)
-        const {username, password, email} = req.body
         Logger.http(`Body is: ${req.body}`)
+        if (!req.body) {
+            res.status(StatusCode.BAD_REQUEST).send({message: `Can't update with empty values`})
+        }
         const response = await UserModel.findByIdAndUpdate(userId, {
             username,
             password,
@@ -101,7 +144,7 @@ const deleteUser = async (req: Request, res: Response) => {
         const {userId} = req.params
         const response = await UserModel.findByIdAndDelete(userId)
         res.status(StatusCode.OK).send({
-            message: `Successfully deleted user with ID: ${userId}`
+            message: `Successfully deleted user with username: ${response.username} and ID: ${userId}`
         })
     } catch (error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR)
@@ -111,7 +154,6 @@ const deleteUser = async (req: Request, res: Response) => {
             })
     }
 }
-
 
 export default {
     createUser,

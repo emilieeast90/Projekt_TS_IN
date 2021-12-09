@@ -20,26 +20,19 @@ function GetUsers() {
     }
 
     return (
-        <Wrapper>
-            <Article>
-                <h3>Get users</h3>
+        <Article>
+            <h3>Get users</h3>
 
-                <Section>
-                    <button onClick={getUsers}>Get users</button>
-                    <JsonToTable json={allUsersInDatabase}/>
-                </Section>
-            </Article>
-        </Wrapper>
+            <Section>
+                <button onClick={getUsers}>Get users</button>
+                <JsonToTable json={allUsersInDatabase}/>
+            </Section>
+        </Article>
     )
 }
 
-const Wrapper = styled.div `
-    width: 50vw;
-`
-
 const Article = styled.article`
   padding: 0.5em;
-
 `
 
 const Section = styled.section`

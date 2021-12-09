@@ -1,4 +1,4 @@
-function Flow() {
+function FlowView() {
     return (
         <>
             <h1>Flow page</h1>
@@ -6,4 +6,4 @@ function Flow() {
     )
 }
 
-export default Flow
+export default FlowView
