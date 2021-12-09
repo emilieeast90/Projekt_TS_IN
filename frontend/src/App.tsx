@@ -1,11 +1,10 @@
 import React, {useEffect, useState} from 'react'
 import './App.css'
-import GetUsers from './components/functionComponents/GetUsers'
-import CreateUser from './components/functionComponents/CreateUser'
-import UpdateUser from './components/functionComponents/UpdateUser'
-import DeleteUser from './components/functionComponents/DeleteUser'
 import styled from 'styled-components'
 import './utils/global/global'
+import {NavigationBar} from './components/NavigationBar'
+import {UserContext} from './utils/global/provider/UserProvider'
+import {Routing} from './routes/Routing'
 
 const App: React.FC = (): JSX.Element => {
     const [authenticatedUser, setAuthenticatedUser] = useState<string>('')
@@ -24,19 +23,12 @@ const App: React.FC = (): JSX.Element => {
     return (
         <Container>
             <Navigation>
-                <SectionOne>
-                    <H1>BookFace</H1>
-                </SectionOne>
+                <Routing>
+                    <NavigationBar/>
+                </Routing>
             </Navigation>
             <Article>
-                <SectionTwo>
-                    <GetUsers/>
-                    <CreateUser/>
-                </SectionTwo>
-                <SectionTwo>
-                    <UpdateUser/>
-                    <DeleteUser/>
-                </SectionTwo>
+                <H2>Välkommen till Bookface</H2>
             </Article>
         </Container>
     )
@@ -52,8 +44,11 @@ export const Container = styled.div`
 `
 
 export const Navigation = styled.div`
-    background-color: #684848;
+  background-color: #684848;
   height: 3em;
+  position: fixed;
+  top: 0;
+  width: 100vw;
 `
 
 export const Article = styled.article`
@@ -63,22 +58,8 @@ export const Article = styled.article`
   margin: auto;
 `
 
-export const H1 = styled.h1`
-  padding: 0;
-  margin: 0;
-`
-
-export const SectionOne = styled.section`
-  display: grid;
-  grid-template-columns: repeat(1fr);
-  width: 50vw;
-  margin: auto;
-`
-
-export const SectionTwo = styled.section`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 50vw;
+const H2 = styled.h2`
+  padding-top: 2.5em;
   margin: auto;
 `
 
