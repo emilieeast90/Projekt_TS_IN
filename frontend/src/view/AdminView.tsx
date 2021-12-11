@@ -1,5 +1,4 @@
 import GetUsers from '../components/functionComponents/GetUsers'
-import CreateUser from '../components/functionComponents/CreateUser'
 import UpdateUser from '../components/functionComponents/UpdateUser'
 import DeleteUser from '../components/functionComponents/DeleteUser'
 import styled from 'styled-components'
@@ -8,15 +7,17 @@ import React from 'react'
 function AdminView() {
     return (
         <Container>
-            <Navigation>
-                <SectionOne>
-                    <H1>BookFace</H1>
-                </SectionOne>
-            </Navigation>
+
+
+
             <Article>
+                <section>
+                    <SectionOne>
+                        <H1>Logged in as Admin</H1>
+                    </SectionOne>
+                </section>
                 <SectionTwo>
                     <GetUsers/>
-                    <CreateUser/>
                 </SectionTwo>
                 <SectionTwo>
                     <UpdateUser/>
@@ -34,11 +35,6 @@ export const Container = styled.div`
   height: 100vh;
   width: 100vw;
   position: fixed;
-`
-
-export const Navigation = styled.div`
-  background-color: #684848;
-  height: 3em;
 `
 
 export const Article = styled.article`

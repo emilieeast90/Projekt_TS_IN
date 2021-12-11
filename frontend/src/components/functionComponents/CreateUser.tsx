@@ -26,6 +26,7 @@ function CreateUser() {
                 console.log(error)
             })
     }
+
     return (
         <Article>
             <h1>Create User</h1>

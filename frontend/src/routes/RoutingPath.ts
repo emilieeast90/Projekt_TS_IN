@@ -3,7 +3,7 @@ const homeView: string = '/'
 const flowView: string = '/flow'
 const messageView: string = '/messages'
 const signupView: string = '/signup'
-const signInView: string = '/signIn'
+const signinView: string = '/signIn'
 const profileView: string = '/profile'
 const settingsView: string = '/settings'
 const notFoundView: string = '/404'
@@ -15,7 +15,7 @@ export default {
     wildCardView,
     homeView,
     flowView,
-    signInView,
+    signinView,
     profileView,
     settingsView,
     notFoundView,

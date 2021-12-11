@@ -1,9 +1,20 @@
-function NotFoundView() {
+import React, {useEffect} from 'react'
+import styled from 'styled-components'
+
+export const NotFoundView = () => {
+    useEffect(() => {}, [])
     return (
         <>
-            <h1>404 NOT FOUND</h1>
+            <H2>404</H2>
+            <P>The content you are trying to reach is Not Found</P>
         </>
     )
 }
 
-export default NotFoundView
+const H2 = styled.h2 `
+    text-align: center;
+`
+
+const P = styled.p `
+    text-align: center;
+`

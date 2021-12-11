@@ -11,7 +11,7 @@ export const NavigationBar = () => {
     const displayUserIfAuthenticated = () => {
         return (authenticatedUser)
             ? <LiRight><Profile/></LiRight>
-            : <LiRight><Link to={RoutingPath.signInView}>Sign In</Link></LiRight>
+            : <LiRight><Link to={RoutingPath.signinView}>Sign In</Link></LiRight>
     }
 
     return (
@@ -20,7 +20,7 @@ export const NavigationBar = () => {
                 <nav>
                     <Ul>
                         <LiLeft><Link to={RoutingPath.homeView}>Home</Link></LiLeft>
-                        <LiLeft><Link to={RoutingPath.signInView}>Sign In</Link></LiLeft>
+                        <LiLeft><Link to={RoutingPath.signinView}>Sign In</Link></LiLeft>
                         <LiLeft><Link to={RoutingPath.signupView}>Sign Up</Link></LiLeft>
                         {displayUserIfAuthenticated()}
                     </Ul>
@@ -52,14 +52,16 @@ const LiRight = styled.li`
 
   a:hover {
     color: white;
+    font-size: 1.4em;
+    transition: 1s;
   }
 
   a:active {
-    color: aquamarine;
+    color: white;
   }
 
   a:visited {
-    color: aquamarine;
+    color: white;
   }
 `
 
@@ -75,13 +77,15 @@ const LiLeft = styled.li`
 
   a:hover {
     color: white;
+    font-size: 1.4em;
+    transition: 1.5s;
   }
 
   a:active {
-    color: aquamarine;
+    color: white;
   }
 
   a:visited {
-    color: aquamarine;
+    color: white;
   }
 `

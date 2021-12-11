@@ -1,9 +1,16 @@
+import styled from 'styled-components'
+
 function LogoutView() {
     return (
         <>
-            <h1>Logout page</h1>
+            <H1>Logout page</H1>
         </>
     )
 }
+
+
+const H1 = styled.h1`
+    text-align: center;
+`
 
 export default LogoutView

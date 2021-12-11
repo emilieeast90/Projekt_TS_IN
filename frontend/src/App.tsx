@@ -3,7 +3,6 @@ import './App.css'
 import styled from 'styled-components'
 import './utils/global/global'
 import {NavigationBar} from './components/NavigationBar'
-import {UserContext} from './utils/global/provider/UserProvider'
 import {Routing} from './routes/Routing'
 
 const App: React.FC = (): JSX.Element => {
@@ -28,7 +27,7 @@ const App: React.FC = (): JSX.Element => {
                 </Routing>
             </Navigation>
             <Article>
-                <H2>Välkommen till Bookface</H2>
+
             </Article>
         </Container>
     )
@@ -56,11 +55,6 @@ export const Article = styled.article`
   width: 70%;
   height: 100%;
   margin: auto;
-`
-
-const H2 = styled.h2`
-  padding-top: 2.5em;
-  text-align: center;
 `
 
 export default App

@@ -3355,3 +3355,50 @@
 [37m}[39m
 2021-12-09 09:30:48:3048 [35mhttp[39m: [35mPUT /users/61b1beb220ecc84fdd9d88c7 200 244 - 60.459 ms[39m
 [35m[39m
+2021-12-09 19:32:55:3255 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-09 19:32:55:3255 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-09 19:33:25:3325 [31merror[39m: [31mERROR WHILE TRYING TO CONNECT TO DATABASE connect ECONNREFUSED 127.0.0.1:27017[39m
+2021-12-09 19:36:37:3637 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-09 19:36:37:3637 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-09 19:36:37:3637 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-09 19:36:54:3654 [37mdebug[39m: [37mAPI is Alive with TypeScript[39m
+2021-12-09 19:36:54:3654 [35mhttp[39m: [35mGET / 304 - - 4.043 ms[39m
+[35m[39m
+2021-12-10 09:24:53:2453 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-10 09:24:53:2453 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-10 09:24:53:2453 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-10 09:33:57:3357 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b1beb220ecc84fdd9d88c7"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$fJhZGv/3xDBZlHUY9sEvfebByaBAKQUFMWqlwqIO8rLwTZmRefMWm',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-09T08:30:42.595Z,[39m
+[37m    updatedAt: 2021-12-09T08:30:48.544Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-10 09:33:57:3357 [35mhttp[39m: [35mGET /users 200 246 - 46.591 ms[39m
+[35m[39m
+2021-12-10 09:34:43:3443 [35mhttp[39m: [35m{ username: 'NewUser', password: 'password', email: 'email@email.com' }[39m
+2021-12-10 09:34:43:3443 [33mwarn[39m: [33mhashed password is $2b$10$jfdzm4IFs5stfy7GkAszaewgSivQ8RWltAWysavLdl.wRjOddHSl2[39m
+2021-12-10 09:34:43:3443 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$jfdzm4IFs5stfy7GkAszaewgSivQ8RWltAWysavLdl.wRjOddHSl2',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b31123e57b4753abf7720c")[39m
+[37m}[39m
+2021-12-10 09:34:43:3443 [37mdebug[39m: [37m{[39m
+[37m  username: 'NewUser',[39m
+[37m  password: '$2b$10$jfdzm4IFs5stfy7GkAszaewgSivQ8RWltAWysavLdl.wRjOddHSl2',[39m
+[37m  email: 'email@email.com',[39m
+[37m  _id: new ObjectId("61b31123e57b4753abf7720c"),[39m
+[37m  createdAt: 2021-12-10T08:34:43.109Z,[39m
+[37m  updatedAt: 2021-12-10T08:34:43.109Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-10 09:34:43:3443 [35mhttp[39m: [35mPOST /users 201 241 - 71.420 ms[39m
+[35m[39m
+2021-12-11 14:42:06:426 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-11 14:42:06:426 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-11 14:42:19:4219 [32minfo[39m: [32mSuccessfully connected to database[39m

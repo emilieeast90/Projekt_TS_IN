@@ -8,6 +8,7 @@ import SigninView from '../view/SigninView'
 import SignupView from '../view/SignupView'
 import FlowView from '../view/FlowView'
 import MessageView from '../view/MessageView'
+import {NotFoundView} from '../view/NotFoundView'
 import LogoutView from '../view/LogoutView'
 import SettingView from '../view/SettingView'
 import AdminView from '../view/AdminView'
@@ -20,7 +21,7 @@ export const Routing = (props: { children?: React.ReactChild }) => {
             <Routes>
                 <Route path={RoutingPath.wildCardView} element={<Navigate to={RoutingPath.notFoundView}/>}/>
                 <Route path={RoutingPath.homeView} element={<HomeView/>}/>
-                <Route path={RoutingPath.signInView} element={<SigninView/>}/>
+                <Route path={RoutingPath.signinView} element={<SigninView/>}/>
                 <Route path={RoutingPath.signupView} element={<SignupView/>}/>
                 <Route path={RoutingPath.logoutView} element={<LogoutView/>}/>
                 <Route path={RoutingPath.messageView} element={<MessageView/>}/>
