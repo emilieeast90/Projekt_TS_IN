@@ -7,6 +7,7 @@
 3. [Koppla till backend](#koppla-till-backend)
 4. [User Components](#user-components)
 5. [Navigation Router](#navigation---router)
+6. [CSS](#css)
 
 ---
 
@@ -22,6 +23,8 @@
 1. Töm App.tsx, lämna kvar div-element samt export
 2. Töm App.css, alternativt ta bort den helt samt importen i App.tsx
 3. Ta bort loggan ur mappen
+4. I public/index.html ändra title till valfritt namn - i mitt fall BookFace
+5. Ändra även loggan från react-loggan till valfri - i mitt fall en BF-logga
 
 ## Koppla till backend
 
@@ -64,3 +67,16 @@
         1. `<Route path={RoutingPath.homeView} element={<HomeView />}/>` Glöm inte stänga taggen
     9. Allt detta inuti `<Routes>` *** `<Routes/>`
 3. I NavigationBar.tsx import RoutingPath.ts
+    1. Lägg sedan in de länkar man ska kunna trycka på i NavigationBar, det ska också anpassas i inloggat läge
+    2. Exportera NavigationBar samt importera den i App.tsx
+    3. Style med styled-component
+        1. Adderar lite andra färger samt transition på länkarna
+        2. Följer temat med färgerna
+
+## CSS
+
+1. `npm i styled-components`
+2. `npm i @types/styled-components`
+3. I alla element där CSS ska finnas kan man nu göra `import styled-components from 'styled-components'`
+4. Jag valde tema nummer 1 med ett beige/brunt tema och vit mitt, med cirklar som sticker ut lite
+    1. Färger jag valt är `#684848, #e0cdbf, #000000, #ffffff` och håller detta tema så mycket som möjlgit
