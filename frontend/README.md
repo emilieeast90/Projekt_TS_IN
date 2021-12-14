@@ -8,6 +8,7 @@
 4. [User Components](#user-components)
 5. [Navigation Router](#navigation---router)
 6. [CSS](#css)
+7. [Bygga View](#bygga-view)
 
 ---
 
@@ -83,3 +84,26 @@
 4. Jag valde tema nummer 1 med ett beige/brunt tema och vit mitt, med cirklar som sticker ut lite
     1. Färger jag valt är `#684848, #e0cdbf, #000000, #ffffff` och håller detta tema så mycket som möjlgit
 
+## Bygga view
+
+1. Skapa en mapp som heter view i src/ och skapa sedan views som ska kunna synas på sidan, de som deklarerats i
+   RoutingPath.ts
+   1. HomeView
+   2. AdminView
+   3. FlowView
+   4. SigninView
+   5. SignupView
+   6. LogoutView
+   7. MessageView
+   8. SettingsView
+   9. UsersView
+   10. NotFoundView
+2. Skapa upp samtliga med en funktion samt en return ()
+   1. Härifrån blir de individuella
+- Samtliga sidor kommer att ha olika innehåll, Signin har username, password och button
+- Signup har username, password, email och en button
+- Admin har getUsers, updateUsers, deleteUsers
+- Flow har en ruta med text samt en textarea för att skriva längre text, använder useState för att skapa flow och button
+- Message har en input för ämne samt en textarea för meddelandet och en knapp för skicka, använder useState
+- Settings kommer att ha update och delete, samt kanske en nice to have för reset lösenordet
+- 

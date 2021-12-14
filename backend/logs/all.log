@@ -3486,3 +3486,6 @@
 2021-12-12 12:29:48:2948 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
 2021-12-12 12:29:48:2948 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
 2021-12-12 12:30:18:3018 [31merror[39m: [31mERROR WHILE TRYING TO CONNECT TO DATABASE connect ECONNREFUSED 127.0.0.1:27017[39m
+2021-12-14 11:47:54:4754 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-14 11:47:54:4754 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-14 11:48:05:485 [32minfo[39m: [32mSuccessfully connected to database[39m
