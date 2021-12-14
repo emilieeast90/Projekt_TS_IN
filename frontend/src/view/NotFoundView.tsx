@@ -12,6 +12,7 @@ export const NotFoundView = () => {
 }
 
 const H2 = styled.h2 `
+  margin-top: 2em;
     text-align: center;
 `
 

@@ -12,6 +12,7 @@ import LogoutView from '../view/LogoutView'
 import SettingView from '../view/SettingView'
 import AdminView from '../view/AdminView'
 import UsersView from '../view/UsersView'
+import {NotFoundView} from '../view/NotFoundView'
 
 export const Routing = (props: { children?: React.ReactChild }) => {
     return (
@@ -29,6 +30,7 @@ export const Routing = (props: { children?: React.ReactChild }) => {
                 <Route path={RoutingPath.flowView} element={<FlowView/>}/>
                 <Route path={RoutingPath.usersView} element={<UsersView/>}/>
                 <Route path={RoutingPath.adminView} element={<AdminView/>}/>
+                <Route path={RoutingPath.notFoundView} element={<NotFoundView/>}/>
             </Routes>
         </BrowserRouter>
     )

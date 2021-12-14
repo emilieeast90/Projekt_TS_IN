@@ -63,4 +63,4 @@
     8. Skapa en route för varje view så man kan hämta de härifrån vid behov
         1. `<Route path={RoutingPath.homeView} element={<HomeView />}/>` Glöm inte stänga taggen
     9. Allt detta inuti `<Routes>` *** `<Routes/>`
-3. 
+3. I NavigationBar.tsx import RoutingPath.ts

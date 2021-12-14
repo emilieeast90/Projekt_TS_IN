@@ -84,6 +84,8 @@ const Item = styled.div`
   grid-row: 3 / 6;
   width: 14em;
   height: 14em;
+  z-index: -1;
+  position: relative;
 `
 
 const SectionTwo = styled.section`
