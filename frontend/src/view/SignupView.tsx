@@ -9,6 +9,7 @@ function SignupView() {
     const [userName, setUserName] = useState<string>('')
     const [passWord, setPassWord] = useState<string>('')
     const [eMail, setEMail] = useState<string>('')
+    const [text, setText] = useState<string>('Free registration')
 
     function createNewUser() {
         const payload: User = {
@@ -29,6 +30,9 @@ function SignupView() {
     return (
         <Container>
             <Section>
+                <SectionText>
+                    <h3>{text}</h3>
+                </SectionText>
                 <Item>
                     <H1>Sign up</H1>
                 </Item>
@@ -60,6 +64,11 @@ const Container = styled.div`
   background-color: #fff;
   width: 70vw;
   margin: 5em auto;
+`
+
+const SectionText = styled.section`
+  grid-column: 5 / 6;
+  grid-row: 4 / 6;
 `
 
 const Section = styled.section`
@@ -111,7 +120,7 @@ const Button = styled.button`
   margin-left: 6em;
   margin-top: 1em;
   color: white;
-  
+
   &:hover {
     background-color: #483833;
   }

@@ -10,15 +10,15 @@ export const Profile = () => {
     const logout = () => {
         localStorage.removeItem('username')
         setAuthenticatedUser('')
-        navigate(RoutingPath.homeView)
+        navigate(RoutingPath.profileView)
     }
     return (
         <section>
-            <img src={'https://thispersondoesnotexist.com/image'} alt='Unknown person' />
+            <img src={'https://thispersondoesnotexist.com/image'} alt="Unknown person"/>
             <span>{authenticatedUser}</span>
-            <span onClick={ () => navigate(RoutingPath.settingsView)} >Settings</span>
-            <span onClick={ () => navigate(RoutingPath.profileView)} >Profile</span>
-            <span onClick={ () => logout()}>Logout</span>
+            <span onClick={() => navigate(RoutingPath.settingsView)}>Settings</span>
+            <span onClick={() => navigate(RoutingPath.profileView)}>Profile</span>
+            <span onClick={() => logout()}>Logout</span>
         </section>
     )
 }

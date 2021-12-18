@@ -3,11 +3,11 @@ import UpdateUser from '../components/functionComponents/UpdateUser'
 import DeleteUser from '../components/functionComponents/DeleteUser'
 import styled from 'styled-components'
 import React from 'react'
+import GetUserWithId from '../components/functionComponents/GetUserWithId'
 
 function AdminView() {
     return (
         <Container>
-
 
 
             <Article>
@@ -17,6 +17,7 @@ function AdminView() {
                     </SectionOne>
                 </section>
                 <SectionTwo>
+                    <GetUserWithId/>
                     <GetUsers/>
                 </SectionTwo>
                 <SectionTwo>
