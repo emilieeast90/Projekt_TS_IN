@@ -15,12 +15,12 @@ function MessageView() {
                     <P>{message}</P>
                 </Messages>
                 <ArticleMessage>
-                    <InputSubject type='text'
+                    <InputSubject type="text"
                                   value={subject}
                                   placeholder="Subject"
                                   onChange={(event) => setSubject(event.target.value)}/>
                     <br/>
-                    <Textarea onChange={(event) => setMessage(event.target.value)} />
+                    <Textarea onChange={(event) => setMessage(event.target.value)}/>
                     <br/>
                     <Button>Send</Button>
                 </ArticleMessage>
@@ -49,16 +49,16 @@ const ArticleMessage = styled.article`
 `
 
 const Textarea = styled.textarea`
-    width: 30em;
+  width: 30em;
   height: 6em;
   margin: 1em;
 `
 
 const Messages = styled.article`
   background-color: #684848;
-  border-radius: 50%;
   width: 20em;
   text-align: center;
+  color: white;
 `
 
 const P = styled.p`

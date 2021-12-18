@@ -28,10 +28,9 @@ function SignupView() {
 
     return (
         <Container>
-            <H1>Sign up</H1>
             <Section>
                 <Item>
-
+                    <H1>Sign up</H1>
                 </Item>
                 <Article>
                     <SectionTwo>
@@ -60,7 +59,7 @@ function SignupView() {
 const Container = styled.div`
   background-color: #fff;
   width: 70vw;
-  margin: auto;
+  margin: 5em auto;
 `
 
 const Section = styled.section`
@@ -85,7 +84,6 @@ const Item = styled.div`
   width: 14em;
   height: 14em;
   z-index: -1;
-  position: relative;
 `
 
 const SectionTwo = styled.section`
@@ -98,25 +96,32 @@ const SectionTwo = styled.section`
 
 const Input = styled.input`
   width: 10em;
-  height: 3em;
+  height: 2em;
   margin-right: 0.5em;
-  margin-top: 1.5em;
+  margin-top: 2em;
   margin-left: 4em;
+  border: double grey;
 `
 
 const Button = styled.button`
-    background-color: #684848;
+  background-color: #684848;
   padding: 0.5em;
   width: 7em;
   border-style: none;
   margin-left: 6em;
   margin-top: 1em;
   color: white;
+  
+  &:hover {
+    background-color: #483833;
+  }
 `
 
 const H1 = styled.h1`
-  margin: 1em;
-  float: right;
+  margin: 2.5em;
+  color: white;
+  border: double;
+  padding: 0.5em;
 `
 
 export default SignupView

@@ -4,9 +4,17 @@ import styled from 'styled-components'
 import './utils/global/global'
 import {NavigationBar} from './components/NavigationBar'
 import {Routing} from './routes/Routing'
+import Menu from './components/Menu'
+import Toggle from './components/Toggle'
+import FontStyle from './components/FontStyle'
 
 const App: React.FC = (): JSX.Element => {
     const [authenticatedUser, setAuthenticatedUser] = useState<string>('')
+    const [navToggled, setNavToggled] = useState<boolean>(false)
+
+    const handleNavToggle = () => {
+        setNavToggled(!navToggled)
+    }
 
     const checkIfUserIsAuthenticatedInBrowser = () => {
         const username = localStorage.getItem('username')
@@ -21,9 +29,11 @@ const App: React.FC = (): JSX.Element => {
 
     return (
         <Container>
+            <FontStyle />
             <Navigation>
+                <Toggle handleNavToggle={handleNavToggle}/>
                 <Routing>
-                    <NavigationBar/>
+                    {navToggled ? <Menu handleNavToggle={handleNavToggle}/> : undefined}
                 </Routing>
             </Navigation>
             <Article>
@@ -39,12 +49,11 @@ export const Container = styled.div`
   background-color: #e0cdbf;
   height: 100vh;
   width: 100vw;
-  position: fixed;
 `
 
 export const Navigation = styled.div`
   background-color: #684848;
-  height: 3em;
+  height: 4em;
   position: fixed;
   top: 0;
   width: 100vw;

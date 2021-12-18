@@ -1,16 +1,14 @@
 import styled from 'styled-components'
-import {SectionOne} from './AdminView'
 import {useState} from 'react'
 
-// TODO: auteticatedUser
-
 function SigninView() {
-    const [userName, setUserName] = useState('')
-    const [passWord, setPassWord] = useState('')
+    const [userName, setUserName] = useState<string>('')
+    const [passWord, setPassWord] = useState<string>('')
+
     return (
         <Container>
             <SectionOne>
-                <H1>Sign in page</H1>
+                <H1>Sign in</H1>
             </SectionOne>
             <SectionTwo>
                 <Input type="text"
@@ -23,7 +21,7 @@ function SigninView() {
                        placeholder="Password"
                        onChange={(event) => setPassWord(event.target.value)}
                 />
-                <button>Log In</button>
+                <Button>Log In</Button>
             </SectionTwo>
         </Container>
     )
@@ -32,7 +30,15 @@ function SigninView() {
 const Container = styled.div`
   background-color: #fff;
   width: 70vw;
-  margin: auto;
+  margin: 5em auto;
+`
+
+const SectionOne = styled.div`
+  background-color: #684848;
+  width: 14em;
+  height: 14em;
+  margin: 0 auto;
+  border-radius: 50%;
 `
 
 const SectionTwo = styled.section`
@@ -43,11 +49,32 @@ const SectionTwo = styled.section`
 `
 
 const H1 = styled.h1`
-  text-align: center;
+  margin: 1.5em;
+  color: white;
+  border: double;
+  padding: 0.5em;
+  height: 2.5em;
+  width: 3em;
 `
 
 const Input = styled.input`
-    margin: 1em;
+  width: 10em;
+  height: 2em;
+  margin-top: 2em;
+  border: double grey;
+`
+
+const Button = styled.button`
+  background-color: #684848;
+  padding: 0.5em;
+  width: 7em;
+  border-style: none;
+  margin-top: 1em;
+  color: white;
+  
+  &:hover {
+    background-color: #483833;
+  }
 `
 
 export default SigninView

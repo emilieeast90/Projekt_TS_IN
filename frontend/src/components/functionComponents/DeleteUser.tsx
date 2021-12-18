@@ -1,13 +1,13 @@
 import {useState} from 'react'
-import http from '../../utils/api/BookfaceApi'
 import styled from 'styled-components'
+import UserService from '../../utils/api/service/UserService'
 
 function DeleteUser() {
     const [text, setText] = useState<string>('')
     const [id, setId] = useState<string>('')
 
     function deleteUser() {
-        http.delete(`/users/${id}`)
+        UserService.deleteUserById(id)
             .then((response) => {
                 console.log(response.data.message)
                 setText(response.data.message)

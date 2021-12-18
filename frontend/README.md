@@ -82,7 +82,7 @@
 2. `npm i @types/styled-components`
 3. I alla element där CSS ska finnas kan man nu göra `import styled-components from 'styled-components'`
 4. Jag valde tema nummer 1 med ett beige/brunt tema och vit mitt, med cirklar som sticker ut lite
-    1. Färger jag valt är `#684848, #e0cdbf, #000000, #ffffff` och håller detta tema så mycket som möjlgit
+    1. Färger jag valt är `#684848, #e0cdbf, #000000, #ffffff` och håller detta tema så mycket som möjligt
 
 ## Bygga view
 
@@ -106,4 +106,3 @@
 - Flow har en ruta med text samt en textarea för att skriva längre text, använder useState för att skapa flow och button
 - Message har en input för ämne samt en textarea för meddelandet och en knapp för skicka, använder useState
 - Settings kommer att ha update och delete, samt kanske en nice to have för reset lösenordet
-- 
