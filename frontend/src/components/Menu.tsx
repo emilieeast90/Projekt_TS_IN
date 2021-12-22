@@ -5,7 +5,11 @@ import React from 'react'
 import {FaTimes} from 'react-icons/fa'
 import FontStyle from './FontStyle'
 
-const Menu = ({handleNavToggle}: any) => {
+interface ButtonProps {
+    handleNavToggle: () => void;
+}
+
+const Menu:React.FC<ButtonProps> = ({handleNavToggle}) => {
 
     return (
         <>

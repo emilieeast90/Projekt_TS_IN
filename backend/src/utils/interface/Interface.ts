@@ -18,8 +18,8 @@ export interface Flow {
 }
 
 export interface Message {
-    username: string;
-    message: string;
+    subject: string;
+    privateMessage: string;
 }
 
 /* export interface UsersFlow extends User {

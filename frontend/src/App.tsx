@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react'
 import './App.css'
 import styled from 'styled-components'
 import './utils/global/global'
-import {NavigationBar} from './components/NavigationBar'
 import {Routing} from './routes/Routing'
 import Menu from './components/Menu'
 import Toggle from './components/Toggle'
@@ -14,6 +13,10 @@ const App: React.FC = (): JSX.Element => {
 
     const handleNavToggle = () => {
         setNavToggled(!navToggled)
+    }
+
+    const handleToggleHide = () => {
+        setNavToggled(false)
     }
 
     const checkIfUserIsAuthenticatedInBrowser = () => {
@@ -29,12 +32,13 @@ const App: React.FC = (): JSX.Element => {
 
     return (
         <Container>
-            <FontStyle />
+            <FontStyle/>
             <Navigation>
                 <Toggle handleNavToggle={handleNavToggle}/>
                 <Routing>
                     {navToggled ? <Menu handleNavToggle={handleNavToggle}/> : undefined}
                 </Routing>
+                <ButtonClick onClick={handleToggleHide} />
             </Navigation>
             <Article>
 
@@ -42,6 +46,7 @@ const App: React.FC = (): JSX.Element => {
         </Container>
     )
 }
+
 
 export const Container = styled.div`
   padding-top: 0;
@@ -57,6 +62,15 @@ export const Navigation = styled.div`
   position: fixed;
   top: 0;
   width: 100vw;
+  z-index: 1;
+`
+
+const ButtonClick = styled.button`
+  width: 100%;
+  height: 100vh;
+  z-index: -5;
+  background-color: rgba(0,0,0,0);
+  border-style: none;
 `
 
 export const Article = styled.article`

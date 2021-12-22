@@ -6,8 +6,8 @@ dotenv.config()
 const mongodbCollection = process.env.MONGODB_COLLECTION_MESSAGES
 
 const messageSchema = new Schema<Message>({
-        username: {type: String, required: true},
-        message: {type: String, required: true}
+        subject: {type: String, required: true},
+        privateMessage: {type: String, required: true}
     }, {timestamps: true}
 )
 

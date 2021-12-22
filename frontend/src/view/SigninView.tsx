@@ -39,6 +39,9 @@ const SectionOne = styled.div`
   height: 14em;
   margin: 0 auto;
   border-radius: 50%;
+  padding-top: 1px;
+  position: absolute;
+  left: 50vw;
 `
 
 const SectionTwo = styled.section`
@@ -55,6 +58,7 @@ const H1 = styled.h1`
   padding: 0.5em;
   height: 2.5em;
   width: 3em;
+  text-align: center;
 `
 
 const Input = styled.input`

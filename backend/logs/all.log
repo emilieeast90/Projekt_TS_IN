@@ -3804,3 +3804,63 @@
 [37m][39m
 2021-12-16 09:25:37:2537 [35mhttp[39m: [35mGET /users 200 473 - 16.219 ms[39m
 [35m[39m
+2021-12-18 20:26:46:2646 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-18 20:26:46:2646 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-18 20:26:57:2657 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-18 20:27:07:277 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$EPbgG9ounWVFfRCvvrhQh.C6YYFCYvLieW6tuxd81tBtnJpMnUgLW',[39m
+[37m    email: 'emilie.ost@gmail.com',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61baf7844c793ab3884fe374"),[39m
+[37m    username: 'Nickan',[39m
+[37m    password: '$2b$10$20yLjF5V4NwnsWc68516bOKrVEWqMrt8r1E1.WOoPcXVNhd3GPI8y',[39m
+[37m    email: '',[39m
+[37m    createdAt: 2021-12-16T08:23:32.788Z,[39m
+[37m    updatedAt: 2021-12-16T08:24:54.349Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-18 20:27:07:277 [35mhttp[39m: [35mGET /users 200 473 - 22.127 ms[39m
+[35m[39m
+2021-12-18 20:27:12:2712 [35mhttp[39m: [35mID: 61b506483467d78e26eba9bd[39m
+2021-12-18 20:27:12:2712 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m  username: 'emilie',[39m
+[37m  password: '$2b$10$EPbgG9ounWVFfRCvvrhQh.C6YYFCYvLieW6tuxd81tBtnJpMnUgLW',[39m
+[37m  email: 'emilie.ost@gmail.com',[39m
+[37m  createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m  updatedAt: 2021-12-11T20:12:56.420Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-18 20:27:12:2712 [35mhttp[39m: [35mGET /users/61b506483467d78e26eba9bd 200 245 - 6.625 ms[39m
+[35m[39m
+2021-12-18 20:30:40:3040 [35mhttp[39m: [35m{[39m
+[35m  username: 'lars',[39m
+[35m  password: 'hemligt',[39m
+[35m  email: 'larstr02@gafe.molndal.se'[39m
+[35m}[39m
+2021-12-18 20:30:40:3040 [33mwarn[39m: [33mhashed password is $2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36[39m
+2021-12-18 20:30:40:3040 [37mdebug[39m: [37m{[39m
+[37m  username: 'lars',[39m
+[37m  password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m  email: 'larstr02@gafe.molndal.se',[39m
+[37m  _id: new ObjectId("61be36e02d64d4ae98c1efd6")[39m
+[37m}[39m
+2021-12-18 20:30:40:3040 [37mdebug[39m: [37m{[39m
+[37m  username: 'lars',[39m
+[37m  password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m  email: 'larstr02@gafe.molndal.se',[39m
+[37m  _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m  createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m  updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-18 20:30:40:3040 [35mhttp[39m: [35mPOST /users 201 247 - 69.873 ms[39m
+[35m[39m
