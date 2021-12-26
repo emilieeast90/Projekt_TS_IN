@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import FontStyle from '../components/FontStyle'
+import FontStyle from '../../components/FontStyle'
 
 function HomeView() {
     return (

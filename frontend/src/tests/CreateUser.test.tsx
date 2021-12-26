@@ -1,4 +1,4 @@
-import CreateUser from '../components/functionComponents/CreateUser'
+import CreateUser from '../components/users/CreateUser'
 import {render, screen} from '@testing-library/react'
 
 test('Renders Create User', () => {

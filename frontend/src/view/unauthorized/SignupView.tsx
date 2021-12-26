@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import {useState} from 'react'
-import UserService from '../utils/api/service/UserService'
-import {CreateUserObject} from '../utils/interfaces/UserData'
-import {User} from '../utils/interfaces/Interface'
+import UserService from '../../utils/api/service/UserService'
+import {CreateUserObject} from '../../utils/interfaces/UserData'
+import {User} from '../../utils/interfaces/Interface'
 
 function SignupView() {
     const [userObject, setUserObject] = useState<CreateUserObject>()

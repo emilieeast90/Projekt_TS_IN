@@ -1,20 +1,20 @@
 import React from 'react'
 import {Route} from 'react-router'
 import {BrowserRouter, Navigate, Routes} from 'react-router-dom'
-import RoutingPath from './RoutingPath'
-import HomeView from '../view/HomeView'
-import ProfileView from '../view/ProfileView'
-import SigninView from '../view/SigninView'
-import SignupView from '../view/SignupView'
-import FlowView from '../view/FlowView'
-import MessageView from '../view/MessageView'
-import LogoutView from '../view/LogoutView'
-import SettingView from '../view/SettingView'
-import AdminView from '../view/AdminView'
-import UsersView from '../view/UsersView'
+import RoutingPath from './RoutingPathUrl'
+import HomeView from '../view/unauthorized/HomeView'
+import ProfileView from '../view/authorized/ProfileView'
+import SigninView from '../view/unauthorized/SigninView'
+import SignupView from '../view/unauthorized/SignupView'
+import FlowView from '../view/authorized/FlowView'
+import MessageView from '../view/authorized/MessageView'
+import LogoutView from '../view/authorized/LogoutView'
+import SettingView from '../view/authorized/SettingView'
+import AdminView from '../view/authorized/AdminView'
+import UsersView from '../view/authorized/UsersView'
 import {NotFoundView} from '../view/NotFoundView'
 
-export const Routing = (props: { children?: React.ReactChild }) => {
+export const RoutingPaths = (props: { children?: React.ReactChild }) => {
     return (
         <BrowserRouter>
             {props.children}

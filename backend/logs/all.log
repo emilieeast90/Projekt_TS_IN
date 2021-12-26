@@ -3864,3 +3864,123 @@
 [37m}[39m
 2021-12-18 20:30:40:3040 [35mhttp[39m: [35mPOST /users 201 247 - 69.873 ms[39m
 [35m[39m
+2021-12-22 11:54:51:5451 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-22 11:54:51:5451 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-22 11:55:17:5517 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-22 21:47:57:4757 [35mhttp[39m: [35m{ username: '21312', password: '21312', email: '3413e' }[39m
+2021-12-22 21:47:57:4757 [33mwarn[39m: [33mhashed password is $2b$10$jlx4XfIViGztK3GwefGPdum3hwnKPNQquq6C7hzhd.GGt9SEoweTq[39m
+2021-12-22 21:47:57:4757 [37mdebug[39m: [37m{[39m
+[37m  username: '21312',[39m
+[37m  password: '$2b$10$jlx4XfIViGztK3GwefGPdum3hwnKPNQquq6C7hzhd.GGt9SEoweTq',[39m
+[37m  email: '3413e',[39m
+[37m  _id: new ObjectId("61c38efd210ff2d62093e08d")[39m
+[37m}[39m
+2021-12-22 21:48:19:4819 [37mdebug[39m: [37m{[39m
+[37m  username: '21312',[39m
+[37m  password: '$2b$10$jlx4XfIViGztK3GwefGPdum3hwnKPNQquq6C7hzhd.GGt9SEoweTq',[39m
+[37m  email: '3413e',[39m
+[37m  _id: new ObjectId("61c38efd210ff2d62093e08d"),[39m
+[37m  createdAt: 2021-12-22T20:47:57.714Z,[39m
+[37m  updatedAt: 2021-12-22T20:47:57.714Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-22 21:48:19:4819 [35mhttp[39m: [35mPOST /users 201 229 - 22105.717 ms[39m
+[35m[39m
+2021-12-22 21:48:23:4823 [35mhttp[39m: [35m{ username: '21312', password: '21312', email: '3413e' }[39m
+2021-12-22 21:48:23:4823 [33mwarn[39m: [33mhashed password is $2b$10$QRY03sySD1QzF6LOLZsGZ.h8j.cytXFt30gs05sfSeCVpEW6kJJ1a[39m
+2021-12-22 21:48:23:4823 [37mdebug[39m: [37m{[39m
+[37m  username: '21312',[39m
+[37m  password: '$2b$10$QRY03sySD1QzF6LOLZsGZ.h8j.cytXFt30gs05sfSeCVpEW6kJJ1a',[39m
+[37m  email: '3413e',[39m
+[37m  _id: new ObjectId("61c38f17210ff2d62093e08f")[39m
+[37m}[39m
+2021-12-22 21:48:23:4823 [37mdebug[39m: [37m{[39m
+[37m  username: '21312',[39m
+[37m  password: '$2b$10$QRY03sySD1QzF6LOLZsGZ.h8j.cytXFt30gs05sfSeCVpEW6kJJ1a',[39m
+[37m  email: '3413e',[39m
+[37m  _id: new ObjectId("61c38f17210ff2d62093e08f"),[39m
+[37m  createdAt: 2021-12-22T20:48:23.570Z,[39m
+[37m  updatedAt: 2021-12-22T20:48:23.570Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-22 21:48:23:4823 [35mhttp[39m: [35mPOST /users 201 229 - 72.776 ms[39m
+[35m[39m
+2021-12-23 07:35:30:3530 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-23 07:35:30:3530 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-23 07:35:32:3532 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-23 07:35:52:3552 [35mhttp[39m: [35mGET /users//searchUser 404 1413 - 3.672 ms[39m
+[35m[39m
+2021-12-23 07:36:24:3624 [35mhttp[39m: [35mID: searchUser[39m
+2021-12-23 07:36:24:3624 [35mhttp[39m: [35mGET /users/searchUser 500 178 - 5.404 ms[39m
+[35m[39m
+2021-12-24 09:03:21:321 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-24 09:03:21:321 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-24 09:03:21:321 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-24 09:28:07:287 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 5.109 ms[39m
+[35m[39m
+2021-12-24 09:28:10:2810 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.458 ms[39m
+[35m[39m
+2021-12-24 09:28:11:2811 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.361 ms[39m
+[35m[39m
+2021-12-24 09:29:04:294 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.465 ms[39m
+[35m[39m
+2021-12-24 09:30:33:3033 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.358 ms[39m
+[35m[39m
+2021-12-24 09:44:12:4412 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.371 ms[39m
+[35m[39m
+2021-12-24 09:44:30:4430 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.329 ms[39m
+[35m[39m
+2021-12-24 09:44:56:4456 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$EPbgG9ounWVFfRCvvrhQh.C6YYFCYvLieW6tuxd81tBtnJpMnUgLW',[39m
+[37m    email: 'emilie.ost@gmail.com',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61baf7844c793ab3884fe374"),[39m
+[37m    username: 'Nickan',[39m
+[37m    password: '$2b$10$20yLjF5V4NwnsWc68516bOKrVEWqMrt8r1E1.WOoPcXVNhd3GPI8y',[39m
+[37m    email: '',[39m
+[37m    createdAt: 2021-12-16T08:23:32.788Z,[39m
+[37m    updatedAt: 2021-12-16T08:24:54.349Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38efd210ff2d62093e08d"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$jlx4XfIViGztK3GwefGPdum3hwnKPNQquq6C7hzhd.GGt9SEoweTq',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    updatedAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38f17210ff2d62093e08f"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$QRY03sySD1QzF6LOLZsGZ.h8j.cytXFt30gs05sfSeCVpEW6kJJ1a',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    updatedAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-24 09:44:56:4456 [35mhttp[39m: [35mGET /users 200 1181 - 30.740 ms[39m
+[35m[39m
+2021-12-24 09:45:17:4517 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.336 ms[39m
+[35m[39m
+2021-12-26 11:49:35:4935 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 11:49:35:4935 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 11:50:05:505 [31merror[39m: [31mERROR WHILE TRYING TO CONNECT TO DATABASE connect ECONNREFUSED 127.0.0.1:27017[39m

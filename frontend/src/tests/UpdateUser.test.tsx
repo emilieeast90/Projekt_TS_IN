@@ -1,4 +1,4 @@
-import UpdateUser from '../components/functionComponents/UpdateUser'
+import UpdateUser from '../components/users/UpdateUser'
 import React from 'react'
 import {render, screen} from '@testing-library/react'
 

@@ -1,9 +1,9 @@
 import React, {useRef, useState} from 'react'
 import styled from 'styled-components'
 import {Link, Outlet} from 'react-router-dom'
-import RoutingPath from '../routes/RoutingPath'
-import {useUserContext} from '../utils/global/provider/UserProviderOrg'
-import Profile from './Profile'
+import RoutingPath from '../../routes/RoutingPathUrl'
+import {useUserContext} from '../../utils/global/provider/UserProviderOrg'
+import Profile from '../Profile'
 import {generateMedia} from 'styled-media-query'
 
 const mediaDiff = generateMedia({

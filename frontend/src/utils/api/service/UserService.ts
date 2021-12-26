@@ -3,6 +3,7 @@ import {User, UserDataObject} from '../../interfaces/Interface'
 import {CreateUserObject} from '../../interfaces/UserData'
 
 const usersUrl = '/users'
+const searchUserRoute = 'searchUser'
 
 const UserService = {
     createUser: (newUserPayload: User) => {
@@ -19,6 +20,10 @@ const UserService = {
 
     getUserById: (id: string) => {
         return http.get<UserDataObject>(`${usersUrl}/${id}`)
+    },
+
+    getUserWithQuery: () => {
+        return http.get<UserDataObject>(`${usersUrl}/${searchUserRoute}`)
     },
 
     updateUserById: (id: string, userPayload: CreateUserObject) => {

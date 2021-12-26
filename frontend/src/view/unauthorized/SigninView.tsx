@@ -1,9 +1,42 @@
 import styled from 'styled-components'
 import {useState} from 'react'
+import {AuthenticatedUser} from '../../utils/interfaces/Interface'
+import {useNavigate} from 'react-router-dom'
+import {useUserContext} from '../../utils/global/provider/UserProviderOrg'
+import http from '../../utils/api/BookfaceApi'
+import RoutingPath from '../../routes/RoutingPathUrl'
 
 function SigninView() {
+    const navigate = useNavigate()
+
     const [userName, setUserName] = useState<string>('')
     const [passWord, setPassWord] = useState<string>('')
+    const {setAuthenticatedUser} = useUserContext()
+
+    const login = (apiResponse: Boolean) => {
+        if(apiResponse) {
+            setAuthenticatedUser(userName)
+            localStorage.setItem('username', userName)
+            navigate(RoutingPath.usersView)
+        }
+    }
+
+    const verifyUser = () => {
+        const payload: AuthenticatedUser = {
+            username: userName,
+            password: passWord
+        }
+        console.log(payload)
+        http.post(`/verifyUser`, payload)
+            .then((response) => {
+                console.log(response.data.message)
+                login(response.data.message)
+            })
+            .catch ((error) => {
+                console.log(error)
+            })
+
+    }
 
     return (
         <Container>
@@ -21,7 +54,7 @@ function SigninView() {
                        placeholder="Password"
                        onChange={(event) => setPassWord(event.target.value)}
                 />
-                <Button>Log In</Button>
+                <Button onClick={() => verifyUser() }>Log In</Button>
             </SectionTwo>
         </Container>
     )
@@ -75,7 +108,7 @@ const Button = styled.button`
   border-style: none;
   margin-top: 1em;
   color: white;
-  
+
   &:hover {
     background-color: #483833;
   }

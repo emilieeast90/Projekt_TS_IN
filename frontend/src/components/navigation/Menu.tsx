@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
-import RoutingPath from '../routes/RoutingPath'
+import RoutingPath from '../../routes/RoutingPathUrl'
 import React from 'react'
 import {FaTimes} from 'react-icons/fa'
-import FontStyle from './FontStyle'
+import FontStyle from '../FontStyle'
 
 interface ButtonProps {
     handleNavToggle: () => void;

@@ -1,6 +1,6 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom'
-import RoutingPath from '../routes/RoutingPath'
+import RoutingPath from '../routes/RoutingPathUrl'
 import {useUserContext} from '../utils/global/provider/UserProviderOrg'
 
 export const Profile = () => {

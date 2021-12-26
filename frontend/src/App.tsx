@@ -1,22 +1,21 @@
-import React, {useEffect, useState} from 'react'
+import React, {useState} from 'react'
 import './App.css'
 import styled from 'styled-components'
 import './utils/global/global'
-import {Routing} from './routes/Routing'
-import Menu from './components/Menu'
-import Toggle from './components/Toggle'
+import {RoutingPaths} from './routes/RoutingPaths'
+import Menu from './components/navigation/Menu'
+import Toggle from './components/navigation/Toggle'
 import FontStyle from './components/FontStyle'
+import {UserContext} from './utils/global/provider/UserProviderOrg'
 
 const App: React.FC = (): JSX.Element => {
+
     const [authenticatedUser, setAuthenticatedUser] = useState<string>('')
-    const [navToggled, setNavToggled] = useState<boolean>(false)
+    const [navToggled, setNavToggled] = useState<boolean>(true)
 
     const handleNavToggle = () => {
         setNavToggled(!navToggled)
-    }
 
-    const handleToggleHide = () => {
-        setNavToggled(false)
     }
 
     const checkIfUserIsAuthenticatedInBrowser = () => {
@@ -26,7 +25,7 @@ const App: React.FC = (): JSX.Element => {
         }
     }
 
-    useEffect(() => {
+    React.useEffect(() => {
         checkIfUserIsAuthenticatedInBrowser()
     }, [])
 
@@ -34,11 +33,12 @@ const App: React.FC = (): JSX.Element => {
         <Container>
             <FontStyle/>
             <Navigation>
-                <Toggle handleNavToggle={handleNavToggle}/>
-                <Routing>
-                    {navToggled ? <Menu handleNavToggle={handleNavToggle}/> : undefined}
-                </Routing>
-                <ButtonClick onClick={handleToggleHide} />
+                <UserContext.Provider value={{authenticatedUser, setAuthenticatedUser}}>
+                    <Toggle handleNavToggle={handleNavToggle}/>
+                    <RoutingPaths>
+                        {navToggled ? <Menu handleNavToggle={handleNavToggle}/> : undefined}
+                    </RoutingPaths>
+                </UserContext.Provider>
             </Navigation>
             <Article>
 
@@ -69,7 +69,7 @@ const ButtonClick = styled.button`
   width: 100%;
   height: 100vh;
   z-index: -5;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   border-style: none;
 `
 

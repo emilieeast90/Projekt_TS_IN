@@ -59,17 +59,17 @@
 2. `npm i @types/react-router-dom`
 3. Skapa NavigationBar.tsx i component-mappen
 4. Skapa directory routes
-    1. Skapa `Routing.tsx`
-    2. Skapa `RoutingPath.ts`
-    3. Deklarera alla routes man ska komma till i RoutingPath.ts ex: `homeView = '/'`
-    4. Skapa en BrowserRouter med react-router-dom i Routing.tsx
-    5. Importera alla routes från RoutingPath.ts
+    1. Skapa `RoutingPaths.tsx`
+    2. Skapa `RoutingPathUrl.ts`
+    3. Deklarera alla routes man ska komma till i RoutingPathUrl.ts ex: `homeView = '/'`
+    4. Skapa en BrowserRouter med react-router-dom i RoutingPaths.tsx
+    5. Importera alla routes från RoutingPathUrl.ts
     6. Exportera en arrowfuntion och skicka med `(props: {children?: React.ReactChild})`
     7. Inuti BrowserRouter skicka in `{props.children}`
     8. Skapa en route för varje view så man kan hämta de härifrån vid behov
         1. `<Route path={RoutingPath.homeView} element={<HomeView />}/>` Glöm inte stänga taggen
     9. Allt detta inuti `<Routes>` *** `<Routes/>`
-5. I NavigationBar.tsx import RoutingPath.ts
+5. I NavigationBar.tsx import RoutingPathUrl.ts
     1. Lägg sedan in de länkar man ska kunna trycka på i NavigationBar, det ska också anpassas i inloggat läge
     2. Exportera NavigationBar samt importera den i App.tsx
     3. Style med styled-component
@@ -87,7 +87,7 @@
 ## Bygga view
 
 1. Skapa en mapp som heter view i src/ och skapa sedan views som ska kunna synas på sidan, de som deklarerats i
-   RoutingPath.ts
+   RoutingPathUrl.ts
    1. HomeView
    2. AdminView
    3. FlowView

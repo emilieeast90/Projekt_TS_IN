@@ -1,9 +1,9 @@
-import GetUsers from '../components/functionComponents/GetUsers'
-import UpdateUser from '../components/functionComponents/UpdateUser'
-import DeleteUser from '../components/functionComponents/DeleteUser'
+import GetUsers from '../../components/users/GetUsers'
+import UpdateUser from '../../components/users/UpdateUser'
+import DeleteUser from '../../components/users/DeleteUser'
 import styled from 'styled-components'
 import React from 'react'
-import GetUserWithId from '../components/functionComponents/GetUserWithId'
+import GetUserWithId from '../../components/users/GetUserWithId'
 
 function AdminView() {
     return (
