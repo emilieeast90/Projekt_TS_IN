@@ -15,6 +15,10 @@ export interface UserSetup {
     email: string,
 }
 
+export interface UserId {
+    _id: string
+}
+
 export interface UserDataObject {
     _id: string,
     username: string,

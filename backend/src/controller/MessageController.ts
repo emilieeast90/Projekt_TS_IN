@@ -8,8 +8,8 @@ const createMessage = async (req: Request, res: Response) => {
     Logger.http(req.body)
     let {subject, privateMessage}: Message = req.body
     const privateMessages = new MessageModel({
-        subject,
-        privateMessage
+        username: subject,
+        flow: privateMessage
     })
     Logger.debug(privateMessages)
     try {
@@ -60,8 +60,8 @@ const updateMessage = async (req: Request, res: Response) => {
                 .send({message: `Can't update with empty values`})
         }
         const response = await MessageModel.findByIdAndUpdate(messageId, {
-            subject,
-            privateMessage
+            subject: subject,
+            flow: privateMessage
         }, {new: true})
         Logger.debug(response)
         res.status(StatusCode.OK).send(response)
