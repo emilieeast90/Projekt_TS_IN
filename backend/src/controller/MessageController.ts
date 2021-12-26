@@ -51,11 +51,13 @@ const getMessageById = async (req: Request, res: Response) => {
 
 const updateMessage = async (req: Request, res: Response) => {
     try {
-        let {subject, privateMessage}: Message = req.body
         const {messageId} = req.params
-        Logger.http(`${subject}, ${privateMessage}`)
+        Logger.http(messageId)
+        let {subject, privateMessage}: Message = req.body
+        Logger.http(`${req.body}`)
         if (!req.body) {
-            res.status(StatusCode.BAD_REQUEST).send({message: `Can't update with empty values`})
+            res.status(StatusCode.BAD_REQUEST)
+                .send({message: `Can't update with empty values`})
         }
         const response = await MessageModel.findByIdAndUpdate(messageId, {
             subject,

@@ -3984,3 +3984,448 @@
 2021-12-26 11:49:35:4935 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
 2021-12-26 11:49:35:4935 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
 2021-12-26 11:50:05:505 [31merror[39m: [31mERROR WHILE TRYING TO CONNECT TO DATABASE connect ECONNREFUSED 127.0.0.1:27017[39m
+2021-12-26 11:52:53:5253 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 11:52:53:5253 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 11:52:53:5253 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:14:04:144 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:14:04:144 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:14:04:144 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:17:13:1713 [35mhttp[39m: [35m{ subject: 'whatsup', privateMessage: 'hello, how are you?' }[39m
+2021-12-26 12:17:13:1713 [37mdebug[39m: [37m{[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  _id: new ObjectId("61c84f39476204e4d8cfbe16")[39m
+[37m}[39m
+2021-12-26 12:17:13:1713 [37mdebug[39m: [37m{[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  _id: new ObjectId("61c84f39476204e4d8cfbe16"),[39m
+[37m  createdAt: 2021-12-26T11:17:13.727Z,[39m
+[37m  updatedAt: 2021-12-26T11:17:13.727Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-26 12:17:13:1713 [35mhttp[39m: [35mPOST /messages 201 179 - 17.384 ms[39m
+[35m[39m
+2021-12-26 12:17:42:1742 [35mhttp[39m: [35mGET /mesages 404 1403 - 5.644 ms[39m
+[35m[39m
+2021-12-26 12:17:47:1747 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c84f39476204e4d8cfbe16"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2021-12-26T11:17:13.727Z,[39m
+[37m    updatedAt: 2021-12-26T11:17:13.727Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 12:17:47:1747 [35mhttp[39m: [35mGET /messages 200 181 - 9.265 ms[39m
+[35m[39m
+2021-12-26 12:18:11:1811 [35mhttp[39m: [35mGET /messages:61c84f39476204e4d8cfbe16 404 1429 - 0.634 ms[39m
+[35m[39m
+2021-12-26 12:18:20:1820 [35mhttp[39m: [35m61c84f39476204e4d8cfbe16[39m
+2021-12-26 12:18:20:1820 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61c84f39476204e4d8cfbe16"),[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  createdAt: 2021-12-26T11:17:13.727Z,[39m
+[37m  updatedAt: 2021-12-26T11:17:13.727Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-26 12:18:20:1820 [35mhttp[39m: [35mGET /messages/61c84f39476204e4d8cfbe16 200 179 - 5.576 ms[39m
+[35m[39m
+2021-12-26 12:19:07:197 [35mhttp[39m: [35mPUT /users/61a7d6eef1029502a4c7ad35 500 124 - 0.696 ms[39m
+[35m[39m
+2021-12-26 12:22:29:2229 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:22:29:2229 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:22:29:2229 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:22:46:2246 [35mhttp[39m: [35mPUT /users/61a7d6eef1029502a4c7ad35 500 124 - 2.268 ms[39m
+[35m[39m
+2021-12-26 12:23:10:2310 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:23:10:2310 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:23:10:2310 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:23:24:2324 [35mhttp[39m: [35mPUT /users/61a7d6eef1029502a4c7ad35 500 124 - 2.157 ms[39m
+[35m[39m
+2021-12-26 12:23:42:2342 [35mhttp[39m: [35mPUT /messages/61a7d6eef1029502a4c7ad35 404 1429 - 4.221 ms[39m
+[35m[39m
+2021-12-26 12:23:53:2353 [35mhttp[39m: [35mPUT /messages/61c84f39476204e4d8cfbe16 404 1429 - 0.617 ms[39m
+[35m[39m
+2021-12-26 12:25:27:2527 [35mhttp[39m: [35m61c84f39476204e4d8cfbe16[39m
+2021-12-26 12:25:27:2527 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61c84f39476204e4d8cfbe16"),[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  createdAt: 2021-12-26T11:17:13.727Z,[39m
+[37m  updatedAt: 2021-12-26T11:17:13.727Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-26 12:25:27:2527 [35mhttp[39m: [35mGET /messages/61c84f39476204e4d8cfbe16 200 179 - 13.077 ms[39m
+[35m[39m
+2021-12-26 12:25:35:2535 [35mhttp[39m: [35mPUT /messages/61c84f39476204e4d8cfbe16 404 1429 - 0.416 ms[39m
+[35m[39m
+2021-12-26 12:27:01:271 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:27:01:271 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:27:01:271 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:27:01:271 [35mhttp[39m: [35m61c84f39476204e4d8cfbe16[39m
+2021-12-26 12:27:01:271 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61c84f39476204e4d8cfbe16"),[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  createdAt: 2021-12-26T11:17:13.727Z,[39m
+[37m  updatedAt: 2021-12-26T11:17:13.727Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-26 12:27:01:271 [35mhttp[39m: [35mGET /messages/61c84f39476204e4d8cfbe16 200 179 - 14.839 ms[39m
+[35m[39m
+2021-12-26 12:27:03:273 [35mhttp[39m: [35mPUT /messages/61c84f39476204e4d8cfbe16 404 1429 - 5.168 ms[39m
+[35m[39m
+2021-12-26 12:27:39:2739 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:27:39:2739 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:27:39:2739 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:29:33:2933 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:29:33:2933 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:29:33:2933 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:29:40:2940 [35mhttp[39m: [35m61c84f39476204e4d8cfbe16[39m
+2021-12-26 12:29:40:2940 [35mhttp[39m: [35m[object Object][39m
+2021-12-26 12:29:40:2940 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61c84f39476204e4d8cfbe16"),[39m
+[37m  subject: 'wait',[39m
+[37m  privateMessage: 'will you wait for me?',[39m
+[37m  createdAt: 2021-12-26T11:17:13.727Z,[39m
+[37m  updatedAt: 2021-12-26T11:29:40.805Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-26 12:29:40:2940 [35mhttp[39m: [35mPUT /messages/61c84f39476204e4d8cfbe16 200 178 - 19.542 ms[39m
+[35m[39m
+2021-12-26 12:30:29:3029 [35mhttp[39m: [35mDELETE /messages/61c84f39476204e4d8cfbe16 404 1429 - 4.690 ms[39m
+[35m[39m
+2021-12-26 12:30:33:3033 [35mhttp[39m: [35mDELETE /messages/61c84f39476204e4d8cfbe16 404 1429 - 0.730 ms[39m
+[35m[39m
+2021-12-26 12:30:45:3045 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:30:45:3045 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:30:45:3045 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:30:47:3047 [35mhttp[39m: [35m{[39m
+[35m  _id: new ObjectId("61c84f39476204e4d8cfbe16"),[39m
+[35m  subject: 'wait',[39m
+[35m  privateMessage: 'will you wait for me?',[39m
+[35m  createdAt: 2021-12-26T11:17:13.727Z,[39m
+[35m  updatedAt: 2021-12-26T11:29:40.805Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2021-12-26 12:30:47:3047 [35mhttp[39m: [35mDELETE /messages/61c84f39476204e4d8cfbe16 200 76 - 13.554 ms[39m
+[35m[39m
+2021-12-26 12:30:51:3051 [37mdebug[39m: [37m[][39m
+2021-12-26 12:30:51:3051 [35mhttp[39m: [35mGET /messages 200 2 - 5.582 ms[39m
+[35m[39m
+2021-12-26 12:30:54:3054 [35mhttp[39m: [35m{ subject: 'whatsup', privateMessage: 'hello, how are you?' }[39m
+2021-12-26 12:30:54:3054 [37mdebug[39m: [37m{[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  _id: new ObjectId("61c8526e503522eafcc227bd")[39m
+[37m}[39m
+2021-12-26 12:30:54:3054 [37mdebug[39m: [37m{[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  _id: new ObjectId("61c8526e503522eafcc227bd"),[39m
+[37m  createdAt: 2021-12-26T11:30:54.313Z,[39m
+[37m  updatedAt: 2021-12-26T11:30:54.313Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-26 12:30:54:3054 [35mhttp[39m: [35mPOST /messages 201 179 - 10.790 ms[39m
+[35m[39m
+2021-12-26 12:30:56:3056 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c8526e503522eafcc227bd"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2021-12-26T11:30:54.313Z,[39m
+[37m    updatedAt: 2021-12-26T11:30:54.313Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 12:30:56:3056 [35mhttp[39m: [35mGET /messages 200 181 - 4.274 ms[39m
+[35m[39m
+2021-12-26 12:30:58:3058 [35mhttp[39m: [35m61c84f39476204e4d8cfbe16[39m
+2021-12-26 12:30:58:3058 [37mdebug[39m: [37mnull[39m
+2021-12-26 12:30:58:3058 [35mhttp[39m: [35mGET /messages/61c84f39476204e4d8cfbe16 200 0 - 5.068 ms[39m
+[35m[39m
+2021-12-26 12:31:12:3112 [35mhttp[39m: [35m61c8526e503522eafcc227bd[39m
+2021-12-26 12:31:12:3112 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61c8526e503522eafcc227bd"),[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  createdAt: 2021-12-26T11:30:54.313Z,[39m
+[37m  updatedAt: 2021-12-26T11:30:54.313Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-26 12:31:12:3112 [35mhttp[39m: [35mGET /messages/61c8526e503522eafcc227bd 200 179 - 3.600 ms[39m
+[35m[39m
+2021-12-26 12:31:17:3117 [35mhttp[39m: [35m61c8526e503522eafcc227bd[39m
+2021-12-26 12:31:17:3117 [35mhttp[39m: [35m[object Object][39m
+2021-12-26 12:31:17:3117 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61c8526e503522eafcc227bd"),[39m
+[37m  subject: 'wait',[39m
+[37m  privateMessage: 'will you wait for me?',[39m
+[37m  createdAt: 2021-12-26T11:30:54.313Z,[39m
+[37m  updatedAt: 2021-12-26T11:31:17.011Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-26 12:31:17:3117 [35mhttp[39m: [35mPUT /messages/61c8526e503522eafcc227bd 200 178 - 7.310 ms[39m
+[35m[39m
+2021-12-26 12:31:22:3122 [35mhttp[39m: [35m{[39m
+[35m  _id: new ObjectId("61c8526e503522eafcc227bd"),[39m
+[35m  subject: 'wait',[39m
+[35m  privateMessage: 'will you wait for me?',[39m
+[35m  createdAt: 2021-12-26T11:30:54.313Z,[39m
+[35m  updatedAt: 2021-12-26T11:31:17.011Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2021-12-26 12:31:22:3122 [35mhttp[39m: [35mDELETE /messages/61c8526e503522eafcc227bd 200 76 - 4.082 ms[39m
+[35m[39m
+2021-12-26 12:31:25:3125 [37mdebug[39m: [37m[][39m
+2021-12-26 12:31:25:3125 [35mhttp[39m: [35mGET /messages 200 2 - 2.492 ms[39m
+[35m[39m
+2021-12-26 12:31:28:3128 [35mhttp[39m: [35m61c8526e503522eafcc227bd[39m
+2021-12-26 12:31:28:3128 [37mdebug[39m: [37mnull[39m
+2021-12-26 12:31:28:3128 [35mhttp[39m: [35mGET /messages/61c8526e503522eafcc227bd 200 0 - 3.122 ms[39m
+[35m[39m
+2021-12-26 12:31:56:3156 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:31:56:3156 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:31:56:3156 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:32:33:3233 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:32:33:3233 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:32:33:3233 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:32:37:3237 [35mhttp[39m: [35m61c8526e503522eafcc227bd[39m
+2021-12-26 12:32:37:3237 [37mdebug[39m: [37mnull[39m
+2021-12-26 12:32:37:3237 [35mhttp[39m: [35mGET /messages/61c8526e503522eafcc227bd 200 0 - 10.537 ms[39m
+[35m[39m
+2021-12-26 12:32:47:3247 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:32:47:3247 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:32:47:3247 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:34:02:342 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:34:02:342 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:34:02:342 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:34:05:345 [35mhttp[39m: [35m61c8526e503522eafcc227bd[39m
+2021-12-26 12:34:05:345 [37mdebug[39m: [37mnull[39m
+2021-12-26 12:34:05:345 [35mhttp[39m: [35mGET /messages/61c8526e503522eafcc227bd 200 0 - 10.621 ms[39m
+[35m[39m
+2021-12-26 12:35:10:3510 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:35:10:3510 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:35:11:3511 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:35:13:3513 [35mhttp[39m: [35m61c8526e503522eafcc227bd[39m
+2021-12-26 12:35:13:3513 [37mdebug[39m: [37mnull[39m
+2021-12-26 12:35:13:3513 [35mhttp[39m: [35mGET /messages/61c8526e503522eafcc227bd 500 37 - 10.502 ms[39m
+[35m[39m
+2021-12-26 12:35:34:3534 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:35:34:3534 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:35:34:3534 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:35:35:3535 [35mhttp[39m: [35m61c8526e503522eafcc227bd[39m
+2021-12-26 12:35:35:3535 [35mhttp[39m: [35mGET /messages/61c8526e503522eafcc227bd 400 37 - 3.355 ms[39m
+[35m[39m
+2021-12-26 12:35:35:3535 [37mdebug[39m: [37mnull[39m
+2021-12-26 12:35:57:3557 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:35:57:3557 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:35:57:3557 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:36:00:360 [35mhttp[39m: [35m61c8526e503522eafcc227bd[39m
+2021-12-26 12:36:00:360 [35mhttp[39m: [35mGET /messages/61c8526e503522eafcc227bd 400 37 - 2.781 ms[39m
+[35m[39m
+2021-12-26 12:36:00:360 [37mdebug[39m: [37mnull[39m
+2021-12-26 12:36:17:3617 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:36:17:3617 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:36:17:3617 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:36:18:3618 [35mhttp[39m: [35m61c8526e503522eafcc227bd[39m
+2021-12-26 12:36:18:3618 [37mdebug[39m: [37mnull[39m
+2021-12-26 12:36:18:3618 [35mhttp[39m: [35mGET /messages/61c8526e503522eafcc227bd 200 0 - 11.285 ms[39m
+[35m[39m
+2021-12-26 12:36:37:3637 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:36:37:3637 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:36:37:3637 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:36:39:3639 [35mhttp[39m: [35m61c8526e503522eafcc227bd[39m
+2021-12-26 12:36:39:3639 [37mdebug[39m: [37mnull[39m
+2021-12-26 12:36:39:3639 [35mhttp[39m: [35mGET /messages/61c8526e503522eafcc227bd 200 0 - 10.184 ms[39m
+[35m[39m
+2021-12-26 12:36:53:3653 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:36:53:3653 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:36:53:3653 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:36:55:3655 [35mhttp[39m: [35m61c8526e503522eafcc227bd[39m
+2021-12-26 12:36:55:3655 [35mhttp[39m: [35mGET /messages/61c8526e503522eafcc227bd 400 37 - 3.037 ms[39m
+[35m[39m
+2021-12-26 12:36:55:3655 [37mdebug[39m: [37mnull[39m
+2021-12-26 12:37:00:370 [37mdebug[39m: [37m[][39m
+2021-12-26 12:37:00:370 [35mhttp[39m: [35mGET /messages 200 2 - 4.448 ms[39m
+[35m[39m
+2021-12-26 12:37:02:372 [35mhttp[39m: [35m{ subject: 'whatsup', privateMessage: 'hello, how are you?' }[39m
+2021-12-26 12:37:02:372 [37mdebug[39m: [37m{[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  _id: new ObjectId("61c853de6640a6823f7feaad")[39m
+[37m}[39m
+2021-12-26 12:37:02:372 [37mdebug[39m: [37m{[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  _id: new ObjectId("61c853de6640a6823f7feaad"),[39m
+[37m  createdAt: 2021-12-26T11:37:02.850Z,[39m
+[37m  updatedAt: 2021-12-26T11:37:02.850Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-26 12:37:02:372 [35mhttp[39m: [35mPOST /messages 201 179 - 14.417 ms[39m
+[35m[39m
+2021-12-26 12:37:04:374 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c853de6640a6823f7feaad"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    updatedAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 12:37:04:374 [35mhttp[39m: [35mGET /messages 200 181 - 6.366 ms[39m
+[35m[39m
+2021-12-26 12:37:10:3710 [35mhttp[39m: [35m61c853de6640a6823f7feaad[39m
+2021-12-26 12:37:10:3710 [35mhttp[39m: [35mGET /messages/61c853de6640a6823f7feaad 400 37 - 0.721 ms[39m
+[35m[39m
+2021-12-26 12:37:10:3710 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61c853de6640a6823f7feaad"),[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  createdAt: 2021-12-26T11:37:02.850Z,[39m
+[37m  updatedAt: 2021-12-26T11:37:02.850Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-26 12:37:27:3727 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:37:27:3727 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:37:27:3727 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:37:29:3729 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c853de6640a6823f7feaad"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    updatedAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 12:37:29:3729 [35mhttp[39m: [35mGET /messages/ 200 181 - 15.420 ms[39m
+[35m[39m
+2021-12-26 12:37:51:3751 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:37:51:3751 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:37:51:3751 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:37:52:3752 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c853de6640a6823f7feaad"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    updatedAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 12:37:52:3752 [35mhttp[39m: [35mGET /messages/ 200 181 - 16.269 ms[39m
+[35m[39m
+2021-12-26 12:38:06:386 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:38:06:386 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:38:06:386 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:38:34:3834 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:38:34:3834 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:38:34:3834 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:38:36:3836 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c853de6640a6823f7feaad"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    updatedAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 12:38:36:3836 [35mhttp[39m: [35mGET /messages/ 200 181 - 15.143 ms[39m
+[35m[39m
+2021-12-26 12:38:54:3854 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:38:54:3854 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:38:54:3854 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:38:55:3855 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c853de6640a6823f7feaad"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    updatedAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 12:38:55:3855 [35mhttp[39m: [35mGET /messages/ 200 181 - 15.000 ms[39m
+[35m[39m
+2021-12-26 12:39:10:3910 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:39:10:3910 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:39:10:3910 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:39:11:3911 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c853de6640a6823f7feaad"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    updatedAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 12:39:11:3911 [35mhttp[39m: [35mGET /messages/ 200 181 - 14.322 ms[39m
+[35m[39m
+2021-12-26 12:39:21:3921 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:39:21:3921 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:39:21:3921 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:39:23:3923 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c853de6640a6823f7feaad"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    updatedAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 12:39:23:3923 [35mhttp[39m: [35mGET /messages/ 200 181 - 16.729 ms[39m
+[35m[39m
+2021-12-26 12:39:32:3932 [35mhttp[39m: [35mnull[39m
+2021-12-26 12:39:32:3932 [35mhttp[39m: [35mGET /messages/null 500 172 - 2.660 ms[39m
+[35m[39m
+2021-12-26 12:39:39:3939 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:39:39:3939 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:39:39:3939 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:39:41:3941 [35mhttp[39m: [35mnull[39m
+2021-12-26 12:39:41:3941 [35mhttp[39m: [35mGET /messages/null 400 37 - 2.813 ms[39m
+[35m[39m
+2021-12-26 12:39:46:3946 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c853de6640a6823f7feaad"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    updatedAt: 2021-12-26T11:37:02.850Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 12:39:46:3946 [35mhttp[39m: [35mGET /messages 200 181 - 12.076 ms[39m
+[35m[39m
+2021-12-26 12:39:52:3952 [35mhttp[39m: [35m61c853de6640a6823f7feaad[39m
+2021-12-26 12:39:52:3952 [35mhttp[39m: [35mGET /messages/61c853de6640a6823f7feaad 400 37 - 0.754 ms[39m
+[35m[39m
+2021-12-26 12:40:05:405 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:40:05:405 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:40:05:405 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-26 12:40:07:407 [35mhttp[39m: [35m61c853de6640a6823f7feaad[39m
+2021-12-26 12:40:07:407 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61c853de6640a6823f7feaad"),[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  createdAt: 2021-12-26T11:37:02.850Z,[39m
+[37m  updatedAt: 2021-12-26T11:37:02.850Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-26 12:40:07:407 [35mhttp[39m: [35mGET /messages/61c853de6640a6823f7feaad 200 179 - 17.137 ms[39m
+[35m[39m
+2021-12-26 12:40:11:4011 [35mhttp[39m: [35mnull[39m
+2021-12-26 12:40:11:4011 [35mhttp[39m: [35mGET /messages/null 500 172 - 1.594 ms[39m
+[35m[39m
+2021-12-26 12:40:21:4021 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-26 12:40:21:4021 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-26 12:40:21:4021 [32minfo[39m: [32mSuccessfully connected to database[39m
