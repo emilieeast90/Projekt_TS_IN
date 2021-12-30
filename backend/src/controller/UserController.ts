@@ -29,7 +29,8 @@ const createUser = async (req: Request, res: Response) => {
     try {
         const response = await user.save()
         Logger.debug(response)
-        res.status(StatusCode.CREATED).send(response)
+        res.status(StatusCode.CREATED).send({message: `Account Created!`
+    })
     } catch (error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR)
             .send({message: error.message})
@@ -160,6 +161,7 @@ export default {
     getUsers,
     getUserWithId,
     getUserWithName,
+    verifyUser,
     updateUser,
     deleteUser
 }

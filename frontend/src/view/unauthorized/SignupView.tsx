@@ -21,6 +21,7 @@ function SignupView() {
             .then((response) => {
                 console.log(response.data)
                 setUserObject(response.data)
+                setText(response.data.message)
                 console.log(userObject)
             })
             .catch((error) => {

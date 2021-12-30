@@ -18,7 +18,7 @@ const App: React.FC = (): JSX.Element => {
 
     }
 
-    const checkIfUserIsAuthenticatedInBrowser = () => {
+    const isUserAuthorized = () => {
         const username = localStorage.getItem('username')
         if (typeof username === 'string') {
             setAuthenticatedUser(username)
@@ -26,24 +26,26 @@ const App: React.FC = (): JSX.Element => {
     }
 
     React.useEffect(() => {
-        checkIfUserIsAuthenticatedInBrowser()
+        isUserAuthorized()
     }, [])
 
     return (
-        <Container>
-            <FontStyle/>
-            <Navigation>
-                <UserContext.Provider value={{authenticatedUser, setAuthenticatedUser}}>
+        <UserContext.Provider value={{authenticatedUser, setAuthenticatedUser}}>
+            <Container>
+                <FontStyle/>
+                <Navigation>
+
                     <Toggle handleNavToggle={handleNavToggle}/>
                     <RoutingPaths>
                         {navToggled ? <Menu handleNavToggle={handleNavToggle}/> : undefined}
                     </RoutingPaths>
-                </UserContext.Provider>
-            </Navigation>
-            <Article>
 
-            </Article>
-        </Container>
+                </Navigation>
+                <Article>
+
+                </Article>
+            </Container>
+        </UserContext.Provider>
     )
 }
 

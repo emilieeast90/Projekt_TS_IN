@@ -10,8 +10,9 @@ export const Profile = () => {
     const logout = () => {
         localStorage.removeItem('username')
         setAuthenticatedUser('')
-        navigate(RoutingPath.profileView)
+        navigate(RoutingPath.signinView)
     }
+
     return (
         <section>
             <img src={'https://thispersondoesnotexist.com/image'} alt="Unknown person"/>

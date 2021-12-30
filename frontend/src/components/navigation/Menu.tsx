@@ -4,16 +4,18 @@ import RoutingPath from '../../routes/RoutingPathUrl'
 import React from 'react'
 import {FaTimes} from 'react-icons/fa'
 import FontStyle from '../FontStyle'
+import {useUserContext} from '../../utils/global/provider/UserProviderOrg'
+import Profile from '../Profile'
 
 interface ButtonProps {
     handleNavToggle: () => void;
 }
 
-const Menu:React.FC<ButtonProps> = ({handleNavToggle}) => {
+const Menu: React.FC<ButtonProps> = ({handleNavToggle}) => {
 
     return (
         <>
-            <FontStyle />
+            <FontStyle/>
             <StyledMenu>
                 <StyledLink to={RoutingPath.homeView}>Home</StyledLink>
                 <StyledLink to={RoutingPath.signinView}>Sign In</StyledLink>
@@ -45,7 +47,7 @@ const StyledMenu = styled.div`
     padding: 2em;
     transition: 0.2s all ease-in-out;
   }
-  
+
   background-color: rgba(255, 255, 255, 0.95);
   z-index: 99;
   display: flex;
@@ -76,7 +78,7 @@ const StyledLink = styled(Link)`
   @media screen and (max-width: 580px) {
     font-size: 1em;
   }
-  
+
   &:nth-child(odd) {
     background-color: #e0cdbf;
   }

@@ -3,16 +3,15 @@ export interface AuthenticatedUser {
     password?: string
 }
 
+export interface VerifiedUser {
+    username: string,
+    password: string,
+}
+
 export interface User {
     username: string,
     password: string,
     email: string
-}
-
-export interface UserSetup {
-    username: string,
-    password: string,
-    email: string,
 }
 
 export interface UserId {

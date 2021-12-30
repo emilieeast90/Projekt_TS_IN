@@ -4609,3 +4609,583 @@
 [35m}[39m
 2021-12-26 12:58:41:5841 [35mhttp[39m: [35mDELETE /flow/61c858ea43eec925c7b0dcc2 200 73 - 4.685 ms[39m
 [35m[39m
+2021-12-26 13:03:53:353 [35mhttp[39m: [35mDELETE /users/ 404 1402 - 4.454 ms[39m
+[35m[39m
+2021-12-26 13:04:28:428 [35mhttp[39m: [35mDELETE /users/[object%20Object] 500 186 - 1.349 ms[39m
+[35m[39m
+2021-12-26 13:04:45:445 [35mhttp[39m: [35mDELETE /users/ 404 1402 - 0.592 ms[39m
+[35m[39m
+2021-12-26 13:12:17:1217 [35mhttp[39m: [35mDELETE /users/ 404 1402 - 0.550 ms[39m
+[35m[39m
+2021-12-26 13:12:28:1228 [35mhttp[39m: [35mDELETE /users/ 404 1402 - 0.499 ms[39m
+[35m[39m
+2021-12-26 13:12:37:1237 [35mhttp[39m: [35mDELETE /users/ 404 1402 - 0.488 ms[39m
+[35m[39m
+2021-12-26 13:13:04:134 [35mhttp[39m: [35mDELETE /users/ 404 1402 - 0.507 ms[39m
+[35m[39m
+2021-12-26 13:13:29:1329 [35mhttp[39m: [35mDELETE /users/ 404 1402 - 0.455 ms[39m
+[35m[39m
+2021-12-26 13:14:24:1424 [35mhttp[39m: [35mDELETE /users/ 404 1402 - 1.071 ms[39m
+[35m[39m
+2021-12-26 13:18:43:1843 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$EPbgG9ounWVFfRCvvrhQh.C6YYFCYvLieW6tuxd81tBtnJpMnUgLW',[39m
+[37m    email: 'emilie.ost@gmail.com',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61baf7844c793ab3884fe374"),[39m
+[37m    username: 'Nickan',[39m
+[37m    password: '$2b$10$20yLjF5V4NwnsWc68516bOKrVEWqMrt8r1E1.WOoPcXVNhd3GPI8y',[39m
+[37m    email: '',[39m
+[37m    createdAt: 2021-12-16T08:23:32.788Z,[39m
+[37m    updatedAt: 2021-12-16T08:24:54.349Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38efd210ff2d62093e08d"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$jlx4XfIViGztK3GwefGPdum3hwnKPNQquq6C7hzhd.GGt9SEoweTq',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    updatedAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38f17210ff2d62093e08f"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$QRY03sySD1QzF6LOLZsGZ.h8j.cytXFt30gs05sfSeCVpEW6kJJ1a',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    updatedAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 13:18:43:1843 [35mhttp[39m: [35mGET /users 200 1181 - 6.473 ms[39m
+[35m[39m
+2021-12-26 13:18:48:1848 [35mhttp[39m: [35mDELETE /users/61baf7844c793ab3884fe374 200 94 - 7.922 ms[39m
+[35m[39m
+2021-12-26 13:18:56:1856 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$EPbgG9ounWVFfRCvvrhQh.C6YYFCYvLieW6tuxd81tBtnJpMnUgLW',[39m
+[37m    email: 'emilie.ost@gmail.com',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38efd210ff2d62093e08d"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$jlx4XfIViGztK3GwefGPdum3hwnKPNQquq6C7hzhd.GGt9SEoweTq',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    updatedAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38f17210ff2d62093e08f"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$QRY03sySD1QzF6LOLZsGZ.h8j.cytXFt30gs05sfSeCVpEW6kJJ1a',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    updatedAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-26 13:18:56:1856 [35mhttp[39m: [35mGET /users 200 955 - 5.731 ms[39m
+[35m[39m
+2021-12-29 09:26:43:2643 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-29 09:26:43:2643 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-29 09:27:13:2713 [31merror[39m: [31mERROR WHILE TRYING TO CONNECT TO DATABASE connection <monitor> to 127.0.0.1:27017 closed[39m
+2021-12-29 09:30:21:3021 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-29 09:30:21:3021 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-29 09:30:21:3021 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-29 09:30:33:3033 [35mhttp[39m: [35m{ username: '123123', password: '123123', email: '214123' }[39m
+2021-12-29 09:30:33:3033 [33mwarn[39m: [33mhashed password is $2b$10$/fdOFGDMSyOMBG/8IHi6KeAz9KykchGxmy43NiJG6/8//2x54RA9C[39m
+2021-12-29 09:30:33:3033 [37mdebug[39m: [37m{[39m
+[37m  username: '123123',[39m
+[37m  password: '$2b$10$/fdOFGDMSyOMBG/8IHi6KeAz9KykchGxmy43NiJG6/8//2x54RA9C',[39m
+[37m  email: '214123',[39m
+[37m  _id: new ObjectId("61cc1ca96f44974fe64e897d")[39m
+[37m}[39m
+2021-12-29 09:30:33:3033 [37mdebug[39m: [37m{[39m
+[37m  username: '123123',[39m
+[37m  password: '$2b$10$/fdOFGDMSyOMBG/8IHi6KeAz9KykchGxmy43NiJG6/8//2x54RA9C',[39m
+[37m  email: '214123',[39m
+[37m  _id: new ObjectId("61cc1ca96f44974fe64e897d"),[39m
+[37m  createdAt: 2021-12-29T08:30:33.349Z,[39m
+[37m  updatedAt: 2021-12-29T08:30:33.349Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-29 09:30:33:3033 [35mhttp[39m: [35mPOST /users 201 231 - 75.079 ms[39m
+[35m[39m
+2021-12-29 09:31:32:3132 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-29 09:31:32:3132 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-29 09:31:32:3132 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-29 09:31:34:3134 [35mhttp[39m: [35m{ username: '123123', password: '123123231', email: '214123' }[39m
+2021-12-29 09:31:35:3135 [33mwarn[39m: [33mhashed password is $2b$10$Q5uswi//lSkbLOYHviLHQuK34KBSXQezit/qcN5j/S4FlRldH10OW[39m
+2021-12-29 09:31:35:3135 [37mdebug[39m: [37m{[39m
+[37m  username: '123123',[39m
+[37m  password: '$2b$10$Q5uswi//lSkbLOYHviLHQuK34KBSXQezit/qcN5j/S4FlRldH10OW',[39m
+[37m  email: '214123',[39m
+[37m  _id: new ObjectId("61cc1ce7183f5e7d0a2e3992")[39m
+[37m}[39m
+2021-12-29 09:31:35:3135 [37mdebug[39m: [37m{[39m
+[37m  username: '123123',[39m
+[37m  password: '$2b$10$Q5uswi//lSkbLOYHviLHQuK34KBSXQezit/qcN5j/S4FlRldH10OW',[39m
+[37m  email: '214123',[39m
+[37m  _id: new ObjectId("61cc1ce7183f5e7d0a2e3992"),[39m
+[37m  createdAt: 2021-12-29T08:31:35.023Z,[39m
+[37m  updatedAt: 2021-12-29T08:31:35.023Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-29 09:31:35:3135 [35mhttp[39m: [35mPOST /users 201 231 - 71.542 ms[39m
+[35m[39m
+2021-12-29 09:31:44:3144 [35mhttp[39m: [35m{ username: 'qwekli', password: 'wekr', email: 'lik3wj3' }[39m
+2021-12-29 09:31:44:3144 [33mwarn[39m: [33mhashed password is $2b$10$0IAVcS.0qN/GMFDvWZRRueVb0CFOKhys7vwoRL6cqssdlzwWjYJ/2[39m
+2021-12-29 09:31:44:3144 [37mdebug[39m: [37m{[39m
+[37m  username: 'qwekli',[39m
+[37m  password: '$2b$10$0IAVcS.0qN/GMFDvWZRRueVb0CFOKhys7vwoRL6cqssdlzwWjYJ/2',[39m
+[37m  email: 'lik3wj3',[39m
+[37m  _id: new ObjectId("61cc1cf0183f5e7d0a2e3994")[39m
+[37m}[39m
+2021-12-29 09:31:44:3144 [37mdebug[39m: [37m{[39m
+[37m  username: 'qwekli',[39m
+[37m  password: '$2b$10$0IAVcS.0qN/GMFDvWZRRueVb0CFOKhys7vwoRL6cqssdlzwWjYJ/2',[39m
+[37m  email: 'lik3wj3',[39m
+[37m  _id: new ObjectId("61cc1cf0183f5e7d0a2e3994"),[39m
+[37m  createdAt: 2021-12-29T08:31:44.068Z,[39m
+[37m  updatedAt: 2021-12-29T08:31:44.068Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-29 09:31:44:3144 [35mhttp[39m: [35mPOST /users 201 232 - 59.842 ms[39m
+[35m[39m
+2021-12-29 09:33:11:3311 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-29 09:33:11:3311 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-29 09:33:11:3311 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-29 09:34:12:3412 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-29 09:34:12:3412 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-29 09:34:12:3412 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-29 09:34:15:3415 [35mhttp[39m: [35m{ username: 'qwekli', password: 'wekr', email: 'lik3wj3' }[39m
+2021-12-29 09:34:15:3415 [33mwarn[39m: [33mhashed password is $2b$10$i2y8oIbDEpqyZOexPWTjleILlJVhjKwZlHptkf/HPCIHBaQ5va/4S[39m
+2021-12-29 09:34:15:3415 [37mdebug[39m: [37m{[39m
+[37m  username: 'qwekli',[39m
+[37m  password: '$2b$10$i2y8oIbDEpqyZOexPWTjleILlJVhjKwZlHptkf/HPCIHBaQ5va/4S',[39m
+[37m  email: 'lik3wj3',[39m
+[37m  _id: new ObjectId("61cc1d8769fc458b52148abb")[39m
+[37m}[39m
+2021-12-29 09:34:15:3415 [37mdebug[39m: [37m{[39m
+[37m  username: 'qwekli',[39m
+[37m  password: '$2b$10$i2y8oIbDEpqyZOexPWTjleILlJVhjKwZlHptkf/HPCIHBaQ5va/4S',[39m
+[37m  email: 'lik3wj3',[39m
+[37m  _id: new ObjectId("61cc1d8769fc458b52148abb"),[39m
+[37m  createdAt: 2021-12-29T08:34:15.399Z,[39m
+[37m  updatedAt: 2021-12-29T08:34:15.399Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-29 09:34:15:3415 [35mhttp[39m: [35mPOST /users 201 271 - 71.882 ms[39m
+[35m[39m
+2021-12-29 09:34:44:3444 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-29 09:34:44:3444 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-29 09:34:44:3444 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-29 09:34:47:3447 [35mhttp[39m: [35m{ username: '234', password: '234', email: '234' }[39m
+2021-12-29 09:34:47:3447 [33mwarn[39m: [33mhashed password is $2b$10$/ufJlhneQs1zmHyyKJwB6OQmGZZOiaf1M6hIKnL4AsaNUXAhx1Qd.[39m
+2021-12-29 09:34:47:3447 [37mdebug[39m: [37m{[39m
+[37m  username: '234',[39m
+[37m  password: '$2b$10$/ufJlhneQs1zmHyyKJwB6OQmGZZOiaf1M6hIKnL4AsaNUXAhx1Qd.',[39m
+[37m  email: '234',[39m
+[37m  _id: new ObjectId("61cc1da73a22b80dd8d657a1")[39m
+[37m}[39m
+2021-12-29 09:34:47:3447 [37mdebug[39m: [37m{[39m
+[37m  username: '234',[39m
+[37m  password: '$2b$10$/ufJlhneQs1zmHyyKJwB6OQmGZZOiaf1M6hIKnL4AsaNUXAhx1Qd.',[39m
+[37m  email: '234',[39m
+[37m  _id: new ObjectId("61cc1da73a22b80dd8d657a1"),[39m
+[37m  createdAt: 2021-12-29T08:34:47.124Z,[39m
+[37m  updatedAt: 2021-12-29T08:34:47.124Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-29 09:34:47:3447 [35mhttp[39m: [35mPOST /users 201 288 - 72.381 ms[39m
+[35m[39m
+2021-12-29 09:34:56:3456 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-29 09:34:56:3456 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-29 09:34:56:3456 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-29 09:35:05:355 [35mhttp[39m: [35m{ username: 'em8ioie', password: 'wsejmrwelk', email: 'ekwsdrfwe' }[39m
+2021-12-29 09:35:05:355 [33mwarn[39m: [33mhashed password is $2b$10$EwJIPm3Z.41uXlDRS7WZhu69XTezHtBvYQk1C8qkdUDKN/1MzZ556[39m
+2021-12-29 09:35:05:355 [37mdebug[39m: [37m{[39m
+[37m  username: 'em8ioie',[39m
+[37m  password: '$2b$10$EwJIPm3Z.41uXlDRS7WZhu69XTezHtBvYQk1C8qkdUDKN/1MzZ556',[39m
+[37m  email: 'ekwsdrfwe',[39m
+[37m  _id: new ObjectId("61cc1db980837be81a6fda37")[39m
+[37m}[39m
+2021-12-29 09:35:05:355 [37mdebug[39m: [37m{[39m
+[37m  username: 'em8ioie',[39m
+[37m  password: '$2b$10$EwJIPm3Z.41uXlDRS7WZhu69XTezHtBvYQk1C8qkdUDKN/1MzZ556',[39m
+[37m  email: 'ekwsdrfwe',[39m
+[37m  _id: new ObjectId("61cc1db980837be81a6fda37"),[39m
+[37m  createdAt: 2021-12-29T08:35:05.642Z,[39m
+[37m  updatedAt: 2021-12-29T08:35:05.642Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2021-12-29 09:35:05:355 [35mhttp[39m: [35mPOST /users 201 27 - 73.308 ms[39m
+[35m[39m
+2021-12-29 09:35:17:3517 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-29 09:35:17:3517 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-29 09:35:17:3517 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-29 09:35:37:3537 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$EPbgG9ounWVFfRCvvrhQh.C6YYFCYvLieW6tuxd81tBtnJpMnUgLW',[39m
+[37m    email: 'emilie.ost@gmail.com',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38efd210ff2d62093e08d"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$jlx4XfIViGztK3GwefGPdum3hwnKPNQquq6C7hzhd.GGt9SEoweTq',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    updatedAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38f17210ff2d62093e08f"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$QRY03sySD1QzF6LOLZsGZ.h8j.cytXFt30gs05sfSeCVpEW6kJJ1a',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    updatedAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc1ca96f44974fe64e897d"),[39m
+[37m    username: '123123',[39m
+[37m    password: '$2b$10$/fdOFGDMSyOMBG/8IHi6KeAz9KykchGxmy43NiJG6/8//2x54RA9C',[39m
+[37m    email: '214123',[39m
+[37m    createdAt: 2021-12-29T08:30:33.349Z,[39m
+[37m    updatedAt: 2021-12-29T08:30:33.349Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc1ce7183f5e7d0a2e3992"),[39m
+[37m    username: '123123',[39m
+[37m    password: '$2b$10$Q5uswi//lSkbLOYHviLHQuK34KBSXQezit/qcN5j/S4FlRldH10OW',[39m
+[37m    email: '214123',[39m
+[37m    createdAt: 2021-12-29T08:31:35.023Z,[39m
+[37m    updatedAt: 2021-12-29T08:31:35.023Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc1cf0183f5e7d0a2e3994"),[39m
+[37m    username: 'qwekli',[39m
+[37m    password: '$2b$10$0IAVcS.0qN/GMFDvWZRRueVb0CFOKhys7vwoRL6cqssdlzwWjYJ/2',[39m
+[37m    email: 'lik3wj3',[39m
+[37m    createdAt: 2021-12-29T08:31:44.068Z,[39m
+[37m    updatedAt: 2021-12-29T08:31:44.068Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc1d8769fc458b52148abb"),[39m
+[37m    username: 'qwekli',[39m
+[37m    password: '$2b$10$i2y8oIbDEpqyZOexPWTjleILlJVhjKwZlHptkf/HPCIHBaQ5va/4S',[39m
+[37m    email: 'lik3wj3',[39m
+[37m    createdAt: 2021-12-29T08:34:15.399Z,[39m
+[37m    updatedAt: 2021-12-29T08:34:15.399Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc1da73a22b80dd8d657a1"),[39m
+[37m    username: '234',[39m
+[37m    password: '$2b$10$/ufJlhneQs1zmHyyKJwB6OQmGZZOiaf1M6hIKnL4AsaNUXAhx1Qd.',[39m
+[37m    email: '234',[39m
+[37m    createdAt: 2021-12-29T08:34:47.124Z,[39m
+[37m    updatedAt: 2021-12-29T08:34:47.124Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc1db980837be81a6fda37"),[39m
+[37m    username: 'em8ioie',[39m
+[37m    password: '$2b$10$EwJIPm3Z.41uXlDRS7WZhu69XTezHtBvYQk1C8qkdUDKN/1MzZ556',[39m
+[37m    email: 'ekwsdrfwe',[39m
+[37m    createdAt: 2021-12-29T08:35:05.642Z,[39m
+[37m    updatedAt: 2021-12-29T08:35:05.642Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-29 09:35:37:3537 [35mhttp[39m: [35mGET /users 200 2347 - 23.765 ms[39m
+[35m[39m
+2021-12-29 09:35:46:3546 [35mhttp[39m: [35mDELETE /users/61cc1cf0183f5e7d0a2e3994 200 94 - 4.512 ms[39m
+[35m[39m
+2021-12-29 09:35:52:3552 [35mhttp[39m: [35mDELETE /users/61cc1da73a22b80dd8d657a1 200 91 - 2.676 ms[39m
+[35m[39m
+2021-12-29 09:35:56:3556 [35mhttp[39m: [35mDELETE /users/61cc1db980837be81a6fda37 200 95 - 2.764 ms[39m
+[35m[39m
+2021-12-29 09:35:59:3559 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$EPbgG9ounWVFfRCvvrhQh.C6YYFCYvLieW6tuxd81tBtnJpMnUgLW',[39m
+[37m    email: 'emilie.ost@gmail.com',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38efd210ff2d62093e08d"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$jlx4XfIViGztK3GwefGPdum3hwnKPNQquq6C7hzhd.GGt9SEoweTq',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    updatedAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38f17210ff2d62093e08f"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$QRY03sySD1QzF6LOLZsGZ.h8j.cytXFt30gs05sfSeCVpEW6kJJ1a',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    updatedAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc1ca96f44974fe64e897d"),[39m
+[37m    username: '123123',[39m
+[37m    password: '$2b$10$/fdOFGDMSyOMBG/8IHi6KeAz9KykchGxmy43NiJG6/8//2x54RA9C',[39m
+[37m    email: '214123',[39m
+[37m    createdAt: 2021-12-29T08:30:33.349Z,[39m
+[37m    updatedAt: 2021-12-29T08:30:33.349Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc1ce7183f5e7d0a2e3992"),[39m
+[37m    username: '123123',[39m
+[37m    password: '$2b$10$Q5uswi//lSkbLOYHviLHQuK34KBSXQezit/qcN5j/S4FlRldH10OW',[39m
+[37m    email: '214123',[39m
+[37m    createdAt: 2021-12-29T08:31:35.023Z,[39m
+[37m    updatedAt: 2021-12-29T08:31:35.023Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc1d8769fc458b52148abb"),[39m
+[37m    username: 'qwekli',[39m
+[37m    password: '$2b$10$i2y8oIbDEpqyZOexPWTjleILlJVhjKwZlHptkf/HPCIHBaQ5va/4S',[39m
+[37m    email: 'lik3wj3',[39m
+[37m    createdAt: 2021-12-29T08:34:15.399Z,[39m
+[37m    updatedAt: 2021-12-29T08:34:15.399Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-29 09:35:59:3559 [35mhttp[39m: [35mGET /users 200 1652 - 5.754 ms[39m
+[35m[39m
+2021-12-29 09:36:03:363 [35mhttp[39m: [35mDELETE /users/61cc1d8769fc458b52148abb 200 94 - 2.757 ms[39m
+[35m[39m
+2021-12-29 09:36:07:367 [35mhttp[39m: [35mDELETE /users/61cc1ce7183f5e7d0a2e3992 200 94 - 2.653 ms[39m
+[35m[39m
+2021-12-29 09:36:08:368 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$EPbgG9ounWVFfRCvvrhQh.C6YYFCYvLieW6tuxd81tBtnJpMnUgLW',[39m
+[37m    email: 'emilie.ost@gmail.com',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38efd210ff2d62093e08d"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$jlx4XfIViGztK3GwefGPdum3hwnKPNQquq6C7hzhd.GGt9SEoweTq',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    updatedAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38f17210ff2d62093e08f"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$QRY03sySD1QzF6LOLZsGZ.h8j.cytXFt30gs05sfSeCVpEW6kJJ1a',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    updatedAt: 2021-12-22T20:48:23.570Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc1ca96f44974fe64e897d"),[39m
+[37m    username: '123123',[39m
+[37m    password: '$2b$10$/fdOFGDMSyOMBG/8IHi6KeAz9KykchGxmy43NiJG6/8//2x54RA9C',[39m
+[37m    email: '214123',[39m
+[37m    createdAt: 2021-12-29T08:30:33.349Z,[39m
+[37m    updatedAt: 2021-12-29T08:30:33.349Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-29 09:36:08:368 [35mhttp[39m: [35mGET /users 200 1187 - 4.078 ms[39m
+[35m[39m
+2021-12-29 09:36:12:3612 [35mhttp[39m: [35mDELETE /users/61cc1ca96f44974fe64e897d 200 94 - 2.679 ms[39m
+[35m[39m
+2021-12-29 09:36:15:3615 [35mhttp[39m: [35mDELETE /users/61c38f17210ff2d62093e08f 200 93 - 4.257 ms[39m
+[35m[39m
+2021-12-29 09:36:18:3618 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$EPbgG9ounWVFfRCvvrhQh.C6YYFCYvLieW6tuxd81tBtnJpMnUgLW',[39m
+[37m    email: 'emilie.ost@gmail.com',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61c38efd210ff2d62093e08d"),[39m
+[37m    username: '21312',[39m
+[37m    password: '$2b$10$jlx4XfIViGztK3GwefGPdum3hwnKPNQquq6C7hzhd.GGt9SEoweTq',[39m
+[37m    email: '3413e',[39m
+[37m    createdAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    updatedAt: 2021-12-22T20:47:57.714Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-29 09:36:18:3618 [35mhttp[39m: [35mGET /users 200 725 - 3.845 ms[39m
+[35m[39m
+2021-12-29 09:36:25:3625 [35mhttp[39m: [35mDELETE /users/61c38efd210ff2d62093e08d 200 93 - 2.650 ms[39m
+[35m[39m
+2021-12-29 09:52:43:5243 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 4.676 ms[39m
+[35m[39m
+2021-12-29 09:52:49:5249 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.387 ms[39m
+[35m[39m
+2021-12-29 09:55:42:5542 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.423 ms[39m
+[35m[39m
+2021-12-29 10:04:30:430 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-29 10:04:30:430 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-29 10:04:30:430 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-29 10:04:45:445 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 4.420 ms[39m
+[35m[39m
+2021-12-29 10:09:19:919 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.666 ms[39m
+[35m[39m
+2021-12-29 10:12:09:129 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.524 ms[39m
+[35m[39m
+2021-12-29 10:23:06:236 [35mhttp[39m: [35mPOST /verifyUser 404 1406 - 0.539 ms[39m
+[35m[39m
+2021-12-29 12:07:47:747 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-29 12:07:47:747 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-29 12:07:47:747 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-29 12:23:43:2343 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2021-12-29 12:23:43:2343 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2021-12-29 12:23:43:2343 [32minfo[39m: [32mSuccessfully connected to database[39m
+2021-12-29 12:26:12:2612 [35mhttp[39m: [35mPOST /searchUser 404 1406 - 5.226 ms[39m
+[35m[39m
+2021-12-29 12:27:59:2759 [35mhttp[39m: [35mPOST /searchUser 404 1406 - 0.506 ms[39m
+[35m[39m
+2021-12-29 12:32:00:320 [37mdebug[39m: [37mundefined[39m
+2021-12-29 12:32:00:320 [35mhttp[39m: [35mName: undefined[39m
+2021-12-29 12:32:00:320 [37mdebug[39m: [37m[][39m
+2021-12-29 12:32:00:320 [35mhttp[39m: [35mGET /searchUser 404 57 - 13.074 ms[39m
+[35m[39m
+2021-12-29 12:32:35:3235 [37mdebug[39m: [37mEmilie[39m
+2021-12-29 12:32:35:3235 [35mhttp[39m: [35mName: Emilie[39m
+2021-12-29 12:32:35:3235 [37mdebug[39m: [37m[][39m
+2021-12-29 12:32:35:3235 [35mhttp[39m: [35mGET /searchUser?username=Emilie 404 54 - 3.548 ms[39m
+[35m[39m
+2021-12-29 12:33:08:338 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$EPbgG9ounWVFfRCvvrhQh.C6YYFCYvLieW6tuxd81tBtnJpMnUgLW',[39m
+[37m    email: 'emilie.ost@gmail.com',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-29 12:33:08:338 [35mhttp[39m: [35mGET /users 200 495 - 8.449 ms[39m
+[35m[39m
+2021-12-29 12:33:14:3314 [37mdebug[39m: [37memilie[39m
+2021-12-29 12:33:14:3314 [35mhttp[39m: [35mName: emilie[39m
+2021-12-29 12:33:14:3314 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$EPbgG9ounWVFfRCvvrhQh.C6YYFCYvLieW6tuxd81tBtnJpMnUgLW',[39m
+[37m    email: 'emilie.ost@gmail.com',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2021-12-29 12:33:14:3314 [35mhttp[39m: [35mGET /searchUser?username=emilie 200 247 - 5.533 ms[39m
+[35m[39m
+2021-12-29 12:34:39:3439 [35mhttp[39m: [35mPOST /searchUser 404 1406 - 0.432 ms[39m
+[35m[39m

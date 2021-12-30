@@ -23,5 +23,5 @@ export default {
     usersView,
     signupView,
     messageView,
-    logoutView
+    logoutView,
 }

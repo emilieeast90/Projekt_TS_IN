@@ -9,22 +9,14 @@ import RoutingPath from '../../routes/RoutingPathUrl'
 function SigninView() {
     const navigate = useNavigate()
 
-    const [userName, setUserName] = useState<string>('')
-    const [passWord, setPassWord] = useState<string>('')
+    const [username, setUsername] = useState<string>('')
+    const [password, setPassword] = useState<string>('')
     const {setAuthenticatedUser} = useUserContext()
-
-    const login = (apiResponse: Boolean) => {
-        if(apiResponse) {
-            setAuthenticatedUser(userName)
-            localStorage.setItem('username', userName)
-            navigate(RoutingPath.usersView)
-        }
-    }
 
     const verifyUser = () => {
         const payload: AuthenticatedUser = {
-            username: userName,
-            password: passWord
+            username: username,
+            password: password
         }
         console.log(payload)
         http.post(`/verifyUser`, payload)
@@ -32,10 +24,17 @@ function SigninView() {
                 console.log(response.data.message)
                 login(response.data.message)
             })
-            .catch ((error) => {
+            .catch((error) => {
                 console.log(error)
             })
+    }
 
+    const login = (apiResponse: boolean) => {
+        if (apiResponse) {
+            setAuthenticatedUser(username)
+            localStorage.setItem('username', username)
+            navigate(RoutingPath.homeView)
+        }
     }
 
     return (
@@ -44,17 +43,18 @@ function SigninView() {
                 <H1>Sign in</H1>
             </SectionOne>
             <SectionTwo>
+                <h1>{username}</h1>
                 <Input type="text"
-                       value={userName}
+                       value={username}
                        placeholder="Username"
-                       onChange={(event) => setUserName(event.target.value)}/>
+                       onChange={(event) => setUsername(event.target.value)}/>
                 <br/>
                 <Input type="password"
-                       value={passWord}
+                       value={password}
                        placeholder="Password"
-                       onChange={(event) => setPassWord(event.target.value)}
+                       onChange={(event) => setPassword(event.target.value)}
                 />
-                <Button onClick={() => verifyUser() }>Log In</Button>
+                <Button onClick={() => verifyUser()}>Log In</Button>
             </SectionTwo>
         </Container>
     )
