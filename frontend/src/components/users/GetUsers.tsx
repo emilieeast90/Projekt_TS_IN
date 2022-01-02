@@ -10,11 +10,11 @@ function GetUsers() {
 
     function getUsers() {
         UserService.getAllUsers()
-            .then(function (response) {
+            .then((response) => {
                 console.log(response.data)
                 setAllUsersInDatabase(response.data)
             })
-            .catch(function (error) {
+            .catch((error) => {
                 console.log(error)
             })
     }
@@ -24,7 +24,10 @@ function GetUsers() {
             <h3>Get users</h3>
 
             <Section>
-                <button onClick={getUsers}>Get users</button>
+                <Button onClick={getUsers}>Get users</Button>
+                <Button onClick={() => {
+                    setAllUsersInDatabase(initialState)
+                }}>Clear</Button>
                 <JsonToTable json={allUsersInDatabase}/>
             </Section>
         </Article>
@@ -33,13 +36,23 @@ function GetUsers() {
 
 const Article = styled.article`
   padding: 0.5em;
+  width: 100%;
+  overflow: auto;
+  border: solid 1px black;
 `
 
 const Section = styled.section`
-  border-style: solid;
-  border-width: 1px;
   padding: 0.5em;
   margin: 0.5em;
+`
+
+const Button = styled.button`
+  margin-bottom: 0.3em;
+  margin-right: 0.3em;
+  background-color: #684848;
+  border-style: none;
+  height: 2em;
+  color: #fff;
 `
 
 export default GetUsers

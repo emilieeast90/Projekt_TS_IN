@@ -33,7 +33,7 @@ function SigninView() {
         if (apiResponse) {
             setAuthenticatedUser(username)
             localStorage.setItem('username', username)
-            navigate(RoutingPath.homeView)
+            navigate(RoutingPath.profileView)
         }
     }
 

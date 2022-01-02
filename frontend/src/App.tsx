@@ -7,16 +7,17 @@ import Menu from './components/navigation/Menu'
 import Toggle from './components/navigation/Toggle'
 import FontStyle from './components/FontStyle'
 import {UserContext} from './utils/global/provider/UserProviderOrg'
+import NavigationBar from './components/navigation/NavigationBar'
 
 const App: React.FC = (): JSX.Element => {
 
     const [authenticatedUser, setAuthenticatedUser] = useState<string>('')
-    const [navToggled, setNavToggled] = useState<boolean>(true)
+    const [navToggled, setNavToggled] = useState<boolean>(false)
 
-    const handleNavToggle = () => {
+    /* const handleNavToggle = () => {
         setNavToggled(!navToggled)
-
     }
+    */
 
     const isUserAuthorized = () => {
         const username = localStorage.getItem('username')
@@ -30,56 +31,38 @@ const App: React.FC = (): JSX.Element => {
     }, [])
 
     return (
-        <UserContext.Provider value={{authenticatedUser, setAuthenticatedUser}}>
-            <Container>
+
+        <Container>
+            <UserContext.Provider value={{authenticatedUser, setAuthenticatedUser}}>
                 <FontStyle/>
-                <Navigation>
+                <RoutingPaths>
+                    <NavigationBar/>
+                </RoutingPaths>
+            </UserContext.Provider>
+        </Container>
 
-                    <Toggle handleNavToggle={handleNavToggle}/>
-                    <RoutingPaths>
-                        {navToggled ? <Menu handleNavToggle={handleNavToggle}/> : undefined}
-                    </RoutingPaths>
-
-                </Navigation>
-                <Article>
-
-                </Article>
-            </Container>
-        </UserContext.Provider>
     )
 }
 
+/*
+<Toggle handleNavToggle={handleNavToggle}/>
+<RoutingPaths>
+    {navToggled ? <Menu handleNavToggle={handleNavToggle}/> : undefined}
+</RoutingPaths>
+*/
 
 export const Container = styled.div`
   padding-top: 0;
   margin-top: 0;
   background-color: #e0cdbf;
   height: 100vh;
-  width: 100vw;
+  position: fixed;
+  width: 100%;
 `
 
 export const Navigation = styled.div`
-  background-color: #684848;
-  height: 4em;
-  position: fixed;
-  top: 0;
   width: 100vw;
   z-index: 1;
-`
-
-const ButtonClick = styled.button`
-  width: 100%;
-  height: 100vh;
-  z-index: -5;
-  background-color: rgba(0, 0, 0, 0);
-  border-style: none;
-`
-
-export const Article = styled.article`
-  background: #ffffff;
-  width: 70%;
-  height: 100%;
-  margin: auto;
 `
 
 export default App

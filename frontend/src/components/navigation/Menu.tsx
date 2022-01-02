@@ -4,8 +4,6 @@ import RoutingPath from '../../routes/RoutingPathUrl'
 import React from 'react'
 import {FaTimes} from 'react-icons/fa'
 import FontStyle from '../FontStyle'
-import {useUserContext} from '../../utils/global/provider/UserProviderOrg'
-import Profile from '../Profile'
 
 interface ButtonProps {
     handleNavToggle: () => void;

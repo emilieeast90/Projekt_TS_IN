@@ -7,7 +7,7 @@ const signinView: string = '/signIn'
 const profileView: string = '/profile'
 const settingsView: string = '/settings'
 const notFoundView: string = '/404'
-const adminView: string = '/adminView'
+const adminView: string = '/admin'
 const usersView: string = '/users'
 const logoutView: string = '/logout'
 

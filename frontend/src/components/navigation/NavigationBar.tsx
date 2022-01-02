@@ -1,191 +1,68 @@
-import React, {useRef, useState} from 'react'
 import styled from 'styled-components'
-import {Link, Outlet} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import RoutingPath from '../../routes/RoutingPathUrl'
-import {useUserContext} from '../../utils/global/provider/UserProviderOrg'
-import Profile from '../Profile'
-import {generateMedia} from 'styled-media-query'
 
-const mediaDiff = generateMedia({
-    webBrowser: '78em',
-    tablet: '60em',
-    phone: '46em'
-})
-
-export const NavigationBar = () => {
-    const {authenticatedUser} = useUserContext()
-    const dropdownRef = useRef(null)
-    const [isActive, setIsActive] = useState<boolean>(false)
-    const onClick = () => setIsActive(!isActive)
-    const isItActive = isActive ? 'active' : 'inactive'
-
-    const displayUserIfAuthenticated = () => {
-        return (authenticatedUser)
-            ? <LiRight><Profile/></LiRight>
-            : <LiRight><Link to={RoutingPath.signinView}>Sign In</Link></LiRight>
-    }
-
-    const dropdown = () => {
-        return (
-            <Dropdown>
-                <Button onClick={onClick}>menu</Button>
-                <Nav ref={dropdownRef} className={isItActive}>
-                    <span>Start</span>
-                    <ul>
-                        <LiLeft><Link to={RoutingPath.homeView}>Home</Link></LiLeft>
-                        <LiLeft><Link to={RoutingPath.signinView}>Sign In</Link></LiLeft>
-                        <LiLeft><Link to={RoutingPath.signupView}>Sign Up</Link></LiLeft>
-                        {displayUserIfAuthenticated()}
-                    </ul>
-                </Nav>
-            </Dropdown>
-        )
-    }
-
+function NavigationBar() {
     return (
         <>
-            <NavWrapper>
-                <nav>
-                    <Ul>
-                        <LiLeft><Link to={RoutingPath.homeView}>Home</Link></LiLeft>
-                        <LiLeft><Link to={RoutingPath.signinView}>Sign In</Link></LiLeft>
-                        <LiLeft><Link to={RoutingPath.signupView}>Sign Up</Link></LiLeft>
-                        {displayUserIfAuthenticated()}
-                    </Ul>
-                </nav>
-                <Outlet/>
-                {dropdown()}
-            </NavWrapper>
+            <StyledNav>
+                <Li><StyledLink to={RoutingPath.homeView}>Home</StyledLink></Li>
+                <Li><StyledLink to={RoutingPath.messageView}>Messages</StyledLink></Li>
+                <Li><StyledLink to={RoutingPath.flowView}>Flow</StyledLink></Li>
+                <Li><StyledLink to={RoutingPath.settingsView}>Settings</StyledLink></Li>
+                <Li><StyledLink to={RoutingPath.usersView}>Users</StyledLink></Li>
+            </StyledNav>
         </>
     )
 }
 
-const NavWrapper = styled.div`
-  height: 3em;
-`
-
-const Ul = styled.ul`
+const StyledNav = styled.div`
   display: block;
-  list-style-type: none;
-  overflow: hidden;
-
-  ${mediaDiff.lessThan('webBrowser')`
-    display: none;
-    font-size: 2em;
-    `}
-`
-
-const Dropdown = styled.div`
-  position: relative;
-`
-
-const Button = styled.button`
-  color: white;
-  float: left;
-  margin: 1em;
-  border: none;
+  width: 100vw;
+  text-align: center;
+  position: fixed;
+  top: 0;
   background-color: #684848;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-
-  button:hover {
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-  }
-`
-
-const Nav = styled.nav`
-  background: white;
-  border-radius: 8px;
-  position: absolute;
-  top: 6em;
-  right: 0;
-  width: 30em;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-20px);
-  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
-
-  .active {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-
+  
   ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  li {
-    border-bottom: 1px solid #dddddd;
-  }
-
-  li a {
-    text-decoration: none;
-    color: #333;
-    padding: 1.5em 2em;
-    display: block;
-  }
-
-  span {
-    font-weight: 700;
-    vertical-align: middle;
-    font-size: 1.4em;
-    margin: 0 10px;
+    margin: 0 auto;
+    text-align: center;
   }
 `
 
-const LiRight = styled.li`
-  float: right;
+const StyledLink = styled(Link)`
+  background-color: #684848;
+  color: #fff;
+  margin: 0.4em;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  font-size: clamp(1.2rem, 1vw, 2vw);
+  transition: 0.2s all ease-in-out;
+  text-align: center;
 
-  a {
-    color: white;
-    display: block;
-    text-decoration: none;
-    padding-right: 1.4em;
-  }
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 
-  a:hover {
-    color: white;
-    font-size: 1.4em;
-    transition: 1s;
-  }
-
-  a:active {
-    color: white;
-  }
-
-  a:visited {
-    color: white;
+  &:hover {
+    transition: 0.2s all ease-in-out;
+    color: #222;
   }
 `
 
-const LiLeft = styled.li`
-  float: left;
+const Li = styled.li`
+  text-align: center;
+  display: inline-block;
+  height: 3.5em;
+  padding-top: 1.5em;
+  background-color: #684848;
 
-  a {
-    color: white;
-    display: block;
-    text-decoration: none;
-    padding-left: 1.4em;
-  }
-
-  a:hover {
-    color: white;
-    font-size: 1.4em;
-    transition: 1.5s;
-  }
-
-  a:active {
-    color: white;
-  }
-
-  a:visited {
-    color: white;
+  @media screen and (max-width: 580px) {
+    li {
+      font-size: 1em;
+    }
   }
 `
+
+export default NavigationBar

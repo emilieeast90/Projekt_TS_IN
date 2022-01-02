@@ -8,8 +8,6 @@ import GetUserWithId from '../../components/users/GetUserWithId'
 function AdminView() {
     return (
         <Container>
-
-
             <Article>
                 <section>
                     <SectionOne>
@@ -31,11 +29,13 @@ function AdminView() {
 
 export const Container = styled.div`
   padding-top: 0;
-  margin-top: 0;
+  margin-top: 5em;
   background-color: #e0cdbf;
-  height: 100vh;
+  height: 100%;
+  overflow: scroll;
   width: 100vw;
   position: fixed;
+  z-index: -2;
 `
 
 export const Article = styled.article`
@@ -43,6 +43,7 @@ export const Article = styled.article`
   width: 70%;
   height: 100%;
   margin: auto;
+  overflow: scroll;
 `
 
 export const H1 = styled.h1`
@@ -53,7 +54,7 @@ export const H1 = styled.h1`
 export const SectionOne = styled.section`
   display: grid;
   grid-template-columns: repeat(1fr);
-  width: 50vw;
+  width: 40%;
   margin: auto;
 `
 
