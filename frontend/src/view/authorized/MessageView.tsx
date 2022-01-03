@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import GetAllMessages from '../../components/messages/GetAllMessages'
 import CreateMessage from '../../components/messages/CreateMessage'
+import GetMessageWithId from '../../components/messages/GetMessageWithId'
 
 function MessageView() {
 
@@ -15,6 +16,7 @@ function MessageView() {
                         <GetAllMessages/>
                     </Messages>
                     <ArticleMessage>
+                        <GetMessageWithId/>
                         <CreateMessage/>
                     </ArticleMessage>
                 </Section>

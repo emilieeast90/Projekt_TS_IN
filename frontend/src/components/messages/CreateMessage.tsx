@@ -6,8 +6,8 @@ import {JsonToTable} from 'react-json-to-table'
 
 function CreateMessage() {
     const [messages, setMessages] = useState<MessageDataObject>()
-    const [subject, setSubject] = useState<string>('')
-    const [privateMessage, setPrivateMessage] = useState<string>('')
+    const [subject, setSubject] = useState<string>('--')
+    const [privateMessage, setPrivateMessage] = useState<string>('---')
 
     const payload: Message = {
         subject: subject,

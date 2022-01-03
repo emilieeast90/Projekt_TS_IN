@@ -30,17 +30,23 @@ const Container = styled.div`
   width: 50em;
   margin: 0 auto;
 
-  table {
-
-  }
-
   tr {
     &:nth-child(odd) {
       background-color: #684848;
     }
+
     &:nth-child(even) {
       background-color: #e0cdbf;
     }
+  }
+
+  button {
+    background-color: #684848;
+    color: white;
+    width: 7em;
+    height: 2em;
+    margin: 0.3em;
+    border-style: none;
   }
 `
 

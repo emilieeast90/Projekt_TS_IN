@@ -25,10 +25,9 @@ const GetUserWithQuery = () => {
     return (
         <>
             <article>
-                <h1>Get user with Id</h1>
-                <input type="text"
+                <input type='text'
                        value={userName}
-                       placeholder="UserName"
+                       placeholder='Search User'
                        onChange={event => setUserName(event.target.value)}/>
                 <button onClick={getUserWithQuery}>Get user</button>
                 <button onClick={() => setUser(undefined)}>Clear</button>

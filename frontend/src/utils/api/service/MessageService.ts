@@ -13,8 +13,8 @@ const MessageService = {
         return http.get<MessageDataObject[]>(messageUrl)
     },
 
-    getMessageWithQuery: () => {
-        return http.get<MessageDataObject>(`${messageUrl}${searchMessage}`)
+    getMessageWithId: (id: string) => {
+        return http.get<MessageDataObject>(`${messageUrl}/${id}`)
     },
 
     updateMessage: (id: string, messagePayload: CreateMessageObject) => {
