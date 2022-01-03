@@ -10,6 +10,7 @@ const notFoundView: string = '/404'
 const adminView: string = '/admin'
 const usersView: string = '/users'
 const logoutView: string = '/logout'
+const startView: string = '/start'
 
 export default {
     wildCardView,
@@ -24,4 +25,5 @@ export default {
     signupView,
     messageView,
     logoutView,
+    startView
 }

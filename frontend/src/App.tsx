@@ -3,21 +3,22 @@ import './App.css'
 import styled from 'styled-components'
 import './utils/global/global'
 import {RoutingPaths} from './routes/RoutingPaths'
-import Menu from './components/navigation/Menu'
-import Toggle from './components/navigation/Toggle'
 import FontStyle from './components/FontStyle'
 import {UserContext} from './utils/global/provider/UserProviderOrg'
 import NavigationBar from './components/navigation/NavigationBar'
+import StartView from './view/authorized/StartView'
+import SignupView from './view/unauthorized/SignupView'
 
 const App: React.FC = (): JSX.Element => {
+    const blockAuthorized = (navigateToView: any) => {
+        return authenticatedUser ? <StartView/> : navigateToView
+    }
+
+    const blockUnauthorized = (navigateToView: any) => {
+        return !authenticatedUser ? <SignupView/> : navigateToView
+    }
 
     const [authenticatedUser, setAuthenticatedUser] = useState<string>('')
-    const [navToggled, setNavToggled] = useState<boolean>(false)
-
-    /* const handleNavToggle = () => {
-        setNavToggled(!navToggled)
-    }
-    */
 
     const isUserAuthorized = () => {
         const username = localStorage.getItem('username')
@@ -36,20 +37,13 @@ const App: React.FC = (): JSX.Element => {
             <UserContext.Provider value={{authenticatedUser, setAuthenticatedUser}}>
                 <FontStyle/>
                 <RoutingPaths>
-                    <NavigationBar/>
+                    {<NavigationBar/>}
                 </RoutingPaths>
             </UserContext.Provider>
         </Container>
 
     )
 }
-
-/*
-<Toggle handleNavToggle={handleNavToggle}/>
-<RoutingPaths>
-    {navToggled ? <Menu handleNavToggle={handleNavToggle}/> : undefined}
-</RoutingPaths>
-*/
 
 export const Container = styled.div`
   padding-top: 0;

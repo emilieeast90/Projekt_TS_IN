@@ -63,7 +63,6 @@ function SignupView() {
 }
 
 const Container = styled.div`
-  background-color: #fff;
   width: 70vw;
   margin: 5em auto;
 `
@@ -74,6 +73,7 @@ const SectionText = styled.section`
 `
 
 const Section = styled.section`
+  background-color: #fff;
   margin: 0;
   float: right;
   display: grid;
@@ -94,7 +94,6 @@ const Item = styled.div`
   grid-row: 3 / 6;
   width: 14em;
   height: 14em;
-  z-index: -1;
 `
 
 const SectionTwo = styled.section`

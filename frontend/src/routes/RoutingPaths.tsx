@@ -12,6 +12,7 @@ import LogoutView from '../view/authorized/LogoutView'
 import SettingView from '../view/authorized/SettingView'
 import AdminView from '../view/authorized/AdminView'
 import UsersView from '../view/authorized/UsersView'
+import StartView from '../view/authorized/StartView'
 import {NotFoundView} from '../view/NotFoundView'
 import {useUserContext} from '../utils/global/provider/UserProviderOrg'
 
@@ -26,7 +27,7 @@ export const RoutingPaths = (props: { children?: React.ReactChild }) => {
     }
 
     const blockAuthorized = (navigateToView: any) => {
-        return authenticatedUser ? <HomeView/> : navigateToView
+        return authenticatedUser ? <StartView/> : navigateToView
     }
 
     const blockUnauthorized = (navigateToView: any) => {
@@ -42,16 +43,17 @@ export const RoutingPaths = (props: { children?: React.ReactChild }) => {
             {props.children}
             <Routes>
                 <Route path={RoutingPath.wildCardView} element={<Navigate to={RoutingPath.notFoundView}/>}/>
-                <Route path={RoutingPath.homeView} element={<HomeView/>}/>
-                <Route path={RoutingPath.signinView} element={<SigninView/>}/>
-                <Route path={RoutingPath.signupView} element={<SignupView/>}/>
-                <Route path={RoutingPath.logoutView} element={<LogoutView/>}/>
-                <Route path={RoutingPath.messageView} element={<MessageView/>}/>
-                <Route path={RoutingPath.profileView} element={<ProfileView/>}/>
-                <Route path={RoutingPath.settingsView} element={<SettingView/>}/>
-                <Route path={RoutingPath.flowView} element={<FlowView/>}/>
-                <Route path={RoutingPath.usersView} element={<UsersView/>}/>
-                <Route path={RoutingPath.adminView} element={<AdminView/>}/>
+                <Route path={RoutingPath.homeView} element={blockAuthorized(<HomeView/>)}/>
+                <Route path={RoutingPath.signinView} element={blockAuthorized(<SigninView/>)}/>
+                <Route path={RoutingPath.signupView} element={blockAuthorized(<SignupView/>)}/>
+                <Route path={RoutingPath.logoutView} element={blockUnauthorized(<LogoutView/>)}/>
+                <Route path={RoutingPath.messageView} element={blockUnauthorized(<MessageView/>)}/>
+                <Route path={RoutingPath.profileView} element={blockUnauthorized(<ProfileView/>)}/>
+                <Route path={RoutingPath.settingsView} element={blockUnauthorized(<SettingView/>)}/>
+                <Route path={RoutingPath.flowView} element={blockUnauthorized(<FlowView/>)}/>
+                <Route path={RoutingPath.usersView} element={blockUnauthorized(<UsersView/>)}/>
+                <Route path={RoutingPath.adminView} element={blockUnauthorized(<AdminView/>)}/>
+                <Route path={RoutingPath.startView} element={blockUnauthorized(<StartView/>)}/>
                 <Route path={RoutingPath.notFoundView} element={<NotFoundView/>}/>
             </Routes>
         </BrowserRouter>

@@ -33,7 +33,7 @@ function SigninView() {
         if (apiResponse) {
             setAuthenticatedUser(username)
             localStorage.setItem('username', username)
-            navigate(RoutingPath.profileView)
+            navigate(RoutingPath.homeView)
         }
     }
 
@@ -63,6 +63,7 @@ function SigninView() {
 const Container = styled.div`
   background-color: #fff;
   width: 70vw;
+  height: 100vh;
   margin: 5em auto;
 `
 
