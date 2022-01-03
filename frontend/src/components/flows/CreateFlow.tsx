@@ -5,20 +5,10 @@ import styled from 'styled-components'
 import GetFlows from './GetFlows'
 
 function CreateFlow() {
-    function getFlowUsername() {
-        FlowService.getFlowById(username)
-            .then((response) => {
-                console.log(response.data.username)
-                setUsername(response.data.username)
-            })
-            .catch((error) => {
-                console.log(error)
-            })
-    }
 
     const [flowObject, setFlowObject] = useState<FlowDataObject>()
-    const [username, setUsername] = useState<string>('username')
-    const [userFlow, setUserFlow] = useState<string>('....')
+    const [username, setUsername] = useState<string>('')
+    const [userFlow, setUserFlow] = useState<string>('')
 
     function createFlow() {
         const payload: Flow = {
@@ -30,6 +20,7 @@ function CreateFlow() {
             .then((response) => {
                 console.log(response.data)
                 setFlowObject(response.data)
+                setUsername(response.data.username)
             })
             .catch((error) => {
                 console.log(error)
@@ -38,7 +29,7 @@ function CreateFlow() {
 
     return (
         <Container>
-            <section>
+            <Section>
                 <ArticleFlow>
                     <ItemThree/>
                     <P>What's up? Tell the world...</P>
@@ -64,7 +55,7 @@ function CreateFlow() {
                         <GetFlows/>
                     </Post>
                 </ArticleFlow>
-            </section>
+            </Section>
         </Container>
     )
 }
@@ -77,7 +68,7 @@ const Container = styled.div`
 
 const ArticleFlow = styled.article`
   width: 90%;
-  height: 100vh;
+  height: 12em;
   margin: 0 auto;
   border-style: solid;
   border-width: 1px;
@@ -116,12 +107,28 @@ const ItemThree = styled.div`
 const Post = styled.div`
   margin: 1em auto;
   color: white;
-  z-index: 99;
 
   table {
-    width: 70%;
     overflow: scroll;
     height: 100%;
+    border: solid 4px white;
+  }
+  
+  td {
+    border: solid 4px white;
+  }
+  
+  tr {
+    border: solid 6px white;
+    height: 3em;
+    &:nth-child(even) {
+      background-color: #684848;
+    }
+
+    &:nth-child(odd) {
+      background-color: #e0cdbf;
+      color: #000;
+    }
   }
 
   button {
@@ -130,7 +137,8 @@ const Post = styled.div`
     padding: 0.5em;
     color: white;
     float: right;
-    margin: 0.5em;
+    margin-top: 3em;
+    margin-bottom: 1em;
   }
 `
 
@@ -169,8 +177,9 @@ const InputOne = styled.input`
   margin-bottom: 0.2em;
 `
 
-const H1 = styled.h1`
-  text-align: center;
+const Section = styled.section`
+  height: 100vh;
+  overflow: scroll;
 `
 
 const P = styled.p`

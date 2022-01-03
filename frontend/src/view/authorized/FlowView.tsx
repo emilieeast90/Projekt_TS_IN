@@ -6,15 +6,16 @@ function FlowView() {
     return (
         <Container>
             <CreateFlow/>
+            <GetFlows/>
         </Container>
     )
 }
 
 const Container = styled.div`
   background-color: #fff;
-  height: 100vh;
   width: 70%;
   margin: 0 auto;
+  overflow: scroll;
 `
 
 export default FlowView

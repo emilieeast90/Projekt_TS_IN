@@ -8,8 +8,8 @@ const createMessage = async (req: Request, res: Response) => {
     Logger.http(req.body)
     let {subject, privateMessage}: Message = req.body
     const privateMessages = new MessageModel({
-        username: subject,
-        flow: privateMessage
+        subject: subject,
+        privateMessage: privateMessage
     })
     Logger.debug(privateMessages)
     try {

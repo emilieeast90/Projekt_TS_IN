@@ -21,35 +21,17 @@ function GetFlows() {
     }
 
     return (
-        <Container>
-            <Article>
-                <button onClick={getFlows}>Refresh</button>
+        <>
+            <button onClick={getFlows}>Refresh</button>
+            <Container>
                 <JsonToTable json={flowsDb}/>
-            </Article>
-        </Container>
+            </Container>
+        </>
     )
 }
 
-
 const Container = styled.div`
-  position: relative;
-  z-index: -2;
-  overflow: scroll;
-  height: 100%;
-  background-color: #fff;
-  width: 70%;
-  margin: 0 auto;
-`
-
-const Article = styled.article`
-  width: 90%;
-  z-index: 1;
-
-  table {
-    width: auto;
-    height: auto;
-    overflow: scroll;
-  }
+    
 `
 
 export default GetFlows

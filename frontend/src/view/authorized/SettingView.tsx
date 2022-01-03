@@ -7,6 +7,7 @@ import GetUserWithId from '../../components/users/GetUserWithId'
 import {Link} from 'react-router-dom'
 import RoutingPath from '../../routes/RoutingPathUrl'
 import styled from 'styled-components'
+import UpdateFlowById from '../../components/flows/UpdateFlowById'
 
 function SettingView() {
     return (
@@ -18,7 +19,7 @@ function SettingView() {
                 <DeleteUser/>
             </SectionTwo>
             <SectionOne>
-                <RemoveUser/>
+                <UpdateFlowById/>
                 <ul>
                     <li><Link to={RoutingPath.adminView}>Admin</Link></li>
                 </ul>
