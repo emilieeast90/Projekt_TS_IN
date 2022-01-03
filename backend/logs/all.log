@@ -9746,3 +9746,211 @@
 [37m][39m
 2022-01-03 12:41:20:4120 [35mhttp[39m: [35mGET /messages 200 894 - 10.466 ms[39m
 [35m[39m
+2022-01-03 12:53:33:5333 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-03 12:53:33:5333 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-03 12:53:33:5333 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-03 12:57:30:5730 [35mhttp[39m: [35msearchMessage[39m
+2022-01-03 12:57:30:5730 [35mhttp[39m: [35mGET /messages/searchMessage 500 190 - 7.866 ms[39m
+[35m[39m
+2022-01-03 13:00:55:055 [35mhttp[39m: [35mGET /messages61d2e04649491b532f45749e 404 1428 - 4.842 ms[39m
+[35m[39m
+2022-01-03 13:01:00:10 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2dd4e49491b532f457495"),[39m
+[37m    subject: 'subject',[39m
+[37m    privateMessage: 'hello there',[39m
+[37m    createdAt: 2022-01-03T11:26:06.856Z,[39m
+[37m    updatedAt: 2022-01-03T11:26:06.856Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e03a49491b532f45749b"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag undrar vad du gör',[39m
+[37m    createdAt: 2022-01-03T11:38:34.831Z,[39m
+[37m    updatedAt: 2022-01-03T11:38:34.831Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e04649491b532f45749e"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag undrar vad du gör',[39m
+[37m    createdAt: 2022-01-03T11:38:46.703Z,[39m
+[37m    updatedAt: 2022-01-03T11:38:46.703Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e0c3824bb94ff49eb27d"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag gör inte så mycket dudå?',[39m
+[37m    createdAt: 2022-01-03T11:40:51.317Z,[39m
+[37m    updatedAt: 2022-01-03T11:40:51.317Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e0dd824bb94ff49eb280"),[39m
+[37m    subject: 'weo',[39m
+[37m    privateMessage: 'werwer---',[39m
+[37m    createdAt: 2022-01-03T11:41:17.937Z,[39m
+[37m    updatedAt: 2022-01-03T11:41:17.937Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-03 13:01:00:10 [35mhttp[39m: [35mGET /messages 304 - - 12.638 ms[39m
+[35m[39m
+2022-01-03 13:01:39:139 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2dd4e49491b532f457495"),[39m
+[37m    subject: 'subject',[39m
+[37m    privateMessage: 'hello there',[39m
+[37m    createdAt: 2022-01-03T11:26:06.856Z,[39m
+[37m    updatedAt: 2022-01-03T11:26:06.856Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e03a49491b532f45749b"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag undrar vad du gör',[39m
+[37m    createdAt: 2022-01-03T11:38:34.831Z,[39m
+[37m    updatedAt: 2022-01-03T11:38:34.831Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e04649491b532f45749e"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag undrar vad du gör',[39m
+[37m    createdAt: 2022-01-03T11:38:46.703Z,[39m
+[37m    updatedAt: 2022-01-03T11:38:46.703Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e0c3824bb94ff49eb27d"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag gör inte så mycket dudå?',[39m
+[37m    createdAt: 2022-01-03T11:40:51.317Z,[39m
+[37m    updatedAt: 2022-01-03T11:40:51.317Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e0dd824bb94ff49eb280"),[39m
+[37m    subject: 'weo',[39m
+[37m    privateMessage: 'werwer---',[39m
+[37m    createdAt: 2022-01-03T11:41:17.937Z,[39m
+[37m    updatedAt: 2022-01-03T11:41:17.937Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-03 13:01:39:139 [35mhttp[39m: [35mGET /messages 304 - - 5.087 ms[39m
+[35m[39m
+2022-01-03 13:01:43:143 [35mhttp[39m: [35mGET /messages61d2e03a49491b532f45749b 404 1428 - 0.645 ms[39m
+[35m[39m
+2022-01-03 13:02:06:26 [35mhttp[39m: [35m61d2e03a49491b532f45749b[39m
+2022-01-03 13:02:06:26 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61d2e03a49491b532f45749b"),[39m
+[37m  subject: 'hejsan',[39m
+[37m  privateMessage: 'jag undrar vad du gör',[39m
+[37m  createdAt: 2022-01-03T11:38:34.831Z,[39m
+[37m  updatedAt: 2022-01-03T11:38:34.831Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-03 13:02:06:26 [35mhttp[39m: [35mGET /messages/61d2e03a49491b532f45749b 200 181 - 4.227 ms[39m
+[35m[39m
+2022-01-03 13:02:46:246 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2dd4e49491b532f457495"),[39m
+[37m    subject: 'subject',[39m
+[37m    privateMessage: 'hello there',[39m
+[37m    createdAt: 2022-01-03T11:26:06.856Z,[39m
+[37m    updatedAt: 2022-01-03T11:26:06.856Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e03a49491b532f45749b"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag undrar vad du gör',[39m
+[37m    createdAt: 2022-01-03T11:38:34.831Z,[39m
+[37m    updatedAt: 2022-01-03T11:38:34.831Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e04649491b532f45749e"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag undrar vad du gör',[39m
+[37m    createdAt: 2022-01-03T11:38:46.703Z,[39m
+[37m    updatedAt: 2022-01-03T11:38:46.703Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e0c3824bb94ff49eb27d"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag gör inte så mycket dudå?',[39m
+[37m    createdAt: 2022-01-03T11:40:51.317Z,[39m
+[37m    updatedAt: 2022-01-03T11:40:51.317Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e0dd824bb94ff49eb280"),[39m
+[37m    subject: 'weo',[39m
+[37m    privateMessage: 'werwer---',[39m
+[37m    createdAt: 2022-01-03T11:41:17.937Z,[39m
+[37m    updatedAt: 2022-01-03T11:41:17.937Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-03 13:02:46:246 [35mhttp[39m: [35mGET /messages/ 200 894 - 6.361 ms[39m
+[35m[39m
+2022-01-03 13:08:48:848 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2dd4e49491b532f457495"),[39m
+[37m    subject: 'subject',[39m
+[37m    privateMessage: 'hello there',[39m
+[37m    createdAt: 2022-01-03T11:26:06.856Z,[39m
+[37m    updatedAt: 2022-01-03T11:26:06.856Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e03a49491b532f45749b"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag undrar vad du gör',[39m
+[37m    createdAt: 2022-01-03T11:38:34.831Z,[39m
+[37m    updatedAt: 2022-01-03T11:38:34.831Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e04649491b532f45749e"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag undrar vad du gör',[39m
+[37m    createdAt: 2022-01-03T11:38:46.703Z,[39m
+[37m    updatedAt: 2022-01-03T11:38:46.703Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e0c3824bb94ff49eb27d"),[39m
+[37m    subject: 'hejsan',[39m
+[37m    privateMessage: 'jag gör inte så mycket dudå?',[39m
+[37m    createdAt: 2022-01-03T11:40:51.317Z,[39m
+[37m    updatedAt: 2022-01-03T11:40:51.317Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2e0dd824bb94ff49eb280"),[39m
+[37m    subject: 'weo',[39m
+[37m    privateMessage: 'werwer---',[39m
+[37m    createdAt: 2022-01-03T11:41:17.937Z,[39m
+[37m    updatedAt: 2022-01-03T11:41:17.937Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-03 13:08:48:848 [35mhttp[39m: [35mGET /messages 304 - - 4.489 ms[39m
+[35m[39m
+2022-01-03 13:09:17:917 [35mhttp[39m: [35m61d2e0c3824bb94ff49eb27d[39m
+2022-01-03 13:09:17:917 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61d2e0c3824bb94ff49eb27d"),[39m
+[37m  subject: 'hejsan',[39m
+[37m  privateMessage: 'jag gör inte så mycket dudå?',[39m
+[37m  createdAt: 2022-01-03T11:40:51.317Z,[39m
+[37m  updatedAt: 2022-01-03T11:40:51.317Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-03 13:09:17:917 [35mhttp[39m: [35mGET /messages/61d2e0c3824bb94ff49eb27d 200 190 - 4.208 ms[39m
+[35m[39m

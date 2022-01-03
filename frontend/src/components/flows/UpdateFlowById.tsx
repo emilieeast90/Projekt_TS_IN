@@ -27,19 +27,19 @@ function UpdateFlowById() {
 
     return (
         <>
-            <input type="text"
+            <input type='text'
                    value={id}
-                   placeholder="Id"
+                   placeholder='Id'
                    onChange={event => setId(event.target.value)}/>
             <br/>
-            <input type="text"
+            <input type='text'
                    value={username}
-                   placeholder="Username"
+                   placeholder='Username'
                    onChange={event => setUsername(event.target.value)}/>
             <br/>
-            <input type="text"
+            <input type='text'
                    value={post}
-                   placeholder="Post"
+                   placeholder='Post'
                    onChange={event => setPost(event.target.value)}/>
             <br/>
             <JsonToTable json={flowObject}/>
