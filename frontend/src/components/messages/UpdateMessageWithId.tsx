@@ -43,8 +43,9 @@ function UpdateMessageWithId() {
                    placeholder="Private Message"
                    onChange={event => setPrivateMessage(event.target.value)}
             />
-            <JsonToTable json={messages}/>
             <button onClick={updateMessage}>Edit</button>
+            <JsonToTable json={messages}/>
+
         </Container>
     )
 }
@@ -77,9 +78,8 @@ const Container = styled.div`
   button {
     background-color: #684848;
     color: white;
-    width: 7em;
-    height: 2em;
-    margin: 0.3em;
+    width: 6em;
+    height: 1.7em;
     border-style: none;
   }
 `

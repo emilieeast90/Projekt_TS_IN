@@ -3,6 +3,7 @@ import GetAllMessages from '../../components/messages/GetAllMessages'
 import CreateMessage from '../../components/messages/CreateMessage'
 import GetMessageWithId from '../../components/messages/GetMessageWithId'
 import UpdateMessageWithId from '../../components/messages/UpdateMessageWithId'
+import DeleteMessageWithId from '../../components/messages/DeleteMessageWithId'
 
 function MessageView() {
 
@@ -20,6 +21,7 @@ function MessageView() {
                     <ArticleMessage>
                         <GetMessageWithId/>
                         <CreateMessage/>
+                        <DeleteMessageWithId/>
                     </ArticleMessage>
                 </Section>
             </Container>
