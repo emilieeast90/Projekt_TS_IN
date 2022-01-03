@@ -27,26 +27,39 @@ function CreateMessage() {
 
     return (
         <Container>
-            <input type="text"
-                   value={subject}
-                   placeholder="Subject"
-                   onChange={event => setSubject(event.target.value)}/>
+            <JsonToTable json={messages}/>
+            <InputSubject type="text"
+                          value={subject}
+                          placeholder="Subject"
+                          onChange={event => setSubject(event.target.value)}/>
             <br/>
-            <input type="text"
-                   value={privateMessage}
-                   placeholder="Private Message"
-                   onChange={event => {
-                       setPrivateMessage(event.target.value)
-                   }}/>
+            <InputText value={privateMessage}
+                       placeholder="Private Message"
+                       onChange={event => {
+                           setPrivateMessage(event.target.value)
+                       }}/>
             <br/>
             <button onClick={createMessage}>Send</button>
-            <JsonToTable json={messages}/>
         </Container>
     )
 }
 
 const Container = styled.div`
+  background-color: #e0cdbf;
+  border: solid 1px #684848;
+  padding: 1em;
+  width: 22em;
+  margin: 0 auto;
+`
 
+const InputSubject = styled.input`
+  width: 15em;
+`
+
+const InputText = styled.textarea`
+  width: 25em;
+  height: 8em;
+  margin-top: 1em;
 `
 
 export default CreateMessage

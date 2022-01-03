@@ -3,6 +3,7 @@ import {JsonToTable} from 'react-json-to-table'
 import {FlowDataObject} from '../../utils/interfaces/FlowData'
 import {useState} from 'react'
 import styled from 'styled-components'
+import DeleteFlowById from './DeleteFlowById'
 
 function GetFlows() {
     const initialState: Array<FlowDataObject> = []
@@ -25,6 +26,7 @@ function GetFlows() {
             <button onClick={getFlows}>Refresh</button>
             <Container>
                 <JsonToTable json={flowsDb}/>
+                <DeleteFlowById/>
             </Container>
         </>
     )

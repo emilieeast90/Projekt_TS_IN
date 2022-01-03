@@ -66,8 +66,7 @@ const Li = styled.li`
 
 const Img = styled.img`
   margin-top: 3em;
-  width: 40%;
-  height: 40%;
+  width: 350px;
 `
 
 export default HomeView

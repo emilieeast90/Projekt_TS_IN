@@ -78,6 +78,11 @@ const deleteFlow = async (req: Request, res: Response) => {
     try {
         const {flowId} = req.params
         const response = await FlowModel.findByIdAndDelete(flowId)
+        if (!response) {
+            res.status(StatusCode.NOT_FOUND).send({
+                message: 'Not found'
+            })
+        }
         Logger.http(response)
         res.status(StatusCode.OK).send({
             message: `Successfully deleted flow with ID: ${flowId}`

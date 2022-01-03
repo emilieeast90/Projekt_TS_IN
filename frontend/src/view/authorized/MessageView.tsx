@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import {useState} from 'react'
+import GetAllMessages from '../../components/messages/GetAllMessages'
+import CreateMessage from '../../components/messages/CreateMessage'
 
 function MessageView() {
-    const [subject, setSubject] = useState<string>('')
-    const [message, setMessage] = useState<string>('')
+
     return (
         <>
             <Container>
@@ -12,18 +12,10 @@ function MessageView() {
                         <H1>Messages</H1>
                     </Article>
                     <Messages>
-                        <P>{subject}</P>
-                        <P>{message}</P>
+                        <GetAllMessages/>
                     </Messages>
                     <ArticleMessage>
-                        <InputSubject type="text"
-                                      value={subject}
-                                      placeholder="Subject"
-                                      onChange={(event) => setSubject(event.target.value)}/>
-                        <br/>
-                        <Textarea onChange={(event) => setMessage(event.target.value)}/>
-                        <br/>
-                        <Button>Send</Button>
+                        <CreateMessage/>
                     </ArticleMessage>
                 </Section>
             </Container>
@@ -34,11 +26,12 @@ function MessageView() {
 const Container = styled.div`
   width: 70%;
   margin: 0 auto;
-  
+  background-color: #fff;
+  height: 100vh;
 `
 
 const Section = styled.section`
-
+  margin: 0 auto;
 `
 
 const Article = styled.article`
@@ -46,38 +39,19 @@ const Article = styled.article`
 `
 
 const ArticleMessage = styled.article`
-  position: fixed;
+  position: absolute;
   bottom: 1em;
-  width: 60em;
-`
-
-const Textarea = styled.textarea`
-  width: 30em;
-  height: 6em;
-  margin: 1em;
+  width: 65em;
 `
 
 const Messages = styled.article`
-  background-color: #684848;
-  width: 20em;
+  margin: 3em 3em auto;
   text-align: center;
   color: white;
 `
 
-const P = styled.p`
-  text-align: center;
-`
-
-const InputSubject = styled.input`
-  margin: 1em;
-`
-
 const H1 = styled.h1`
   margin: 1em;
-`
-
-const Button = styled.button`
-  margin-left: 28em;
 `
 
 export default MessageView
