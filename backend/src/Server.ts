@@ -7,7 +7,7 @@ import {notFound} from './middlewares/Middleware'
 import MessageRoutes from './routes/MessageRoutes'
 import FlowRoutes from './routes/FlowRoutes'
 
-const app = express()
+export const app = express()
 
 ApplyMiddlewares(app)
 

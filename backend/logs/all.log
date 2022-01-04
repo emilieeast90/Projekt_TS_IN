@@ -10179,3 +10179,2675 @@
 2022-01-03 14:32:14:3214 [37mdebug[39m: [37mtrue[39m
 2022-01-03 14:32:14:3214 [35mhttp[39m: [35mPOST /verifyUser 200 113 - 64.441 ms[39m
 [35m[39m
+2022-01-03 14:37:52:3752 [37mdebug[39m: [37m[][39m
+2022-01-03 14:37:52:3752 [35mhttp[39m: [35mGET /flow 304 - - 3.833 ms[39m
+[35m[39m
+2022-01-03 14:38:06:386 [37mdebug[39m: [37m[][39m
+2022-01-03 14:38:06:386 [35mhttp[39m: [35mGET /flow 304 - - 3.376 ms[39m
+[35m[39m
+2022-01-03 14:39:13:3913 [37mdebug[39m: [37m[][39m
+2022-01-03 14:39:13:3913 [35mhttp[39m: [35mGET /flow 304 - - 2.723 ms[39m
+[35m[39m
+2022-01-03 14:39:28:3928 [37mdebug[39m: [37m[][39m
+2022-01-03 14:39:28:3928 [35mhttp[39m: [35mGET /flow 304 - - 2.668 ms[39m
+[35m[39m
+2022-01-03 14:39:28:3928 [37mdebug[39m: [37m[][39m
+2022-01-03 14:39:28:3928 [35mhttp[39m: [35mGET /flow 304 - - 2.980 ms[39m
+[35m[39m
+2022-01-03 14:39:28:3928 [37mdebug[39m: [37m[][39m
+2022-01-03 14:39:28:3928 [35mhttp[39m: [35mGET /flow 304 - - 4.511 ms[39m
+[35m[39m
+2022-01-03 14:39:29:3929 [37mdebug[39m: [37m[][39m
+2022-01-03 14:39:29:3929 [35mhttp[39m: [35mGET /flow 304 - - 2.762 ms[39m
+[35m[39m
+2022-01-03 14:39:55:3955 [37mdebug[39m: [37m[][39m
+2022-01-03 14:39:55:3955 [35mhttp[39m: [35mGET /flow 304 - - 2.416 ms[39m
+[35m[39m
+2022-01-03 14:39:56:3956 [35mhttp[39m: [35mDELETE /flow/ 404 1401 - 1.755 ms[39m
+[35m[39m
+2022-01-03 14:39:57:3957 [37mdebug[39m: [37m[][39m
+2022-01-03 14:39:57:3957 [35mhttp[39m: [35mGET /flow 304 - - 2.248 ms[39m
+[35m[39m
+2022-01-03 14:39:57:3957 [37mdebug[39m: [37m[][39m
+2022-01-03 14:39:57:3957 [35mhttp[39m: [35mGET /flow 304 - - 2.322 ms[39m
+[35m[39m
+2022-01-03 14:39:57:3957 [37mdebug[39m: [37m[][39m
+2022-01-03 14:39:57:3957 [35mhttp[39m: [35mGET /flow 304 - - 2.313 ms[39m
+[35m[39m
+2022-01-03 14:40:05:405 [37mdebug[39m: [37m[][39m
+2022-01-03 14:40:05:405 [35mhttp[39m: [35mGET /flow 304 - - 2.649 ms[39m
+[35m[39m
+2022-01-03 14:41:03:413 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$8WmHbnJh3YrDzu4Y3TLKaONeyJzwAOX2rF5GjHKcKoHUxg8Sxdj42',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2022-01-02T16:01:31.382Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-03 14:41:03:413 [35mhttp[39m: [35mGET /users 200 1218 - 10.192 ms[39m
+[35m[39m
+2022-01-03 14:41:22:4122 [35mhttp[39m: [35mID: searchUser[39m
+2022-01-03 14:41:22:4122 [35mhttp[39m: [35mGET /users/searchUser 500 178 - 1.171 ms[39m
+[35m[39m
+2022-01-03 14:41:56:4156 [35mhttp[39m: [35mID: 61cc4903a51fbf9d40f77d2c[39m
+2022-01-03 14:41:56:4156 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m  username: 'changeUserName',[39m
+[37m  password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m  email: 'changeEmail',[39m
+[37m  createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m  updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-03 14:41:56:4156 [35mhttp[39m: [35mGET /users/61cc4903a51fbf9d40f77d2c 200 244 - 4.038 ms[39m
+[35m[39m
+2022-01-04 08:28:27:2827 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 08:28:27:2827 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 08:28:27:2827 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 08:40:44:4044 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 08:40:44:4044 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 08:40:44:4044 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 08:51:26:5126 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 08:51:27:5127 [35mhttp[39m: [35mGET /v03v 404 11114 - 7.892 ms[39m
+[35m[39m
+2022-01-04 08:59:31:5931 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 08:59:31:5931 [35mhttp[39m: [35mGET /hfgllg 404 11116 - 13.210 ms[39m
+[35m[39m
+2022-01-04 08:59:31:5931 [35mhttp[39m: [35m{ username: 'hfgllg', password: 'hfgllg', email: 'hfgllg' }[39m
+2022-01-04 08:59:31:5931 [33mwarn[39m: [33mhashed password is $2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e[39m
+2022-01-04 08:59:31:5931 [37mdebug[39m: [37m{[39m
+[37m  username: 'hfgllg',[39m
+[37m  password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m  email: 'hfgllg',[39m
+[37m  _id: new ObjectId("61d3fe63db375966593e4b50")[39m
+[37m}[39m
+2022-01-04 08:59:31:5931 [37mdebug[39m: [37m{[39m
+[37m  username: 'hfgllg',[39m
+[37m  password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m  email: 'hfgllg',[39m
+[37m  _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m  createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m  updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 08:59:31:5931 [35mhttp[39m: [35mPOST /users 201 30 - 142.144 ms[39m
+[35m[39m
+2022-01-04 09:00:55:055 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:00:55:055 [35mhttp[39m: [35mGET /h3ld6i 404 11116 - 14.105 ms[39m
+[35m[39m
+2022-01-04 09:00:55:055 [35mhttp[39m: [35m{ username: 'h3ld6i', password: 'h3ld6i', email: 'h3ld6i' }[39m
+2022-01-04 09:00:55:055 [33mwarn[39m: [33mhashed password is $2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G[39m
+2022-01-04 09:00:55:055 [37mdebug[39m: [37m{[39m
+[37m  username: 'h3ld6i',[39m
+[37m  password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m  email: 'h3ld6i',[39m
+[37m  _id: new ObjectId("61d3feb760270836c54176ee")[39m
+[37m}[39m
+2022-01-04 09:00:55:055 [37mdebug[39m: [37m{[39m
+[37m  username: 'h3ld6i',[39m
+[37m  password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m  email: 'h3ld6i',[39m
+[37m  _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m  createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m  updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:00:55:055 [35mhttp[39m: [35mPOST /users 201 30 - 128.984 ms[39m
+[35m[39m
+2022-01-04 09:01:43:143 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:01:43:143 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:01:43:143 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:01:43:143 [35mhttp[39m: [35mGET /hwahhm 404 11116 - 12.288 ms[39m
+[35m[39m
+2022-01-04 09:01:43:143 [35mhttp[39m: [35m{ username: 'hwahhm', password: 'hwahhm', email: 'hwahhm' }[39m
+2022-01-04 09:01:43:143 [33mwarn[39m: [33mhashed password is $2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm[39m
+2022-01-04 09:01:43:143 [37mdebug[39m: [37m{[39m
+[37m  username: 'hwahhm',[39m
+[37m  password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m  email: 'hwahhm',[39m
+[37m  _id: new ObjectId("61d3fee7efe641d482bb02a2")[39m
+[37m}[39m
+2022-01-04 09:01:43:143 [37mdebug[39m: [37m{[39m
+[37m  username: 'hwahhm',[39m
+[37m  password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m  email: 'hwahhm',[39m
+[37m  _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m  createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m  updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:01:43:143 [35mhttp[39m: [35mPOST /users 201 30 - 79.376 ms[39m
+[35m[39m
+2022-01-04 09:03:00:30 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:03:00:30 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:03:00:30 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:03:00:30 [35mhttp[39m: [35mGET /47djr 404 11115 - 12.077 ms[39m
+[35m[39m
+2022-01-04 09:03:00:30 [35mhttp[39m: [35m{ username: '47djr', password: '47djr', email: '47djr' }[39m
+2022-01-04 09:03:00:30 [33mwarn[39m: [33mhashed password is $2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e[39m
+2022-01-04 09:03:00:30 [37mdebug[39m: [37m{[39m
+[37m  username: '47djr',[39m
+[37m  password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m  email: '47djr',[39m
+[37m  _id: new ObjectId("61d3ff34cbbef8308eeed4a9")[39m
+[37m}[39m
+2022-01-04 09:03:00:30 [37mdebug[39m: [37m{[39m
+[37m  username: '47djr',[39m
+[37m  password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m  email: '47djr',[39m
+[37m  _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m  createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m  updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:03:00:30 [35mhttp[39m: [35mPOST /users 201 30 - 80.262 ms[39m
+[35m[39m
+2022-01-04 09:03:36:336 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:03:36:336 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:03:36:336 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:03:36:336 [35mhttp[39m: [35mGET /oq5v5g 404 11116 - 21.626 ms[39m
+[35m[39m
+2022-01-04 09:03:36:336 [35mhttp[39m: [35m{ username: 'oq5v5g', password: 'oq5v5g', email: 'oq5v5g' }[39m
+2022-01-04 09:03:36:336 [33mwarn[39m: [33mhashed password is $2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO[39m
+2022-01-04 09:03:36:336 [37mdebug[39m: [37m{[39m
+[37m  username: 'oq5v5g',[39m
+[37m  password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m  email: 'oq5v5g',[39m
+[37m  _id: new ObjectId("61d3ff5833cc51b322e3c97b")[39m
+[37m}[39m
+2022-01-04 09:03:36:336 [37mdebug[39m: [37m{[39m
+[37m  username: 'oq5v5g',[39m
+[37m  password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m  email: 'oq5v5g',[39m
+[37m  _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m  createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m  updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:03:36:336 [35mhttp[39m: [35mPOST /users 201 30 - 136.678 ms[39m
+[35m[39m
+2022-01-04 09:05:15:515 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:05:15:515 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:05:15:515 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:05:16:516 [35mhttp[39m: [35mGET /2wktyf 404 11116 - 23.553 ms[39m
+[35m[39m
+2022-01-04 09:05:16:516 [35mhttp[39m: [35m{ username: '2wktyf', password: '2wktyf', email: '2wktyf' }[39m
+2022-01-04 09:05:16:516 [33mwarn[39m: [33mhashed password is $2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK[39m
+2022-01-04 09:05:16:516 [37mdebug[39m: [37m{[39m
+[37m  username: '2wktyf',[39m
+[37m  password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m  email: '2wktyf',[39m
+[37m  _id: new ObjectId("61d3ffbcbc64523af81bab4e")[39m
+[37m}[39m
+2022-01-04 09:05:16:516 [37mdebug[39m: [37m{[39m
+[37m  username: '2wktyf',[39m
+[37m  password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m  email: '2wktyf',[39m
+[37m  _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m  createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m  updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:05:16:516 [35mhttp[39m: [35mPOST /users 201 30 - 136.919 ms[39m
+[35m[39m
+2022-01-04 09:07:40:740 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:07:40:740 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:07:40:740 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:07:40:740 [35mhttp[39m: [35mGET /swjtjv2 404 11117 - 13.036 ms[39m
+[35m[39m
+2022-01-04 09:07:41:741 [35mhttp[39m: [35m{ username: 'swjtjv2', password: 'swjtjv2', email: 'swjtjv2' }[39m
+2022-01-04 09:07:41:741 [33mwarn[39m: [33mhashed password is $2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq[39m
+2022-01-04 09:07:41:741 [37mdebug[39m: [37m{[39m
+[37m  username: 'swjtjv2',[39m
+[37m  password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m  email: 'swjtjv2',[39m
+[37m  _id: new ObjectId("61d4004d3a0db9107f293d3f")[39m
+[37m}[39m
+2022-01-04 09:07:41:741 [37mdebug[39m: [37m{[39m
+[37m  username: 'swjtjv2',[39m
+[37m  password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m  email: 'swjtjv2',[39m
+[37m  _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m  createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m  updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:07:41:741 [35mhttp[39m: [35mPOST /users 201 30 - 79.157 ms[39m
+[35m[39m
+2022-01-04 09:08:11:811 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:08:11:811 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:08:12:812 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:08:12:812 [35mhttp[39m: [35mGET /sa28dl 404 11116 - 11.775 ms[39m
+[35m[39m
+2022-01-04 09:08:12:812 [35mhttp[39m: [35m{ username: 'sa28dl', password: 'sa28dl', email: 'sa28dl' }[39m
+2022-01-04 09:08:12:812 [33mwarn[39m: [33mhashed password is $2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K[39m
+2022-01-04 09:08:12:812 [37mdebug[39m: [37m{[39m
+[37m  username: 'sa28dl',[39m
+[37m  password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m  email: 'sa28dl',[39m
+[37m  _id: new ObjectId("61d4006c184bd07750c25506")[39m
+[37m}[39m
+2022-01-04 09:08:12:812 [37mdebug[39m: [37m{[39m
+[37m  username: 'sa28dl',[39m
+[37m  password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m  email: 'sa28dl',[39m
+[37m  _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m  createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m  updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:08:12:812 [35mhttp[39m: [35mPOST /users 201 30 - 83.664 ms[39m
+[35m[39m
+2022-01-04 09:13:36:1336 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:13:36:1336 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:13:36:1336 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:13:36:1336 [35mhttp[39m: [35mGET /3g8us 404 11115 - 20.535 ms[39m
+[35m[39m
+2022-01-04 09:13:36:1336 [35mhttp[39m: [35m{ username: '3g8us', password: '3g8us', email: '3g8us' }[39m
+2022-01-04 09:13:36:1336 [33mwarn[39m: [33mhashed password is $2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW[39m
+2022-01-04 09:13:36:1336 [37mdebug[39m: [37m{[39m
+[37m  username: '3g8us',[39m
+[37m  password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m  email: '3g8us',[39m
+[37m  _id: new ObjectId("61d401b0510541605dba9ef2")[39m
+[37m}[39m
+2022-01-04 09:13:36:1336 [37mdebug[39m: [37m{[39m
+[37m  username: '3g8us',[39m
+[37m  password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m  email: '3g8us',[39m
+[37m  _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m  createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m  updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:13:36:1336 [35mhttp[39m: [35mPOST /users 201 30 - 137.087 ms[39m
+[35m[39m
+2022-01-04 09:19:05:195 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:19:05:195 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:19:05:195 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:19:05:195 [35mhttp[39m: [35mGET /h9pp2e 404 11116 - 12.843 ms[39m
+[35m[39m
+2022-01-04 09:19:05:195 [35mhttp[39m: [35m{ username: 'h9pp2e', password: 'h9pp2e', email: 'h9pp2e' }[39m
+2022-01-04 09:19:05:195 [33mwarn[39m: [33mhashed password is $2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu[39m
+2022-01-04 09:19:05:195 [37mdebug[39m: [37m{[39m
+[37m  username: 'h9pp2e',[39m
+[37m  password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m  email: 'h9pp2e',[39m
+[37m  _id: new ObjectId("61d402f9149eaaccd2f0e1c5")[39m
+[37m}[39m
+2022-01-04 09:19:05:195 [37mdebug[39m: [37m{[39m
+[37m  username: 'h9pp2e',[39m
+[37m  password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m  email: 'h9pp2e',[39m
+[37m  _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m  createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m  updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:19:05:195 [35mhttp[39m: [35mPOST /users 201 30 - 82.059 ms[39m
+[35m[39m
+2022-01-04 09:19:05:195 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$8WmHbnJh3YrDzu4Y3TLKaONeyJzwAOX2rF5GjHKcKoHUxg8Sxdj42',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2022-01-02T16:01:31.382Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m    username: 'hfgllg',[39m
+[37m    password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m    email: 'hfgllg',[39m
+[37m    createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m    username: 'h3ld6i',[39m
+[37m    password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m    email: 'h3ld6i',[39m
+[37m    createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m    username: 'hwahhm',[39m
+[37m    password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m    email: 'hwahhm',[39m
+[37m    createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m    username: '47djr',[39m
+[37m    password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m    email: '47djr',[39m
+[37m    createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m    username: 'oq5v5g',[39m
+[37m    password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m    email: 'oq5v5g',[39m
+[37m    createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m    username: '2wktyf',[39m
+[37m    password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m    email: '2wktyf',[39m
+[37m    createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m    username: 'swjtjv2',[39m
+[37m    password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m    email: 'swjtjv2',[39m
+[37m    createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m    username: 'sa28dl',[39m
+[37m    password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m    email: 'sa28dl',[39m
+[37m    createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m    username: '3g8us',[39m
+[37m    password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m    email: '3g8us',[39m
+[37m    createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m    username: 'h9pp2e',[39m
+[37m    password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m    email: 'h9pp2e',[39m
+[37m    createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 09:19:05:195 [35mhttp[39m: [35mGET /users 200 3536 - 21.092 ms[39m
+[35m[39m
+2022-01-04 09:26:06:266 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:26:06:266 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:26:06:266 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:26:06:266 [35mhttp[39m: [35mGET /hyxwvf 404 11116 - 12.278 ms[39m
+[35m[39m
+2022-01-04 09:26:06:266 [35mhttp[39m: [35m{ username: 'hyxwvf', password: 'hyxwvf', email: 'hyxwvf' }[39m
+2022-01-04 09:26:06:266 [33mwarn[39m: [33mhashed password is $2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta[39m
+2022-01-04 09:26:06:266 [37mdebug[39m: [37m{[39m
+[37m  username: 'hyxwvf',[39m
+[37m  password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m  email: 'hyxwvf',[39m
+[37m  _id: new ObjectId("61d4049e4dc8a635e08170ed")[39m
+[37m}[39m
+2022-01-04 09:26:06:266 [37mdebug[39m: [37m{[39m
+[37m  username: 'hyxwvf',[39m
+[37m  password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m  email: 'hyxwvf',[39m
+[37m  _id: new ObjectId("61d4049e4dc8a635e08170ed"),[39m
+[37m  createdAt: 2022-01-04T08:26:06.944Z,[39m
+[37m  updatedAt: 2022-01-04T08:26:06.944Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:26:06:266 [35mhttp[39m: [35mPOST /users 201 30 - 79.111 ms[39m
+[35m[39m
+2022-01-04 09:26:06:266 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$8WmHbnJh3YrDzu4Y3TLKaONeyJzwAOX2rF5GjHKcKoHUxg8Sxdj42',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2022-01-02T16:01:31.382Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m    username: 'hfgllg',[39m
+[37m    password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m    email: 'hfgllg',[39m
+[37m    createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m    username: 'h3ld6i',[39m
+[37m    password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m    email: 'h3ld6i',[39m
+[37m    createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m    username: 'hwahhm',[39m
+[37m    password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m    email: 'hwahhm',[39m
+[37m    createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m    username: '47djr',[39m
+[37m    password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m    email: '47djr',[39m
+[37m    createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m    username: 'oq5v5g',[39m
+[37m    password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m    email: 'oq5v5g',[39m
+[37m    createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m    username: '2wktyf',[39m
+[37m    password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m    email: '2wktyf',[39m
+[37m    createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m    username: 'swjtjv2',[39m
+[37m    password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m    email: 'swjtjv2',[39m
+[37m    createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m    username: 'sa28dl',[39m
+[37m    password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m    email: 'sa28dl',[39m
+[37m    createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m    username: '3g8us',[39m
+[37m    password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m    email: '3g8us',[39m
+[37m    createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m    username: 'h9pp2e',[39m
+[37m    password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m    email: 'h9pp2e',[39m
+[37m    createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4049e4dc8a635e08170ed"),[39m
+[37m    username: 'hyxwvf',[39m
+[37m    password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m    email: 'hyxwvf',[39m
+[37m    createdAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    updatedAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 09:26:06:266 [35mhttp[39m: [35mGET /users 200 3768 - 15.224 ms[39m
+[35m[39m
+2022-01-04 09:26:07:267 [35mhttp[39m: [35mID: undefined[39m
+2022-01-04 09:26:07:267 [35mhttp[39m: [35mBody is: [object Object][39m
+2022-01-04 09:26:07:267 [35mhttp[39m: [35mPUT /users/undefined 500 174 - 65.501 ms[39m
+[35m[39m
+2022-01-04 09:27:08:278 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:27:08:278 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:27:08:278 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:27:08:278 [35mhttp[39m: [35mGET /x6bn6c 404 11116 - 20.957 ms[39m
+[35m[39m
+2022-01-04 09:27:08:278 [35mhttp[39m: [35m{ username: 'x6bn6c', password: 'x6bn6c', email: 'x6bn6c' }[39m
+2022-01-04 09:27:09:279 [33mwarn[39m: [33mhashed password is $2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC[39m
+2022-01-04 09:27:09:279 [37mdebug[39m: [37m{[39m
+[37m  username: 'x6bn6c',[39m
+[37m  password: '$2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC',[39m
+[37m  email: 'x6bn6c',[39m
+[37m  _id: new ObjectId("61d404dd769ebee2f402654e")[39m
+[37m}[39m
+2022-01-04 09:27:09:279 [37mdebug[39m: [37m{[39m
+[37m  username: 'x6bn6c',[39m
+[37m  password: '$2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC',[39m
+[37m  email: 'x6bn6c',[39m
+[37m  _id: new ObjectId("61d404dd769ebee2f402654e"),[39m
+[37m  createdAt: 2022-01-04T08:27:09.043Z,[39m
+[37m  updatedAt: 2022-01-04T08:27:09.043Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:27:09:279 [35mhttp[39m: [35mPOST /users 201 30 - 140.429 ms[39m
+[35m[39m
+2022-01-04 09:27:09:279 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$8WmHbnJh3YrDzu4Y3TLKaONeyJzwAOX2rF5GjHKcKoHUxg8Sxdj42',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2022-01-02T16:01:31.382Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m    username: 'hfgllg',[39m
+[37m    password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m    email: 'hfgllg',[39m
+[37m    createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m    username: 'h3ld6i',[39m
+[37m    password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m    email: 'h3ld6i',[39m
+[37m    createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m    username: 'hwahhm',[39m
+[37m    password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m    email: 'hwahhm',[39m
+[37m    createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m    username: '47djr',[39m
+[37m    password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m    email: '47djr',[39m
+[37m    createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m    username: 'oq5v5g',[39m
+[37m    password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m    email: 'oq5v5g',[39m
+[37m    createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m    username: '2wktyf',[39m
+[37m    password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m    email: '2wktyf',[39m
+[37m    createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m    username: 'swjtjv2',[39m
+[37m    password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m    email: 'swjtjv2',[39m
+[37m    createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m    username: 'sa28dl',[39m
+[37m    password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m    email: 'sa28dl',[39m
+[37m    createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m    username: '3g8us',[39m
+[37m    password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m    email: '3g8us',[39m
+[37m    createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m    username: 'h9pp2e',[39m
+[37m    password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m    email: 'h9pp2e',[39m
+[37m    createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4049e4dc8a635e08170ed"),[39m
+[37m    username: 'hyxwvf',[39m
+[37m    password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m    email: 'hyxwvf',[39m
+[37m    createdAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    updatedAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d404dd769ebee2f402654e"),[39m
+[37m    username: 'x6bn6c',[39m
+[37m    password: '$2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC',[39m
+[37m    email: 'x6bn6c',[39m
+[37m    createdAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    updatedAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 09:27:09:279 [35mhttp[39m: [35mGET /users 200 4000 - 24.420 ms[39m
+[35m[39m
+2022-01-04 09:27:09:279 [35mhttp[39m: [35mPUT /users/ 404 2984 - 2.538 ms[39m
+[35m[39m
+2022-01-04 09:28:32:2832 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:28:32:2832 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:28:32:2832 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:28:32:2832 [35mhttp[39m: [35mGET /e10zrh 404 11116 - 13.218 ms[39m
+[35m[39m
+2022-01-04 09:28:33:2833 [35mhttp[39m: [35m{ username: 'e10zrh', password: 'e10zrh', email: 'e10zrh' }[39m
+2022-01-04 09:28:33:2833 [33mwarn[39m: [33mhashed password is $2b$10$cCaG8.o5rxbuZZh62GKgSOXr6bVxgiSWhrN9J1iyuHpmYid3D3Gyi[39m
+2022-01-04 09:28:33:2833 [37mdebug[39m: [37m{[39m
+[37m  username: 'e10zrh',[39m
+[37m  password: '$2b$10$cCaG8.o5rxbuZZh62GKgSOXr6bVxgiSWhrN9J1iyuHpmYid3D3Gyi',[39m
+[37m  email: 'e10zrh',[39m
+[37m  _id: new ObjectId("61d40531900e6bdb17c179af")[39m
+[37m}[39m
+2022-01-04 09:28:33:2833 [37mdebug[39m: [37m{[39m
+[37m  username: 'e10zrh',[39m
+[37m  password: '$2b$10$cCaG8.o5rxbuZZh62GKgSOXr6bVxgiSWhrN9J1iyuHpmYid3D3Gyi',[39m
+[37m  email: 'e10zrh',[39m
+[37m  _id: new ObjectId("61d40531900e6bdb17c179af"),[39m
+[37m  createdAt: 2022-01-04T08:28:33.077Z,[39m
+[37m  updatedAt: 2022-01-04T08:28:33.077Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:28:33:2833 [35mhttp[39m: [35mPOST /users 201 30 - 79.981 ms[39m
+[35m[39m
+2022-01-04 09:28:33:2833 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$8WmHbnJh3YrDzu4Y3TLKaONeyJzwAOX2rF5GjHKcKoHUxg8Sxdj42',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2022-01-02T16:01:31.382Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m    username: 'hfgllg',[39m
+[37m    password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m    email: 'hfgllg',[39m
+[37m    createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m    username: 'h3ld6i',[39m
+[37m    password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m    email: 'h3ld6i',[39m
+[37m    createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m    username: 'hwahhm',[39m
+[37m    password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m    email: 'hwahhm',[39m
+[37m    createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m    username: '47djr',[39m
+[37m    password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m    email: '47djr',[39m
+[37m    createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m    username: 'oq5v5g',[39m
+[37m    password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m    email: 'oq5v5g',[39m
+[37m    createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m    username: '2wktyf',[39m
+[37m    password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m    email: '2wktyf',[39m
+[37m    createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m    username: 'swjtjv2',[39m
+[37m    password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m    email: 'swjtjv2',[39m
+[37m    createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m    username: 'sa28dl',[39m
+[37m    password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m    email: 'sa28dl',[39m
+[37m    createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m    username: '3g8us',[39m
+[37m    password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m    email: '3g8us',[39m
+[37m    createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m    username: 'h9pp2e',[39m
+[37m    password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m    email: 'h9pp2e',[39m
+[37m    createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4049e4dc8a635e08170ed"),[39m
+[37m    username: 'hyxwvf',[39m
+[37m    password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m    email: 'hyxwvf',[39m
+[37m    createdAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    updatedAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d404dd769ebee2f402654e"),[39m
+[37m    username: 'x6bn6c',[39m
+[37m    password: '$2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC',[39m
+[37m    email: 'x6bn6c',[39m
+[37m    createdAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    updatedAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40531900e6bdb17c179af"),[39m
+[37m    username: 'e10zrh',[39m
+[37m    password: '$2b$10$cCaG8.o5rxbuZZh62GKgSOXr6bVxgiSWhrN9J1iyuHpmYid3D3Gyi',[39m
+[37m    email: 'e10zrh',[39m
+[37m    createdAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    updatedAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 09:28:33:2833 [35mhttp[39m: [35mGET /users 200 4232 - 14.665 ms[39m
+[35m[39m
+2022-01-04 09:28:33:2833 [35mhttp[39m: [35mPUT /users/ 404 2984 - 1.407 ms[39m
+[35m[39m
+2022-01-04 09:30:07:307 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:30:07:307 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:30:07:307 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:30:08:308 [35mhttp[39m: [35mGET /7vayga 404 11116 - 12.586 ms[39m
+[35m[39m
+2022-01-04 09:30:08:308 [35mhttp[39m: [35m{ username: '7vayga', password: '7vayga', email: '7vayga' }[39m
+2022-01-04 09:30:08:308 [33mwarn[39m: [33mhashed password is $2b$10$6POw.hr9ltFJiMLoUwUwg.VUYl0QAej8JfibtxalwCy9nr.8c4tHm[39m
+2022-01-04 09:30:08:308 [37mdebug[39m: [37m{[39m
+[37m  username: '7vayga',[39m
+[37m  password: '$2b$10$6POw.hr9ltFJiMLoUwUwg.VUYl0QAej8JfibtxalwCy9nr.8c4tHm',[39m
+[37m  email: '7vayga',[39m
+[37m  _id: new ObjectId("61d40590d4de32ed483336a1")[39m
+[37m}[39m
+2022-01-04 09:30:08:308 [37mdebug[39m: [37m{[39m
+[37m  username: '7vayga',[39m
+[37m  password: '$2b$10$6POw.hr9ltFJiMLoUwUwg.VUYl0QAej8JfibtxalwCy9nr.8c4tHm',[39m
+[37m  email: '7vayga',[39m
+[37m  _id: new ObjectId("61d40590d4de32ed483336a1"),[39m
+[37m  createdAt: 2022-01-04T08:30:08.117Z,[39m
+[37m  updatedAt: 2022-01-04T08:30:08.117Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:30:08:308 [35mhttp[39m: [35mPOST /users 201 30 - 79.326 ms[39m
+[35m[39m
+2022-01-04 09:30:08:308 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$8WmHbnJh3YrDzu4Y3TLKaONeyJzwAOX2rF5GjHKcKoHUxg8Sxdj42',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2022-01-02T16:01:31.382Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m    username: 'hfgllg',[39m
+[37m    password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m    email: 'hfgllg',[39m
+[37m    createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m    username: 'h3ld6i',[39m
+[37m    password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m    email: 'h3ld6i',[39m
+[37m    createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m    username: 'hwahhm',[39m
+[37m    password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m    email: 'hwahhm',[39m
+[37m    createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m    username: '47djr',[39m
+[37m    password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m    email: '47djr',[39m
+[37m    createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m    username: 'oq5v5g',[39m
+[37m    password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m    email: 'oq5v5g',[39m
+[37m    createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m    username: '2wktyf',[39m
+[37m    password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m    email: '2wktyf',[39m
+[37m    createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m    username: 'swjtjv2',[39m
+[37m    password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m    email: 'swjtjv2',[39m
+[37m    createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m    username: 'sa28dl',[39m
+[37m    password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m    email: 'sa28dl',[39m
+[37m    createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m    username: '3g8us',[39m
+[37m    password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m    email: '3g8us',[39m
+[37m    createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m    username: 'h9pp2e',[39m
+[37m    password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m    email: 'h9pp2e',[39m
+[37m    createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4049e4dc8a635e08170ed"),[39m
+[37m    username: 'hyxwvf',[39m
+[37m    password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m    email: 'hyxwvf',[39m
+[37m    createdAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    updatedAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d404dd769ebee2f402654e"),[39m
+[37m    username: 'x6bn6c',[39m
+[37m    password: '$2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC',[39m
+[37m    email: 'x6bn6c',[39m
+[37m    createdAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    updatedAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40531900e6bdb17c179af"),[39m
+[37m    username: 'e10zrh',[39m
+[37m    password: '$2b$10$cCaG8.o5rxbuZZh62GKgSOXr6bVxgiSWhrN9J1iyuHpmYid3D3Gyi',[39m
+[37m    email: 'e10zrh',[39m
+[37m    createdAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    updatedAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40590d4de32ed483336a1"),[39m
+[37m    username: '7vayga',[39m
+[37m    password: '$2b$10$6POw.hr9ltFJiMLoUwUwg.VUYl0QAej8JfibtxalwCy9nr.8c4tHm',[39m
+[37m    email: '7vayga',[39m
+[37m    createdAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 09:30:08:308 [35mhttp[39m: [35mGET /users 200 4464 - 15.862 ms[39m
+[35m[39m
+2022-01-04 09:30:08:308 [35mhttp[39m: [35mID: :id[39m
+2022-01-04 09:30:08:308 [35mhttp[39m: [35mBody is: [object Object][39m
+2022-01-04 09:30:08:308 [35mhttp[39m: [35mPUT /users/:id 500 162 - 65.479 ms[39m
+[35m[39m
+2022-01-04 09:30:35:3035 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:30:35:3035 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:30:35:3035 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:30:35:3035 [35mhttp[39m: [35mGET /nrp31s 404 11116 - 19.339 ms[39m
+[35m[39m
+2022-01-04 09:30:35:3035 [35mhttp[39m: [35m{ username: 'nrp31s', password: 'nrp31s', email: 'nrp31s' }[39m
+2022-01-04 09:30:35:3035 [33mwarn[39m: [33mhashed password is $2b$10$YJsleEyvb5hVH98rRC6kxujViMMQ2sYmoA8hrVWUJrslReXM.Jche[39m
+2022-01-04 09:30:35:3035 [37mdebug[39m: [37m{[39m
+[37m  username: 'nrp31s',[39m
+[37m  password: '$2b$10$YJsleEyvb5hVH98rRC6kxujViMMQ2sYmoA8hrVWUJrslReXM.Jche',[39m
+[37m  email: 'nrp31s',[39m
+[37m  _id: new ObjectId("61d405abca7aee4027db9bb1")[39m
+[37m}[39m
+2022-01-04 09:30:35:3035 [37mdebug[39m: [37m{[39m
+[37m  username: 'nrp31s',[39m
+[37m  password: '$2b$10$YJsleEyvb5hVH98rRC6kxujViMMQ2sYmoA8hrVWUJrslReXM.Jche',[39m
+[37m  email: 'nrp31s',[39m
+[37m  _id: new ObjectId("61d405abca7aee4027db9bb1"),[39m
+[37m  createdAt: 2022-01-04T08:30:35.646Z,[39m
+[37m  updatedAt: 2022-01-04T08:30:35.646Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:30:35:3035 [35mhttp[39m: [35mPOST /users 201 30 - 79.617 ms[39m
+[35m[39m
+2022-01-04 09:30:35:3035 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$8WmHbnJh3YrDzu4Y3TLKaONeyJzwAOX2rF5GjHKcKoHUxg8Sxdj42',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2022-01-02T16:01:31.382Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m    username: 'hfgllg',[39m
+[37m    password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m    email: 'hfgllg',[39m
+[37m    createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m    username: 'h3ld6i',[39m
+[37m    password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m    email: 'h3ld6i',[39m
+[37m    createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m    username: 'hwahhm',[39m
+[37m    password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m    email: 'hwahhm',[39m
+[37m    createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m    username: '47djr',[39m
+[37m    password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m    email: '47djr',[39m
+[37m    createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m    username: 'oq5v5g',[39m
+[37m    password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m    email: 'oq5v5g',[39m
+[37m    createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m    username: '2wktyf',[39m
+[37m    password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m    email: '2wktyf',[39m
+[37m    createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m    username: 'swjtjv2',[39m
+[37m    password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m    email: 'swjtjv2',[39m
+[37m    createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m    username: 'sa28dl',[39m
+[37m    password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m    email: 'sa28dl',[39m
+[37m    createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m    username: '3g8us',[39m
+[37m    password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m    email: '3g8us',[39m
+[37m    createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m    username: 'h9pp2e',[39m
+[37m    password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m    email: 'h9pp2e',[39m
+[37m    createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4049e4dc8a635e08170ed"),[39m
+[37m    username: 'hyxwvf',[39m
+[37m    password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m    email: 'hyxwvf',[39m
+[37m    createdAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    updatedAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d404dd769ebee2f402654e"),[39m
+[37m    username: 'x6bn6c',[39m
+[37m    password: '$2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC',[39m
+[37m    email: 'x6bn6c',[39m
+[37m    createdAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    updatedAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40531900e6bdb17c179af"),[39m
+[37m    username: 'e10zrh',[39m
+[37m    password: '$2b$10$cCaG8.o5rxbuZZh62GKgSOXr6bVxgiSWhrN9J1iyuHpmYid3D3Gyi',[39m
+[37m    email: 'e10zrh',[39m
+[37m    createdAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    updatedAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40590d4de32ed483336a1"),[39m
+[37m    username: '7vayga',[39m
+[37m    password: '$2b$10$6POw.hr9ltFJiMLoUwUwg.VUYl0QAej8JfibtxalwCy9nr.8c4tHm',[39m
+[37m    email: '7vayga',[39m
+[37m    createdAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d405abca7aee4027db9bb1"),[39m
+[37m    username: 'nrp31s',[39m
+[37m    password: '$2b$10$YJsleEyvb5hVH98rRC6kxujViMMQ2sYmoA8hrVWUJrslReXM.Jche',[39m
+[37m    email: 'nrp31s',[39m
+[37m    createdAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 09:30:35:3035 [35mhttp[39m: [35mGET /users 200 4696 - 15.209 ms[39m
+[35m[39m
+2022-01-04 09:30:35:3035 [35mhttp[39m: [35mID: :_id[39m
+2022-01-04 09:30:35:3035 [35mhttp[39m: [35mBody is: [object Object][39m
+2022-01-04 09:30:35:3035 [35mhttp[39m: [35mPUT /users/:_id 500 164 - 64.067 ms[39m
+[35m[39m
+2022-01-04 09:32:36:3236 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:32:36:3236 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:32:36:3236 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:32:36:3236 [35mhttp[39m: [35mGET /lo9qom 404 11116 - 12.574 ms[39m
+[35m[39m
+2022-01-04 09:32:36:3236 [35mhttp[39m: [35m{ username: 'lo9qom', password: 'lo9qom', email: 'lo9qom' }[39m
+2022-01-04 09:32:36:3236 [33mwarn[39m: [33mhashed password is $2b$10$peGht3du3kJyU4wfWyfcXuMRskxzvEMxU21Q6w.AVRTcvDlFjJygq[39m
+2022-01-04 09:32:36:3236 [37mdebug[39m: [37m{[39m
+[37m  username: 'lo9qom',[39m
+[37m  password: '$2b$10$peGht3du3kJyU4wfWyfcXuMRskxzvEMxU21Q6w.AVRTcvDlFjJygq',[39m
+[37m  email: 'lo9qom',[39m
+[37m  _id: new ObjectId("61d406243420849d56df34fc")[39m
+[37m}[39m
+2022-01-04 09:32:36:3236 [37mdebug[39m: [37m{[39m
+[37m  username: 'lo9qom',[39m
+[37m  password: '$2b$10$peGht3du3kJyU4wfWyfcXuMRskxzvEMxU21Q6w.AVRTcvDlFjJygq',[39m
+[37m  email: 'lo9qom',[39m
+[37m  _id: new ObjectId("61d406243420849d56df34fc"),[39m
+[37m  createdAt: 2022-01-04T08:32:36.226Z,[39m
+[37m  updatedAt: 2022-01-04T08:32:36.226Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:32:36:3236 [35mhttp[39m: [35mPOST /users 201 30 - 79.182 ms[39m
+[35m[39m
+2022-01-04 09:32:36:3236 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$8WmHbnJh3YrDzu4Y3TLKaONeyJzwAOX2rF5GjHKcKoHUxg8Sxdj42',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2022-01-02T16:01:31.382Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m    username: 'hfgllg',[39m
+[37m    password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m    email: 'hfgllg',[39m
+[37m    createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m    username: 'h3ld6i',[39m
+[37m    password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m    email: 'h3ld6i',[39m
+[37m    createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m    username: 'hwahhm',[39m
+[37m    password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m    email: 'hwahhm',[39m
+[37m    createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m    username: '47djr',[39m
+[37m    password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m    email: '47djr',[39m
+[37m    createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m    username: 'oq5v5g',[39m
+[37m    password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m    email: 'oq5v5g',[39m
+[37m    createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m    username: '2wktyf',[39m
+[37m    password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m    email: '2wktyf',[39m
+[37m    createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m    username: 'swjtjv2',[39m
+[37m    password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m    email: 'swjtjv2',[39m
+[37m    createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m    username: 'sa28dl',[39m
+[37m    password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m    email: 'sa28dl',[39m
+[37m    createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m    username: '3g8us',[39m
+[37m    password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m    email: '3g8us',[39m
+[37m    createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m    username: 'h9pp2e',[39m
+[37m    password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m    email: 'h9pp2e',[39m
+[37m    createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4049e4dc8a635e08170ed"),[39m
+[37m    username: 'hyxwvf',[39m
+[37m    password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m    email: 'hyxwvf',[39m
+[37m    createdAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    updatedAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d404dd769ebee2f402654e"),[39m
+[37m    username: 'x6bn6c',[39m
+[37m    password: '$2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC',[39m
+[37m    email: 'x6bn6c',[39m
+[37m    createdAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    updatedAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40531900e6bdb17c179af"),[39m
+[37m    username: 'e10zrh',[39m
+[37m    password: '$2b$10$cCaG8.o5rxbuZZh62GKgSOXr6bVxgiSWhrN9J1iyuHpmYid3D3Gyi',[39m
+[37m    email: 'e10zrh',[39m
+[37m    createdAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    updatedAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40590d4de32ed483336a1"),[39m
+[37m    username: '7vayga',[39m
+[37m    password: '$2b$10$6POw.hr9ltFJiMLoUwUwg.VUYl0QAej8JfibtxalwCy9nr.8c4tHm',[39m
+[37m    email: '7vayga',[39m
+[37m    createdAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d405abca7aee4027db9bb1"),[39m
+[37m    username: 'nrp31s',[39m
+[37m    password: '$2b$10$YJsleEyvb5hVH98rRC6kxujViMMQ2sYmoA8hrVWUJrslReXM.Jche',[39m
+[37m    email: 'nrp31s',[39m
+[37m    createdAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d406243420849d56df34fc"),[39m
+[37m    username: 'lo9qom',[39m
+[37m    password: '$2b$10$peGht3du3kJyU4wfWyfcXuMRskxzvEMxU21Q6w.AVRTcvDlFjJygq',[39m
+[37m    email: 'lo9qom',[39m
+[37m    createdAt: 2022-01-04T08:32:36.226Z,[39m
+[37m    updatedAt: 2022-01-04T08:32:36.226Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 09:32:36:3236 [35mhttp[39m: [35mGET /users 200 4928 - 15.632 ms[39m
+[35m[39m
+2022-01-04 09:32:36:3236 [35mhttp[39m: [35mID: 61b506483467d78e26eba9bd[39m
+2022-01-04 09:32:36:3236 [35mhttp[39m: [35mBody is: [object Object][39m
+2022-01-04 09:32:36:3236 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m  username: 'lo9qom',[39m
+[37m  password: '$2b$10$WuXatEyHF3j5W.EzfXE.0OOMuvlJWnC64KrA/Ye6B49/1uvZ9Py0O',[39m
+[37m  email: 'lo9qom',[39m
+[37m  createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m  updatedAt: 2022-01-04T08:32:36.324Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:32:36:3236 [35mhttp[39m: [35mPUT /users/61b506483467d78e26eba9bd 200 231 - 74.997 ms[39m
+[35m[39m
+2022-01-04 09:37:47:3747 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:37:47:3747 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:37:47:3747 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:37:47:3747 [35mhttp[39m: [35mGET /h94n0r 404 11116 - 12.508 ms[39m
+[35m[39m
+2022-01-04 09:37:47:3747 [35mhttp[39m: [35m{ username: 'h94n0r', password: 'h94n0r', email: 'h94n0r' }[39m
+2022-01-04 09:37:47:3747 [33mwarn[39m: [33mhashed password is $2b$10$u6PQrk7RJ91inmfqkEaIH.CWcf5u1ydUywdJvzYSko7hH3//uQHh.[39m
+2022-01-04 09:37:47:3747 [37mdebug[39m: [37m{[39m
+[37m  username: 'h94n0r',[39m
+[37m  password: '$2b$10$u6PQrk7RJ91inmfqkEaIH.CWcf5u1ydUywdJvzYSko7hH3//uQHh.',[39m
+[37m  email: 'h94n0r',[39m
+[37m  _id: new ObjectId("61d4075bee1e2bd00fc3a591")[39m
+[37m}[39m
+2022-01-04 09:37:47:3747 [37mdebug[39m: [37m{[39m
+[37m  username: 'h94n0r',[39m
+[37m  password: '$2b$10$u6PQrk7RJ91inmfqkEaIH.CWcf5u1ydUywdJvzYSko7hH3//uQHh.',[39m
+[37m  email: 'h94n0r',[39m
+[37m  _id: new ObjectId("61d4075bee1e2bd00fc3a591"),[39m
+[37m  createdAt: 2022-01-04T08:37:47.279Z,[39m
+[37m  updatedAt: 2022-01-04T08:37:47.279Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:37:47:3747 [35mhttp[39m: [35mPOST /users 201 30 - 81.502 ms[39m
+[35m[39m
+2022-01-04 09:37:47:3747 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'lo9qom',[39m
+[37m    password: '$2b$10$WuXatEyHF3j5W.EzfXE.0OOMuvlJWnC64KrA/Ye6B49/1uvZ9Py0O',[39m
+[37m    email: 'lo9qom',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2022-01-04T08:32:36.324Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m    username: 'hfgllg',[39m
+[37m    password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m    email: 'hfgllg',[39m
+[37m    createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m    username: 'h3ld6i',[39m
+[37m    password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m    email: 'h3ld6i',[39m
+[37m    createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m    username: 'hwahhm',[39m
+[37m    password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m    email: 'hwahhm',[39m
+[37m    createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m    username: '47djr',[39m
+[37m    password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m    email: '47djr',[39m
+[37m    createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m    username: 'oq5v5g',[39m
+[37m    password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m    email: 'oq5v5g',[39m
+[37m    createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m    username: '2wktyf',[39m
+[37m    password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m    email: '2wktyf',[39m
+[37m    createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m    username: 'swjtjv2',[39m
+[37m    password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m    email: 'swjtjv2',[39m
+[37m    createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m    username: 'sa28dl',[39m
+[37m    password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m    email: 'sa28dl',[39m
+[37m    createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m    username: '3g8us',[39m
+[37m    password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m    email: '3g8us',[39m
+[37m    createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m    username: 'h9pp2e',[39m
+[37m    password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m    email: 'h9pp2e',[39m
+[37m    createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4049e4dc8a635e08170ed"),[39m
+[37m    username: 'hyxwvf',[39m
+[37m    password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m    email: 'hyxwvf',[39m
+[37m    createdAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    updatedAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d404dd769ebee2f402654e"),[39m
+[37m    username: 'x6bn6c',[39m
+[37m    password: '$2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC',[39m
+[37m    email: 'x6bn6c',[39m
+[37m    createdAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    updatedAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40531900e6bdb17c179af"),[39m
+[37m    username: 'e10zrh',[39m
+[37m    password: '$2b$10$cCaG8.o5rxbuZZh62GKgSOXr6bVxgiSWhrN9J1iyuHpmYid3D3Gyi',[39m
+[37m    email: 'e10zrh',[39m
+[37m    createdAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    updatedAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40590d4de32ed483336a1"),[39m
+[37m    username: '7vayga',[39m
+[37m    password: '$2b$10$6POw.hr9ltFJiMLoUwUwg.VUYl0QAej8JfibtxalwCy9nr.8c4tHm',[39m
+[37m    email: '7vayga',[39m
+[37m    createdAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d405abca7aee4027db9bb1"),[39m
+[37m    username: 'nrp31s',[39m
+[37m    password: '$2b$10$YJsleEyvb5hVH98rRC6kxujViMMQ2sYmoA8hrVWUJrslReXM.Jche',[39m
+[37m    email: 'nrp31s',[39m
+[37m    createdAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d406243420849d56df34fc"),[39m
+[37m    username: 'lo9qom',[39m
+[37m    password: '$2b$10$peGht3du3kJyU4wfWyfcXuMRskxzvEMxU21Q6w.AVRTcvDlFjJygq',[39m
+[37m    email: 'lo9qom',[39m
+[37m    createdAt: 2022-01-04T08:32:36.226Z,[39m
+[37m    updatedAt: 2022-01-04T08:32:36.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4075bee1e2bd00fc3a591"),[39m
+[37m    username: 'h94n0r',[39m
+[37m    password: '$2b$10$u6PQrk7RJ91inmfqkEaIH.CWcf5u1ydUywdJvzYSko7hH3//uQHh.',[39m
+[37m    email: 'h94n0r',[39m
+[37m    createdAt: 2022-01-04T08:37:47.279Z,[39m
+[37m    updatedAt: 2022-01-04T08:37:47.279Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 09:37:47:3747 [35mhttp[39m: [35mGET /users 200 5147 - 16.297 ms[39m
+[35m[39m
+2022-01-04 09:37:47:3747 [35mhttp[39m: [35mID: 61b506483467d78e26eba9bd[39m
+2022-01-04 09:37:47:3747 [35mhttp[39m: [35mBody is: [object Object][39m
+2022-01-04 09:37:47:3747 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m  username: 'h94n0r',[39m
+[37m  password: '$2b$10$6iYqdfX2WyrxZAW3LJ0QNenJqYqS4KOfcv9eVvdziCeMtfn9EFWOu',[39m
+[37m  email: 'h94n0r',[39m
+[37m  createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m  updatedAt: 2022-01-04T08:37:47.376Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:37:47:3747 [35mhttp[39m: [35mPUT /users/61b506483467d78e26eba9bd 200 231 - 72.236 ms[39m
+[35m[39m
+2022-01-04 09:47:11:4711 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:47:11:4711 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:47:11:4711 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:47:11:4711 [35mhttp[39m: [35mGET /iqktzu 404 11116 - 12.668 ms[39m
+[35m[39m
+2022-01-04 09:47:11:4711 [35mhttp[39m: [35m{ username: 'iqktzu', password: 'iqktzu', email: 'iqktzu' }[39m
+2022-01-04 09:47:11:4711 [33mwarn[39m: [33mhashed password is $2b$10$Dt81Je7HlUEAnxn02tfa1.EBN3GG7KQkimbZZb6kl7iol0yHIAPym[39m
+2022-01-04 09:47:11:4711 [37mdebug[39m: [37m{[39m
+[37m  username: 'iqktzu',[39m
+[37m  password: '$2b$10$Dt81Je7HlUEAnxn02tfa1.EBN3GG7KQkimbZZb6kl7iol0yHIAPym',[39m
+[37m  email: 'iqktzu',[39m
+[37m  _id: new ObjectId("61d4098fc224e1a9a4ea0987")[39m
+[37m}[39m
+2022-01-04 09:47:11:4711 [37mdebug[39m: [37m{[39m
+[37m  username: 'iqktzu',[39m
+[37m  password: '$2b$10$Dt81Je7HlUEAnxn02tfa1.EBN3GG7KQkimbZZb6kl7iol0yHIAPym',[39m
+[37m  email: 'iqktzu',[39m
+[37m  _id: new ObjectId("61d4098fc224e1a9a4ea0987"),[39m
+[37m  createdAt: 2022-01-04T08:47:11.678Z,[39m
+[37m  updatedAt: 2022-01-04T08:47:11.678Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:47:11:4711 [35mhttp[39m: [35mPOST /users 201 30 - 72.727 ms[39m
+[35m[39m
+2022-01-04 09:47:11:4711 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m    username: 'h94n0r',[39m
+[37m    password: '$2b$10$6iYqdfX2WyrxZAW3LJ0QNenJqYqS4KOfcv9eVvdziCeMtfn9EFWOu',[39m
+[37m    email: 'h94n0r',[39m
+[37m    createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m    updatedAt: 2022-01-04T08:37:47.376Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m    username: 'hfgllg',[39m
+[37m    password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m    email: 'hfgllg',[39m
+[37m    createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m    username: 'h3ld6i',[39m
+[37m    password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m    email: 'h3ld6i',[39m
+[37m    createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m    username: 'hwahhm',[39m
+[37m    password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m    email: 'hwahhm',[39m
+[37m    createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m    username: '47djr',[39m
+[37m    password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m    email: '47djr',[39m
+[37m    createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m    username: 'oq5v5g',[39m
+[37m    password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m    email: 'oq5v5g',[39m
+[37m    createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m    username: '2wktyf',[39m
+[37m    password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m    email: '2wktyf',[39m
+[37m    createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m    username: 'swjtjv2',[39m
+[37m    password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m    email: 'swjtjv2',[39m
+[37m    createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m    username: 'sa28dl',[39m
+[37m    password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m    email: 'sa28dl',[39m
+[37m    createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m    username: '3g8us',[39m
+[37m    password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m    email: '3g8us',[39m
+[37m    createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m    username: 'h9pp2e',[39m
+[37m    password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m    email: 'h9pp2e',[39m
+[37m    createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4049e4dc8a635e08170ed"),[39m
+[37m    username: 'hyxwvf',[39m
+[37m    password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m    email: 'hyxwvf',[39m
+[37m    createdAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    updatedAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d404dd769ebee2f402654e"),[39m
+[37m    username: 'x6bn6c',[39m
+[37m    password: '$2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC',[39m
+[37m    email: 'x6bn6c',[39m
+[37m    createdAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    updatedAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40531900e6bdb17c179af"),[39m
+[37m    username: 'e10zrh',[39m
+[37m    password: '$2b$10$cCaG8.o5rxbuZZh62GKgSOXr6bVxgiSWhrN9J1iyuHpmYid3D3Gyi',[39m
+[37m    email: 'e10zrh',[39m
+[37m    createdAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    updatedAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40590d4de32ed483336a1"),[39m
+[37m    username: '7vayga',[39m
+[37m    password: '$2b$10$6POw.hr9ltFJiMLoUwUwg.VUYl0QAej8JfibtxalwCy9nr.8c4tHm',[39m
+[37m    email: '7vayga',[39m
+[37m    createdAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d405abca7aee4027db9bb1"),[39m
+[37m    username: 'nrp31s',[39m
+[37m    password: '$2b$10$YJsleEyvb5hVH98rRC6kxujViMMQ2sYmoA8hrVWUJrslReXM.Jche',[39m
+[37m    email: 'nrp31s',[39m
+[37m    createdAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d406243420849d56df34fc"),[39m
+[37m    username: 'lo9qom',[39m
+[37m    password: '$2b$10$peGht3du3kJyU4wfWyfcXuMRskxzvEMxU21Q6w.AVRTcvDlFjJygq',[39m
+[37m    email: 'lo9qom',[39m
+[37m    createdAt: 2022-01-04T08:32:36.226Z,[39m
+[37m    updatedAt: 2022-01-04T08:32:36.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4075bee1e2bd00fc3a591"),[39m
+[37m    username: 'h94n0r',[39m
+[37m    password: '$2b$10$u6PQrk7RJ91inmfqkEaIH.CWcf5u1ydUywdJvzYSko7hH3//uQHh.',[39m
+[37m    email: 'h94n0r',[39m
+[37m    createdAt: 2022-01-04T08:37:47.279Z,[39m
+[37m    updatedAt: 2022-01-04T08:37:47.279Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4098fc224e1a9a4ea0987"),[39m
+[37m    username: 'iqktzu',[39m
+[37m    password: '$2b$10$Dt81Je7HlUEAnxn02tfa1.EBN3GG7KQkimbZZb6kl7iol0yHIAPym',[39m
+[37m    email: 'iqktzu',[39m
+[37m    createdAt: 2022-01-04T08:47:11.678Z,[39m
+[37m    updatedAt: 2022-01-04T08:47:11.678Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 09:47:11:4711 [35mhttp[39m: [35mGET /users 200 5379 - 15.069 ms[39m
+[35m[39m
+2022-01-04 09:47:11:4711 [35mhttp[39m: [35mID: 61b506483467d78e26eba9bd[39m
+2022-01-04 09:47:11:4711 [35mhttp[39m: [35mBody is: [object Object][39m
+2022-01-04 09:47:11:4711 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61b506483467d78e26eba9bd"),[39m
+[37m  username: 'iqktzu',[39m
+[37m  password: '$2b$10$NtoOcNDo8iIxcJeXSRFL..FhZxCbiKaIXniiZaSZ5bZP3YawHt2zu',[39m
+[37m  email: 'iqktzu',[39m
+[37m  createdAt: 2021-12-11T20:12:56.420Z,[39m
+[37m  updatedAt: 2022-01-04T08:47:11.767Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:47:11:4711 [35mhttp[39m: [35mPUT /users/61b506483467d78e26eba9bd 200 231 - 63.715 ms[39m
+[35m[39m
+2022-01-04 09:47:11:4711 [35mhttp[39m: [35mDELETE /users/61b506483467d78e26eba9bd 200 94 - 3.334 ms[39m
+[35m[39m
+2022-01-04 09:47:44:4744 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:47:44:4744 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:47:44:4744 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:47:44:4744 [35mhttp[39m: [35mGET /8cvcw4 404 11116 - 11.715 ms[39m
+[35m[39m
+2022-01-04 09:47:44:4744 [35mhttp[39m: [35m{ username: '8cvcw4', password: '8cvcw4', email: '8cvcw4' }[39m
+2022-01-04 09:47:44:4744 [33mwarn[39m: [33mhashed password is $2b$10$ykKomjgMPjQ/4x6Jz8j.PeHpKoS.yd1.SPrFMkhAizp8cTpHkQ.P2[39m
+2022-01-04 09:47:44:4744 [37mdebug[39m: [37m{[39m
+[37m  username: '8cvcw4',[39m
+[37m  password: '$2b$10$ykKomjgMPjQ/4x6Jz8j.PeHpKoS.yd1.SPrFMkhAizp8cTpHkQ.P2',[39m
+[37m  email: '8cvcw4',[39m
+[37m  _id: new ObjectId("61d409b0696d3823f80dbe8f")[39m
+[37m}[39m
+2022-01-04 09:47:44:4744 [37mdebug[39m: [37m{[39m
+[37m  username: '8cvcw4',[39m
+[37m  password: '$2b$10$ykKomjgMPjQ/4x6Jz8j.PeHpKoS.yd1.SPrFMkhAizp8cTpHkQ.P2',[39m
+[37m  email: '8cvcw4',[39m
+[37m  _id: new ObjectId("61d409b0696d3823f80dbe8f"),[39m
+[37m  createdAt: 2022-01-04T08:47:44.727Z,[39m
+[37m  updatedAt: 2022-01-04T08:47:44.727Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:47:44:4744 [35mhttp[39m: [35mPOST /users 201 30 - 73.765 ms[39m
+[35m[39m
+2022-01-04 09:47:44:4744 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m    username: 'hfgllg',[39m
+[37m    password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m    email: 'hfgllg',[39m
+[37m    createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m    username: 'h3ld6i',[39m
+[37m    password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m    email: 'h3ld6i',[39m
+[37m    createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m    username: 'hwahhm',[39m
+[37m    password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m    email: 'hwahhm',[39m
+[37m    createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m    username: '47djr',[39m
+[37m    password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m    email: '47djr',[39m
+[37m    createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m    username: 'oq5v5g',[39m
+[37m    password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m    email: 'oq5v5g',[39m
+[37m    createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m    username: '2wktyf',[39m
+[37m    password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m    email: '2wktyf',[39m
+[37m    createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m    username: 'swjtjv2',[39m
+[37m    password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m    email: 'swjtjv2',[39m
+[37m    createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m    username: 'sa28dl',[39m
+[37m    password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m    email: 'sa28dl',[39m
+[37m    createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m    username: '3g8us',[39m
+[37m    password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m    email: '3g8us',[39m
+[37m    createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m    username: 'h9pp2e',[39m
+[37m    password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m    email: 'h9pp2e',[39m
+[37m    createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4049e4dc8a635e08170ed"),[39m
+[37m    username: 'hyxwvf',[39m
+[37m    password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m    email: 'hyxwvf',[39m
+[37m    createdAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    updatedAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d404dd769ebee2f402654e"),[39m
+[37m    username: 'x6bn6c',[39m
+[37m    password: '$2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC',[39m
+[37m    email: 'x6bn6c',[39m
+[37m    createdAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    updatedAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40531900e6bdb17c179af"),[39m
+[37m    username: 'e10zrh',[39m
+[37m    password: '$2b$10$cCaG8.o5rxbuZZh62GKgSOXr6bVxgiSWhrN9J1iyuHpmYid3D3Gyi',[39m
+[37m    email: 'e10zrh',[39m
+[37m    createdAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    updatedAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40590d4de32ed483336a1"),[39m
+[37m    username: '7vayga',[39m
+[37m    password: '$2b$10$6POw.hr9ltFJiMLoUwUwg.VUYl0QAej8JfibtxalwCy9nr.8c4tHm',[39m
+[37m    email: '7vayga',[39m
+[37m    createdAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d405abca7aee4027db9bb1"),[39m
+[37m    username: 'nrp31s',[39m
+[37m    password: '$2b$10$YJsleEyvb5hVH98rRC6kxujViMMQ2sYmoA8hrVWUJrslReXM.Jche',[39m
+[37m    email: 'nrp31s',[39m
+[37m    createdAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d406243420849d56df34fc"),[39m
+[37m    username: 'lo9qom',[39m
+[37m    password: '$2b$10$peGht3du3kJyU4wfWyfcXuMRskxzvEMxU21Q6w.AVRTcvDlFjJygq',[39m
+[37m    email: 'lo9qom',[39m
+[37m    createdAt: 2022-01-04T08:32:36.226Z,[39m
+[37m    updatedAt: 2022-01-04T08:32:36.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4075bee1e2bd00fc3a591"),[39m
+[37m    username: 'h94n0r',[39m
+[37m    password: '$2b$10$u6PQrk7RJ91inmfqkEaIH.CWcf5u1ydUywdJvzYSko7hH3//uQHh.',[39m
+[37m    email: 'h94n0r',[39m
+[37m    createdAt: 2022-01-04T08:37:47.279Z,[39m
+[37m    updatedAt: 2022-01-04T08:37:47.279Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4098fc224e1a9a4ea0987"),[39m
+[37m    username: 'iqktzu',[39m
+[37m    password: '$2b$10$Dt81Je7HlUEAnxn02tfa1.EBN3GG7KQkimbZZb6kl7iol0yHIAPym',[39m
+[37m    email: 'iqktzu',[39m
+[37m    createdAt: 2022-01-04T08:47:11.678Z,[39m
+[37m    updatedAt: 2022-01-04T08:47:11.678Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d409b0696d3823f80dbe8f"),[39m
+[37m    username: '8cvcw4',[39m
+[37m    password: '$2b$10$ykKomjgMPjQ/4x6Jz8j.PeHpKoS.yd1.SPrFMkhAizp8cTpHkQ.P2',[39m
+[37m    email: '8cvcw4',[39m
+[37m    createdAt: 2022-01-04T08:47:44.727Z,[39m
+[37m    updatedAt: 2022-01-04T08:47:44.727Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 09:47:44:4744 [35mhttp[39m: [35mGET /users 200 5379 - 16.496 ms[39m
+[35m[39m
+2022-01-04 09:47:44:4744 [35mhttp[39m: [35mID: 61b506483467d78e26eba9bd[39m
+2022-01-04 09:47:44:4744 [35mhttp[39m: [35mBody is: [object Object][39m
+2022-01-04 09:47:44:4744 [37mdebug[39m: [37mnull[39m
+2022-01-04 09:47:44:4744 [35mhttp[39m: [35mPUT /users/61b506483467d78e26eba9bd 200 0 - 61.947 ms[39m
+[35m[39m
+2022-01-04 09:47:44:4744 [35mhttp[39m: [35mDELETE /users/61b506483467d78e26eba9bd 500 131 - 2.659 ms[39m
+[35m[39m
+2022-01-04 09:48:07:487 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 09:48:07:487 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 09:48:07:487 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 09:48:07:487 [35mhttp[39m: [35mGET /ac7jh 404 11115 - 12.364 ms[39m
+[35m[39m
+2022-01-04 09:48:07:487 [35mhttp[39m: [35m{ username: 'ac7jh', password: 'ac7jh', email: 'ac7jh' }[39m
+2022-01-04 09:48:08:488 [33mwarn[39m: [33mhashed password is $2b$10$nmpRHaj4.Nhsz6YnoO24AuqZ3UXt9hduRLSHtsjhn/4a4W3RcslUS[39m
+2022-01-04 09:48:08:488 [37mdebug[39m: [37m{[39m
+[37m  username: 'ac7jh',[39m
+[37m  password: '$2b$10$nmpRHaj4.Nhsz6YnoO24AuqZ3UXt9hduRLSHtsjhn/4a4W3RcslUS',[39m
+[37m  email: 'ac7jh',[39m
+[37m  _id: new ObjectId("61d409c82ac42d42771d8748")[39m
+[37m}[39m
+2022-01-04 09:48:08:488 [37mdebug[39m: [37m{[39m
+[37m  username: 'ac7jh',[39m
+[37m  password: '$2b$10$nmpRHaj4.Nhsz6YnoO24AuqZ3UXt9hduRLSHtsjhn/4a4W3RcslUS',[39m
+[37m  email: 'ac7jh',[39m
+[37m  _id: new ObjectId("61d409c82ac42d42771d8748"),[39m
+[37m  createdAt: 2022-01-04T08:48:08.060Z,[39m
+[37m  updatedAt: 2022-01-04T08:48:08.060Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:48:08:488 [35mhttp[39m: [35mPOST /users 201 30 - 73.338 ms[39m
+[35m[39m
+2022-01-04 09:48:08:488 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m    username: 'lars',[39m
+[37m    password: '$2b$10$GqRI1R4DMeZbbfH.DxTOme/.GUQAoltsFyy8AUzeIG.RwoTjCdN36',[39m
+[37m    email: 'larstr02@gafe.molndal.se',[39m
+[37m    createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    updatedAt: 2021-12-18T19:30:40.743Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cc4903a51fbf9d40f77d2c"),[39m
+[37m    username: 'changeUserName',[39m
+[37m    password: '$2b$10$xOkqQNQPY5gYYBGhd2y2/OmI23Jjbh9i0xmNuyrVqRo69.5FxmcEa',[39m
+[37m    email: 'changeEmail',[39m
+[37m    createdAt: 2021-12-29T11:39:47.085Z,[39m
+[37m    updatedAt: 2022-01-02T15:57:50.547Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61cd7d11a51fbf9d40f77d32"),[39m
+[37m    username: 'bella',[39m
+[37m    password: '$2b$10$HRWQ25qGgXUbN3GPOOxlb.tfVfPDLLJ6KwXfUhi.N3ghKiwJ7fYOS',[39m
+[37m    email: 'hejsan',[39m
+[37m    createdAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    updatedAt: 2021-12-30T09:34:09.509Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d2eee3fdc4e6fcad80197c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$wQZ5aTU1ppxkdx8.4QvcKOQvE5TUnU0dUzAwmDs2ehY1ABDLVLAge',[39m
+[37m    email: 'emilie.ost@outlook.com',[39m
+[37m    createdAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    updatedAt: 2022-01-03T12:41:07.912Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fe63db375966593e4b50"),[39m
+[37m    username: 'hfgllg',[39m
+[37m    password: '$2b$10$rMc6HIzRbs2YIxXUTYW4pOqvmGw7c5YH7K.kbRTh7ErxPvXScOn0e',[39m
+[37m    email: 'hfgllg',[39m
+[37m    createdAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    updatedAt: 2022-01-04T07:59:31.373Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3feb760270836c54176ee"),[39m
+[37m    username: 'h3ld6i',[39m
+[37m    password: '$2b$10$5cv341MV.SWMjBICQbQohOWEx0dCGF1qdEjy63SX6puft.xXdow3G',[39m
+[37m    email: 'h3ld6i',[39m
+[37m    createdAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    updatedAt: 2022-01-04T08:00:55.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3fee7efe641d482bb02a2"),[39m
+[37m    username: 'hwahhm',[39m
+[37m    password: '$2b$10$F8NDpP6kdLYy.izS0BS5r.7oadfQ4cuX0omwewKeW/Lhk3S1xKWDm',[39m
+[37m    email: 'hwahhm',[39m
+[37m    createdAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    updatedAt: 2022-01-04T08:01:43.817Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff34cbbef8308eeed4a9"),[39m
+[37m    username: '47djr',[39m
+[37m    password: '$2b$10$nUgFdR7a7icsvP.Uy9FtTOBXXuhv2mPjhtNb8xTXAfunfIs9chD/e',[39m
+[37m    email: '47djr',[39m
+[37m    createdAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:00.685Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ff5833cc51b322e3c97b"),[39m
+[37m    username: 'oq5v5g',[39m
+[37m    password: '$2b$10$wbBIOoI2Q5EGMkPqXHCifubd8.BfkzddEn803zKzEHBelTuJRVjbO',[39m
+[37m    email: 'oq5v5g',[39m
+[37m    createdAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    updatedAt: 2022-01-04T08:03:36.336Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d3ffbcbc64523af81bab4e"),[39m
+[37m    username: '2wktyf',[39m
+[37m    password: '$2b$10$PF34iz/WhY/txVYahd2BRerqL8cqxKYJHZ4Fdu6L7/sozzDeKaAaK',[39m
+[37m    email: '2wktyf',[39m
+[37m    createdAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    updatedAt: 2022-01-04T08:05:16.190Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4004d3a0db9107f293d3f"),[39m
+[37m    username: 'swjtjv2',[39m
+[37m    password: '$2b$10$nee6hW5wcUp9xd0twowDZuCUarwrc5jZZyLhZ3OLWd8HA52o7LyWq',[39m
+[37m    email: 'swjtjv2',[39m
+[37m    createdAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    updatedAt: 2022-01-04T08:07:41.074Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4006c184bd07750c25506"),[39m
+[37m    username: 'sa28dl',[39m
+[37m    password: '$2b$10$qMmrSOSUYla05LKrFSAlrOqk1rvm9jm4yXz8VGOUkkcugjSvBro/K',[39m
+[37m    email: 'sa28dl',[39m
+[37m    createdAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    updatedAt: 2022-01-04T08:08:12.141Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d401b0510541605dba9ef2"),[39m
+[37m    username: '3g8us',[39m
+[37m    password: '$2b$10$VzvWfsxMEnNeTqR8xiDNYuLf/NgKgL0odZZD8PXHWG5uQDo3fz4UW',[39m
+[37m    email: '3g8us',[39m
+[37m    createdAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    updatedAt: 2022-01-04T08:13:36.956Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d402f9149eaaccd2f0e1c5"),[39m
+[37m    username: 'h9pp2e',[39m
+[37m    password: '$2b$10$k07WaF5HEZOZm2lzhX40BOSReo2QKho0CGYQznoRZhzEUxcw80LAu',[39m
+[37m    email: 'h9pp2e',[39m
+[37m    createdAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    updatedAt: 2022-01-04T08:19:05.766Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4049e4dc8a635e08170ed"),[39m
+[37m    username: 'hyxwvf',[39m
+[37m    password: '$2b$10$/4qHUdEkhfYixKLli8JsbOAjIEx/yhlgqkMgOgV.PJIHV8HaL7/Ta',[39m
+[37m    email: 'hyxwvf',[39m
+[37m    createdAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    updatedAt: 2022-01-04T08:26:06.944Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d404dd769ebee2f402654e"),[39m
+[37m    username: 'x6bn6c',[39m
+[37m    password: '$2b$10$3vr8hxRzTuTyid6lbvuzae9zpOX5RpaGH8mS69ShSzopaDvJfR1XC',[39m
+[37m    email: 'x6bn6c',[39m
+[37m    createdAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    updatedAt: 2022-01-04T08:27:09.043Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40531900e6bdb17c179af"),[39m
+[37m    username: 'e10zrh',[39m
+[37m    password: '$2b$10$cCaG8.o5rxbuZZh62GKgSOXr6bVxgiSWhrN9J1iyuHpmYid3D3Gyi',[39m
+[37m    email: 'e10zrh',[39m
+[37m    createdAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    updatedAt: 2022-01-04T08:28:33.077Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d40590d4de32ed483336a1"),[39m
+[37m    username: '7vayga',[39m
+[37m    password: '$2b$10$6POw.hr9ltFJiMLoUwUwg.VUYl0QAej8JfibtxalwCy9nr.8c4tHm',[39m
+[37m    email: '7vayga',[39m
+[37m    createdAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:08.117Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d405abca7aee4027db9bb1"),[39m
+[37m    username: 'nrp31s',[39m
+[37m    password: '$2b$10$YJsleEyvb5hVH98rRC6kxujViMMQ2sYmoA8hrVWUJrslReXM.Jche',[39m
+[37m    email: 'nrp31s',[39m
+[37m    createdAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    updatedAt: 2022-01-04T08:30:35.646Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d406243420849d56df34fc"),[39m
+[37m    username: 'lo9qom',[39m
+[37m    password: '$2b$10$peGht3du3kJyU4wfWyfcXuMRskxzvEMxU21Q6w.AVRTcvDlFjJygq',[39m
+[37m    email: 'lo9qom',[39m
+[37m    createdAt: 2022-01-04T08:32:36.226Z,[39m
+[37m    updatedAt: 2022-01-04T08:32:36.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4075bee1e2bd00fc3a591"),[39m
+[37m    username: 'h94n0r',[39m
+[37m    password: '$2b$10$u6PQrk7RJ91inmfqkEaIH.CWcf5u1ydUywdJvzYSko7hH3//uQHh.',[39m
+[37m    email: 'h94n0r',[39m
+[37m    createdAt: 2022-01-04T08:37:47.279Z,[39m
+[37m    updatedAt: 2022-01-04T08:37:47.279Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4098fc224e1a9a4ea0987"),[39m
+[37m    username: 'iqktzu',[39m
+[37m    password: '$2b$10$Dt81Je7HlUEAnxn02tfa1.EBN3GG7KQkimbZZb6kl7iol0yHIAPym',[39m
+[37m    email: 'iqktzu',[39m
+[37m    createdAt: 2022-01-04T08:47:11.678Z,[39m
+[37m    updatedAt: 2022-01-04T08:47:11.678Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d409b0696d3823f80dbe8f"),[39m
+[37m    username: '8cvcw4',[39m
+[37m    password: '$2b$10$ykKomjgMPjQ/4x6Jz8j.PeHpKoS.yd1.SPrFMkhAizp8cTpHkQ.P2',[39m
+[37m    email: '8cvcw4',[39m
+[37m    createdAt: 2022-01-04T08:47:44.727Z,[39m
+[37m    updatedAt: 2022-01-04T08:47:44.727Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d409c82ac42d42771d8748"),[39m
+[37m    username: 'ac7jh',[39m
+[37m    password: '$2b$10$nmpRHaj4.Nhsz6YnoO24AuqZ3UXt9hduRLSHtsjhn/4a4W3RcslUS',[39m
+[37m    email: 'ac7jh',[39m
+[37m    createdAt: 2022-01-04T08:48:08.060Z,[39m
+[37m    updatedAt: 2022-01-04T08:48:08.060Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 09:48:08:488 [35mhttp[39m: [35mGET /users 200 5609 - 15.894 ms[39m
+[35m[39m
+2022-01-04 09:48:08:488 [35mhttp[39m: [35mID: 61be36e02d64d4ae98c1efd6[39m
+2022-01-04 09:48:08:488 [35mhttp[39m: [35mBody is: [object Object][39m
+2022-01-04 09:48:08:488 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61be36e02d64d4ae98c1efd6"),[39m
+[37m  username: 'ac7jh',[39m
+[37m  password: '$2b$10$F1MBDzY7tEYsWEq5WtYMaenXVoDXH4iPHXEV.M5OEHvoOYzAsdxSe',[39m
+[37m  email: 'ac7jh',[39m
+[37m  createdAt: 2021-12-18T19:30:40.743Z,[39m
+[37m  updatedAt: 2022-01-04T08:48:08.152Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 09:48:08:488 [35mhttp[39m: [35mPUT /users/61be36e02d64d4ae98c1efd6 200 229 - 64.265 ms[39m
+[35m[39m
+2022-01-04 09:48:08:488 [35mhttp[39m: [35mDELETE /users/61be36e02d64d4ae98c1efd6 200 93 - 3.000 ms[39m
+[35m[39m
