@@ -3,22 +3,29 @@ import 'mocha'
 import StatusCode from './configuration/StatusCode'
 import chaiHttp from 'chai-http'
 import {app} from './Server'
+import {User} from './utils/interface/Interface'
 
 Chai.use(chaiHttp)
 const expect = Chai.expect
 
 const random = Math.random().toString(36).substring(7)
 
-let id = '61be36e02d64d4ae98c1efd6'
-const user = {
+let id: string = '61d2eee3fdc4e6fcad80197c'
+let password: string = 'hemligt'
+
+const user: User = {
     username: random,
     password: random,
     email: random
 }
 
+const updatedUser: User = {
+    username: random + random,
+    password: random + random,
+    email: random + random
+}
+
 const route = '/users'
-const routeId = `${route}/:id`
-const searchRoute = '/searchUser'
 
 const testNonExistingRoute = () => {
     describe('text non existing route', () => {
@@ -38,8 +45,10 @@ const createUser = () => {
                 .post(route)
                 .send(user)
                 .end((error, response) => {
+                    id = response.body._id
                     expect(response.status).to.equal(StatusCode.CREATED)
                     expect(response.body).be.a('object')
+                    expect(response.body).have.property('username').eq(user.username)
                     done()
                 })
         })
@@ -66,12 +75,14 @@ const updateUser = () => {
         it('Expecting user to be updated', (done) => {
             Chai.request(app)
                 .put(`${route}/${id}`)
-                .send(user)
+                .send(updatedUser)
                 .end((error, response) => {
                     expect(response.status).to.equal(StatusCode.OK)
                     expect(response.body).be.a('object')
-                    expect(response.body).have.property('username').eq(user.username)
-                    expect(response.body).have.property('email').eq(user.email)
+                    password = response.body.password
+                    expect(response.body).have.property('username').eq(updatedUser.username)
+                    expect(response.body).have.property('password').eq(password)
+                    expect(response.body).have.property('email').eq(updatedUser.email)
                     done()
                 })
         })

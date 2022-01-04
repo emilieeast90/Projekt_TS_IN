@@ -6,7 +6,7 @@ import StatusCode from '../configuration/StatusCode'
 
 const createFlow = async (req: Request, res: Response) => {
     Logger.http(req.body)
-    let {username, post}: Flow = req.body
+    const {username, post}: Flow = req.body
     const flow = new FlowModel({
         username,
         post
@@ -43,7 +43,7 @@ const getFlowById = async (req: Request, res: Response) => {
     } catch (error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR)
             .send({
-                message: `Error while trying to retrieve flow with ID: ${req.params.messageId}`,
+                message: `Error while trying to retrieve flow with ID: ${req.params.flowId}`,
                 error: error.message
             })
     }
@@ -53,7 +53,7 @@ const updateFlow = async (req: Request, res: Response) => {
     try {
         const {flowId} = req.params
         Logger.http(flowId)
-        let {username, post}: Flow = req.body
+        const {username, post}: Flow = req.body
         Logger.http(`${req.body}`)
         if (!req.body) {
             res.status(StatusCode.BAD_REQUEST)
@@ -68,7 +68,7 @@ const updateFlow = async (req: Request, res: Response) => {
     } catch (error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR)
             .send({
-                message: `Error while trying to update flow with ID ${req.params.messageId}`,
+                message: `Error while trying to update flow with ID ${req.params.flowId}`,
                 error: error.message
             })
     }

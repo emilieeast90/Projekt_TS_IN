@@ -9,7 +9,7 @@ export interface SearchUser {
 }
 
 export interface UsersArray {
-    users: Array<User>
+    users: User[]
 }
 
 export interface Flow {

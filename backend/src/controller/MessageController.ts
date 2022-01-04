@@ -6,10 +6,10 @@ import StatusCode from '../configuration/StatusCode'
 
 const createMessage = async (req: Request, res: Response) => {
     Logger.http(req.body)
-    let {subject, privateMessage}: Message = req.body
+    const {subject, privateMessage}: Message = req.body
     const privateMessages = new MessageModel({
-        subject: subject,
-        privateMessage: privateMessage
+        subject,
+        privateMessage
     })
     Logger.debug(privateMessages)
     try {
@@ -53,15 +53,15 @@ const updateMessage = async (req: Request, res: Response) => {
     try {
         const {messageId} = req.params
         Logger.http(messageId)
-        let {subject, privateMessage}: Message = req.body
+        const {subject, privateMessage}: Message = req.body
         Logger.http(`${req.body}`)
         if (!req.body) {
             res.status(StatusCode.BAD_REQUEST)
                 .send({message: `Can't update with empty values`})
         }
         const response = await MessageModel.findByIdAndUpdate(messageId, {
-            subject: subject,
-            flow: privateMessage
+            subject,
+            privateMessage
         }, {new: true})
         Logger.debug(response)
         res.status(StatusCode.OK).send(response)

@@ -2,7 +2,6 @@ import http from '../BookfaceApi'
 import {CreateFlowObject, FlowDataObject, Flow} from '../../interfaces/FlowData'
 
 const flowsUrl = '/flow'
-const searchFlowRoute = 'searchFlow'
 
 const FlowService = {
     createFlow: (newFlowPayload: Flow) => {
@@ -19,10 +18,6 @@ const FlowService = {
 
     getFlowById: (id: string) => {
         return http.get<FlowDataObject>(`${flowsUrl}/${id}`)
-    },
-
-    getFlowWithQuery: () => {
-        return http.get<FlowDataObject>(`${flowsUrl}/${searchFlowRoute}`)
     },
 
     updateFlowById: (id: string, flowPayload: CreateFlowObject) => {
