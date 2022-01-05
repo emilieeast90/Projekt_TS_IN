@@ -28403,3 +28403,670 @@
 [35m[39m
 2022-01-04 13:50:48:5048 [35mhttp[39m: [35mDELETE /users/61d442a8477fb72b42780efb 200 100 - 3.692 ms[39m
 [35m[39m
+2022-01-04 13:51:48:5148 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 13:51:48:5148 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 13:51:48:5148 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35m{ username: 'nfjbl', post: 'nfjbl' }[39m
+2022-01-04 13:51:48:5148 [37mdebug[39m: [37m{[39m
+[37m  username: 'nfjbl',[39m
+[37m  post: 'nfjbl',[39m
+[37m  _id: new ObjectId("61d442e401e30f2a41d3a9d1")[39m
+[37m}[39m
+2022-01-04 13:51:48:5148 [37mdebug[39m: [37m{[39m
+[37m  username: 'nfjbl',[39m
+[37m  post: 'nfjbl',[39m
+[37m  _id: new ObjectId("61d442e401e30f2a41d3a9d1"),[39m
+[37m  createdAt: 2022-01-04T12:51:48.654Z,[39m
+[37m  updatedAt: 2022-01-04T12:51:48.654Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mPOST /flow 201 154 - 29.833 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d43ecba7378e3b057b98f9"),[39m
+[37m    username: 'emilie',[39m
+[37m    post: 'hello',[39m
+[37m    createdAt: 2022-01-04T12:34:19.304Z,[39m
+[37m    updatedAt: 2022-01-04T12:34:19.304Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d43ee8a9279e8ee57653fc"),[39m
+[37m    username: 'ggmtmt',[39m
+[37m    post: 'ggmtmt',[39m
+[37m    createdAt: 2022-01-04T12:34:48.349Z,[39m
+[37m    updatedAt: 2022-01-04T12:34:48.349Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d43fd9203760fac98721a7"),[39m
+[37m    username: 'ammtqu',[39m
+[37m    post: 'ammtqu',[39m
+[37m    createdAt: 2022-01-04T12:38:49.390Z,[39m
+[37m    updatedAt: 2022-01-04T12:38:49.390Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4402936c0f5ef53fe5c18"),[39m
+[37m    username: '89vl6t',[39m
+[37m    post: '89vl6t',[39m
+[37m    createdAt: 2022-01-04T12:40:09.113Z,[39m
+[37m    updatedAt: 2022-01-04T12:40:09.113Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d440c3bf96b0392e855fa0"),[39m
+[37m    username: 'iqzejg',[39m
+[37m    post: 'iqzejg',[39m
+[37m    createdAt: 2022-01-04T12:42:43.713Z,[39m
+[37m    updatedAt: 2022-01-04T12:42:43.713Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4414fa0c78ebf75b70a66"),[39m
+[37m    username: 'uit1pp',[39m
+[37m    post: 'uit1pp',[39m
+[37m    createdAt: 2022-01-04T12:45:03.112Z,[39m
+[37m    updatedAt: 2022-01-04T12:45:03.112Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d442a8477fb72b42780ef3"),[39m
+[37m    username: 'p6tqbt',[39m
+[37m    post: 'p6tqbt',[39m
+[37m    createdAt: 2022-01-04T12:50:48.043Z,[39m
+[37m    updatedAt: 2022-01-04T12:50:48.043Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d442e401e30f2a41d3a9d1"),[39m
+[37m    username: 'nfjbl',[39m
+[37m    post: 'nfjbl',[39m
+[37m    createdAt: 2022-01-04T12:51:48.654Z,[39m
+[37m    updatedAt: 2022-01-04T12:51:48.654Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mGET /flow 200 1254 - 12.579 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mundefined[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35m[object Object][39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mPUT /flow/undefined 500 173 - 3.889 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mDELETE /flow/undefined 500 174 - 1.415 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35m{ subject: 'av8rq', privateMessage: 'av8rq' }[39m
+2022-01-04 13:51:48:5148 [37mdebug[39m: [37m{[39m
+[37m  subject: 'av8rq',[39m
+[37m  privateMessage: 'av8rq',[39m
+[37m  _id: new ObjectId("61d442e401e30f2a41d3a9d4")[39m
+[37m}[39m
+2022-01-04 13:51:48:5148 [37mdebug[39m: [37m{[39m
+[37m  subject: 'av8rq',[39m
+[37m  privateMessage: 'av8rq',[39m
+[37m  _id: new ObjectId("61d442e401e30f2a41d3a9d4"),[39m
+[37m  createdAt: 2022-01-04T12:51:48.730Z,[39m
+[37m  updatedAt: 2022-01-04T12:51:48.730Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mPOST /messages 201 163 - 6.755 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d442e401e30f2a41d3a9d4"),[39m
+[37m    subject: 'av8rq',[39m
+[37m    privateMessage: 'av8rq',[39m
+[37m    createdAt: 2022-01-04T12:51:48.730Z,[39m
+[37m    updatedAt: 2022-01-04T12:51:48.730Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mGET /messages 200 165 - 3.616 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35m61d442e401e30f2a41d3a9d4[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35m[object Object][39m
+2022-01-04 13:51:48:5148 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61d442e401e30f2a41d3a9d4"),[39m
+[37m  subject: 'av8rq',[39m
+[37m  privateMessage: 'av8rq',[39m
+[37m  createdAt: 2022-01-04T12:51:48.730Z,[39m
+[37m  updatedAt: 2022-01-04T12:51:48.749Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mPUT /messages/61d442e401e30f2a41d3a9d4 200 163 - 7.866 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35m{[39m
+[35m  _id: new ObjectId("61d442e401e30f2a41d3a9d4"),[39m
+[35m  subject: 'av8rq',[39m
+[35m  privateMessage: 'av8rq',[39m
+[35m  createdAt: 2022-01-04T12:51:48.730Z,[39m
+[35m  updatedAt: 2022-01-04T12:51:48.749Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mDELETE /messages/61d442e401e30f2a41d3a9d4 200 76 - 3.772 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mGET /vbanlv 404 11116 - 7.716 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35m{ username: 'vbanlv', password: 'vbanlv', email: 'vbanlv' }[39m
+2022-01-04 13:51:48:5148 [33mwarn[39m: [33mhashed password is $2b$10$KgZpIMwAaPpECXb9/oSJb.9bKB9DhjL6CPX50WQPmE2WsllfFOzF2[39m
+2022-01-04 13:51:48:5148 [37mdebug[39m: [37m{[39m
+[37m  username: 'vbanlv',[39m
+[37m  password: '$2b$10$KgZpIMwAaPpECXb9/oSJb.9bKB9DhjL6CPX50WQPmE2WsllfFOzF2',[39m
+[37m  email: 'vbanlv',[39m
+[37m  _id: new ObjectId("61d442e401e30f2a41d3a9d9")[39m
+[37m}[39m
+2022-01-04 13:51:48:5148 [37mdebug[39m: [37m{[39m
+[37m  username: 'vbanlv',[39m
+[37m  password: '$2b$10$KgZpIMwAaPpECXb9/oSJb.9bKB9DhjL6CPX50WQPmE2WsllfFOzF2',[39m
+[37m  email: 'vbanlv',[39m
+[37m  _id: new ObjectId("61d442e401e30f2a41d3a9d9"),[39m
+[37m  createdAt: 2022-01-04T12:51:48.845Z,[39m
+[37m  updatedAt: 2022-01-04T12:51:48.845Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mPOST /users 201 231 - 66.750 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4423ca0c78ebf75b70a80"),[39m
+[37m    username: 'larre',[39m
+[37m    password: '$2b$10$y2ZahfKmRC/EbPodeRJYAe0r9QUsoFzOaEqqWh2VKBno14CL0aZYC',[39m
+[37m    email: 'emilie@gmail.com',[39m
+[37m    createdAt: 2022-01-04T12:49:00.923Z,[39m
+[37m    updatedAt: 2022-01-04T12:49:00.923Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d442e401e30f2a41d3a9d9"),[39m
+[37m    username: 'vbanlv',[39m
+[37m    password: '$2b$10$KgZpIMwAaPpECXb9/oSJb.9bKB9DhjL6CPX50WQPmE2WsllfFOzF2',[39m
+[37m    email: 'vbanlv',[39m
+[37m    createdAt: 2022-01-04T12:51:48.845Z,[39m
+[37m    updatedAt: 2022-01-04T12:51:48.845Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mGET /users 200 474 - 4.504 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mID: 61d442e401e30f2a41d3a9d9[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mBody is: [object Object][39m
+2022-01-04 13:51:48:5148 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61d442e401e30f2a41d3a9d9"),[39m
+[37m  username: 'vbanlvvbanlv',[39m
+[37m  password: '$2b$10$EF3J1vYGq9Htg.hxNf5Pd.JMem95mR7IIQ0pQWv0u0nlPdfMbCBEO',[39m
+[37m  email: 'vbanlvvbanlv',[39m
+[37m  createdAt: 2022-01-04T12:51:48.845Z,[39m
+[37m  updatedAt: 2022-01-04T12:51:48.925Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mPUT /users/61d442e401e30f2a41d3a9d9 200 243 - 66.396 ms[39m
+[35m[39m
+2022-01-04 13:51:48:5148 [35mhttp[39m: [35mDELETE /users/61d442e401e30f2a41d3a9d9 200 100 - 2.336 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-04 13:54:19:5419 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-04 13:54:19:5419 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35m{ username: '1polln', post: '1polln' }[39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m{[39m
+[37m  username: '1polln',[39m
+[37m  post: '1polln',[39m
+[37m  _id: new ObjectId("61d4437bb70785fb20001828")[39m
+[37m}[39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m{[39m
+[37m  username: '1polln',[39m
+[37m  post: '1polln',[39m
+[37m  _id: new ObjectId("61d4437bb70785fb20001828"),[39m
+[37m  createdAt: 2022-01-04T12:54:19.380Z,[39m
+[37m  updatedAt: 2022-01-04T12:54:19.380Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mPOST /flow 201 156 - 35.192 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d43ecba7378e3b057b98f9"),[39m
+[37m    username: 'emilie',[39m
+[37m    post: 'hello',[39m
+[37m    createdAt: 2022-01-04T12:34:19.304Z,[39m
+[37m    updatedAt: 2022-01-04T12:34:19.304Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d43ee8a9279e8ee57653fc"),[39m
+[37m    username: 'ggmtmt',[39m
+[37m    post: 'ggmtmt',[39m
+[37m    createdAt: 2022-01-04T12:34:48.349Z,[39m
+[37m    updatedAt: 2022-01-04T12:34:48.349Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d43fd9203760fac98721a7"),[39m
+[37m    username: 'ammtqu',[39m
+[37m    post: 'ammtqu',[39m
+[37m    createdAt: 2022-01-04T12:38:49.390Z,[39m
+[37m    updatedAt: 2022-01-04T12:38:49.390Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4402936c0f5ef53fe5c18"),[39m
+[37m    username: '89vl6t',[39m
+[37m    post: '89vl6t',[39m
+[37m    createdAt: 2022-01-04T12:40:09.113Z,[39m
+[37m    updatedAt: 2022-01-04T12:40:09.113Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d440c3bf96b0392e855fa0"),[39m
+[37m    username: 'iqzejg',[39m
+[37m    post: 'iqzejg',[39m
+[37m    createdAt: 2022-01-04T12:42:43.713Z,[39m
+[37m    updatedAt: 2022-01-04T12:42:43.713Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4414fa0c78ebf75b70a66"),[39m
+[37m    username: 'uit1pp',[39m
+[37m    post: 'uit1pp',[39m
+[37m    createdAt: 2022-01-04T12:45:03.112Z,[39m
+[37m    updatedAt: 2022-01-04T12:45:03.112Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d442a8477fb72b42780ef3"),[39m
+[37m    username: 'p6tqbt',[39m
+[37m    post: 'p6tqbt',[39m
+[37m    createdAt: 2022-01-04T12:50:48.043Z,[39m
+[37m    updatedAt: 2022-01-04T12:50:48.043Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d442e401e30f2a41d3a9d1"),[39m
+[37m    username: 'nfjbl',[39m
+[37m    post: 'nfjbl',[39m
+[37m    createdAt: 2022-01-04T12:51:48.654Z,[39m
+[37m    updatedAt: 2022-01-04T12:51:48.654Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4437bb70785fb20001828"),[39m
+[37m    username: '1polln',[39m
+[37m    post: '1polln',[39m
+[37m    createdAt: 2022-01-04T12:54:19.380Z,[39m
+[37m    updatedAt: 2022-01-04T12:54:19.380Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mGET /flow 200 1411 - 13.712 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35m61d4437bb70785fb20001828[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35m[object Object][39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61d4437bb70785fb20001828"),[39m
+[37m  username: '1polln1polln',[39m
+[37m  post: '1polln1polln',[39m
+[37m  createdAt: 2022-01-04T12:54:19.380Z,[39m
+[37m  updatedAt: 2022-01-04T12:54:19.434Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mPUT /flow/61d4437bb70785fb20001828 200 168 - 10.934 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35m{[39m
+[35m  _id: new ObjectId("61d4437bb70785fb20001828"),[39m
+[35m  username: '1polln1polln',[39m
+[35m  post: '1polln1polln',[39m
+[35m  createdAt: 2022-01-04T12:54:19.380Z,[39m
+[35m  updatedAt: 2022-01-04T12:54:19.434Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mDELETE /flow/61d4437bb70785fb20001828 200 73 - 4.740 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35m{ subject: '6tjlj', privateMessage: '6tjlj' }[39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m{[39m
+[37m  subject: '6tjlj',[39m
+[37m  privateMessage: '6tjlj',[39m
+[37m  _id: new ObjectId("61d4437bb70785fb2000182d")[39m
+[37m}[39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m{[39m
+[37m  subject: '6tjlj',[39m
+[37m  privateMessage: '6tjlj',[39m
+[37m  _id: new ObjectId("61d4437bb70785fb2000182d"),[39m
+[37m  createdAt: 2022-01-04T12:54:19.462Z,[39m
+[37m  updatedAt: 2022-01-04T12:54:19.462Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mPOST /messages 201 163 - 5.297 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4437bb70785fb2000182d"),[39m
+[37m    subject: '6tjlj',[39m
+[37m    privateMessage: '6tjlj',[39m
+[37m    createdAt: 2022-01-04T12:54:19.462Z,[39m
+[37m    updatedAt: 2022-01-04T12:54:19.462Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mGET /messages 200 165 - 3.483 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35m61d4437bb70785fb2000182d[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35m[object Object][39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61d4437bb70785fb2000182d"),[39m
+[37m  subject: '6tjlj',[39m
+[37m  privateMessage: '6tjlj',[39m
+[37m  createdAt: 2022-01-04T12:54:19.462Z,[39m
+[37m  updatedAt: 2022-01-04T12:54:19.478Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mPUT /messages/61d4437bb70785fb2000182d 200 163 - 3.855 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35m{[39m
+[35m  _id: new ObjectId("61d4437bb70785fb2000182d"),[39m
+[35m  subject: '6tjlj',[39m
+[35m  privateMessage: '6tjlj',[39m
+[35m  createdAt: 2022-01-04T12:54:19.462Z,[39m
+[35m  updatedAt: 2022-01-04T12:54:19.478Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mDELETE /messages/61d4437bb70785fb2000182d 200 76 - 4.176 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mGET /slu2v7 404 11116 - 12.697 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35m{ username: 'slu2v7', password: 'slu2v7', email: 'slu2v7' }[39m
+2022-01-04 13:54:19:5419 [33mwarn[39m: [33mhashed password is $2b$10$d1Kx0XvgmqIUrVwzoocClOabQAQJlGrw5SxXRjGIuUPvNWnyCc766[39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m{[39m
+[37m  username: 'slu2v7',[39m
+[37m  password: '$2b$10$d1Kx0XvgmqIUrVwzoocClOabQAQJlGrw5SxXRjGIuUPvNWnyCc766',[39m
+[37m  email: 'slu2v7',[39m
+[37m  _id: new ObjectId("61d4437bb70785fb20001832")[39m
+[37m}[39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m{[39m
+[37m  username: 'slu2v7',[39m
+[37m  password: '$2b$10$d1Kx0XvgmqIUrVwzoocClOabQAQJlGrw5SxXRjGIuUPvNWnyCc766',[39m
+[37m  email: 'slu2v7',[39m
+[37m  _id: new ObjectId("61d4437bb70785fb20001832"),[39m
+[37m  createdAt: 2022-01-04T12:54:19.577Z,[39m
+[37m  updatedAt: 2022-01-04T12:54:19.577Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mPOST /users 201 231 - 66.376 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4423ca0c78ebf75b70a80"),[39m
+[37m    username: 'larre',[39m
+[37m    password: '$2b$10$y2ZahfKmRC/EbPodeRJYAe0r9QUsoFzOaEqqWh2VKBno14CL0aZYC',[39m
+[37m    email: 'emilie@gmail.com',[39m
+[37m    createdAt: 2022-01-04T12:49:00.923Z,[39m
+[37m    updatedAt: 2022-01-04T12:49:00.923Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4437bb70785fb20001832"),[39m
+[37m    username: 'slu2v7',[39m
+[37m    password: '$2b$10$d1Kx0XvgmqIUrVwzoocClOabQAQJlGrw5SxXRjGIuUPvNWnyCc766',[39m
+[37m    email: 'slu2v7',[39m
+[37m    createdAt: 2022-01-04T12:54:19.577Z,[39m
+[37m    updatedAt: 2022-01-04T12:54:19.577Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mGET /users 200 474 - 5.701 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mID: 61d4437bb70785fb20001832[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mBody is: [object Object][39m
+2022-01-04 13:54:19:5419 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61d4437bb70785fb20001832"),[39m
+[37m  username: 'slu2v7slu2v7',[39m
+[37m  password: '$2b$10$PjTT7M65AEJshd8HEcu7du6.c3ChC9akKBrT66sDvKcjHmjkZbcDG',[39m
+[37m  email: 'slu2v7slu2v7',[39m
+[37m  createdAt: 2022-01-04T12:54:19.577Z,[39m
+[37m  updatedAt: 2022-01-04T12:54:19.657Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mPUT /users/61d4437bb70785fb20001832 200 243 - 67.380 ms[39m
+[35m[39m
+2022-01-04 13:54:19:5419 [35mhttp[39m: [35mDELETE /users/61d4437bb70785fb20001832 200 100 - 3.983 ms[39m
+[35m[39m
+2022-01-04 15:36:49:3649 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4423ca0c78ebf75b70a80"),[39m
+[37m    username: 'larre',[39m
+[37m    password: '$2b$10$y2ZahfKmRC/EbPodeRJYAe0r9QUsoFzOaEqqWh2VKBno14CL0aZYC',[39m
+[37m    email: 'emilie@gmail.com',[39m
+[37m    createdAt: 2022-01-04T12:49:00.923Z,[39m
+[37m    updatedAt: 2022-01-04T12:49:00.923Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-04 15:36:49:3649 [35mhttp[39m: [35mGET /users 200 242 - 14.490 ms[39m
+[35m[39m
+2022-01-05 08:51:26:5126 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-05 08:51:26:5126 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-05 08:51:43:5143 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-05 08:51:53:5153 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-05 08:51:53:5153 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-05 08:51:53:5153 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35m{ username: 'c2ipxq', post: 'c2ipxq' }[39m
+2022-01-05 08:51:53:5153 [37mdebug[39m: [37m{[39m
+[37m  username: 'c2ipxq',[39m
+[37m  post: 'c2ipxq',[39m
+[37m  _id: new ObjectId("61d54e1920e5637d16f2478a")[39m
+[37m}[39m
+2022-01-05 08:51:53:5153 [37mdebug[39m: [37m{[39m
+[37m  username: 'c2ipxq',[39m
+[37m  post: 'c2ipxq',[39m
+[37m  _id: new ObjectId("61d54e1920e5637d16f2478a"),[39m
+[37m  createdAt: 2022-01-05T07:51:53.793Z,[39m
+[37m  updatedAt: 2022-01-05T07:51:53.793Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35mPOST /flow 201 156 - 29.430 ms[39m
+[35m[39m
+2022-01-05 08:51:53:5153 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d43ecba7378e3b057b98f9"),[39m
+[37m    username: 'emilie',[39m
+[37m    post: 'hello',[39m
+[37m    createdAt: 2022-01-04T12:34:19.304Z,[39m
+[37m    updatedAt: 2022-01-04T12:34:19.304Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d43ee8a9279e8ee57653fc"),[39m
+[37m    username: 'ggmtmt',[39m
+[37m    post: 'ggmtmt',[39m
+[37m    createdAt: 2022-01-04T12:34:48.349Z,[39m
+[37m    updatedAt: 2022-01-04T12:34:48.349Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d43fd9203760fac98721a7"),[39m
+[37m    username: 'ammtqu',[39m
+[37m    post: 'ammtqu',[39m
+[37m    createdAt: 2022-01-04T12:38:49.390Z,[39m
+[37m    updatedAt: 2022-01-04T12:38:49.390Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4402936c0f5ef53fe5c18"),[39m
+[37m    username: '89vl6t',[39m
+[37m    post: '89vl6t',[39m
+[37m    createdAt: 2022-01-04T12:40:09.113Z,[39m
+[37m    updatedAt: 2022-01-04T12:40:09.113Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d440c3bf96b0392e855fa0"),[39m
+[37m    username: 'iqzejg',[39m
+[37m    post: 'iqzejg',[39m
+[37m    createdAt: 2022-01-04T12:42:43.713Z,[39m
+[37m    updatedAt: 2022-01-04T12:42:43.713Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4414fa0c78ebf75b70a66"),[39m
+[37m    username: 'uit1pp',[39m
+[37m    post: 'uit1pp',[39m
+[37m    createdAt: 2022-01-04T12:45:03.112Z,[39m
+[37m    updatedAt: 2022-01-04T12:45:03.112Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d442a8477fb72b42780ef3"),[39m
+[37m    username: 'p6tqbt',[39m
+[37m    post: 'p6tqbt',[39m
+[37m    createdAt: 2022-01-04T12:50:48.043Z,[39m
+[37m    updatedAt: 2022-01-04T12:50:48.043Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d442e401e30f2a41d3a9d1"),[39m
+[37m    username: 'nfjbl',[39m
+[37m    post: 'nfjbl',[39m
+[37m    createdAt: 2022-01-04T12:51:48.654Z,[39m
+[37m    updatedAt: 2022-01-04T12:51:48.654Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d54e1920e5637d16f2478a"),[39m
+[37m    username: 'c2ipxq',[39m
+[37m    post: 'c2ipxq',[39m
+[37m    createdAt: 2022-01-05T07:51:53.793Z,[39m
+[37m    updatedAt: 2022-01-05T07:51:53.793Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35mGET /flow 200 1411 - 13.360 ms[39m
+[35m[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35m61d54e1920e5637d16f2478a[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35m[object Object][39m
+2022-01-05 08:51:53:5153 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61d54e1920e5637d16f2478a"),[39m
+[37m  username: 'c2ipxqc2ipxq',[39m
+[37m  post: 'c2ipxqc2ipxq',[39m
+[37m  createdAt: 2022-01-05T07:51:53.793Z,[39m
+[37m  updatedAt: 2022-01-05T07:51:53.841Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35mPUT /flow/61d54e1920e5637d16f2478a 200 168 - 8.259 ms[39m
+[35m[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35m{[39m
+[35m  _id: new ObjectId("61d54e1920e5637d16f2478a"),[39m
+[35m  username: 'c2ipxqc2ipxq',[39m
+[35m  post: 'c2ipxqc2ipxq',[39m
+[35m  createdAt: 2022-01-05T07:51:53.793Z,[39m
+[35m  updatedAt: 2022-01-05T07:51:53.841Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35mDELETE /flow/61d54e1920e5637d16f2478a 200 73 - 3.024 ms[39m
+[35m[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35m{ subject: 'j0dgto', privateMessage: 'j0dgto' }[39m
+2022-01-05 08:51:53:5153 [37mdebug[39m: [37m{[39m
+[37m  subject: 'j0dgto',[39m
+[37m  privateMessage: 'j0dgto',[39m
+[37m  _id: new ObjectId("61d54e1920e5637d16f2478f")[39m
+[37m}[39m
+2022-01-05 08:51:53:5153 [37mdebug[39m: [37m{[39m
+[37m  subject: 'j0dgto',[39m
+[37m  privateMessage: 'j0dgto',[39m
+[37m  _id: new ObjectId("61d54e1920e5637d16f2478f"),[39m
+[37m  createdAt: 2022-01-05T07:51:53.861Z,[39m
+[37m  updatedAt: 2022-01-05T07:51:53.861Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35mPOST /messages 201 165 - 6.143 ms[39m
+[35m[39m
+2022-01-05 08:51:53:5153 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d54e1920e5637d16f2478f"),[39m
+[37m    subject: 'j0dgto',[39m
+[37m    privateMessage: 'j0dgto',[39m
+[37m    createdAt: 2022-01-05T07:51:53.861Z,[39m
+[37m    updatedAt: 2022-01-05T07:51:53.861Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35mGET /messages 200 167 - 2.809 ms[39m
+[35m[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35m61d54e1920e5637d16f2478f[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35m[object Object][39m
+2022-01-05 08:51:53:5153 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61d54e1920e5637d16f2478f"),[39m
+[37m  subject: 'j0dgto',[39m
+[37m  privateMessage: 'j0dgto',[39m
+[37m  createdAt: 2022-01-05T07:51:53.861Z,[39m
+[37m  updatedAt: 2022-01-05T07:51:53.879Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35mPUT /messages/61d54e1920e5637d16f2478f 200 165 - 3.546 ms[39m
+[35m[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35m{[39m
+[35m  _id: new ObjectId("61d54e1920e5637d16f2478f"),[39m
+[35m  subject: 'j0dgto',[39m
+[35m  privateMessage: 'j0dgto',[39m
+[35m  createdAt: 2022-01-05T07:51:53.861Z,[39m
+[35m  updatedAt: 2022-01-05T07:51:53.879Z,[39m
+[35m  __v: 0[39m
+[35m}[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35mDELETE /messages/61d54e1920e5637d16f2478f 200 76 - 2.606 ms[39m
+[35m[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35mGET /8ouz6b 404 11116 - 10.394 ms[39m
+[35m[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35m{ username: '8ouz6b', password: '8ouz6b', email: '8ouz6b' }[39m
+2022-01-05 08:51:53:5153 [33mwarn[39m: [33mhashed password is $2b$10$dkQ42bvi4RNCoeBtaVG5ZOtmViWBGTpCh6Rrf.RNvyGIZvyNpltgC[39m
+2022-01-05 08:51:53:5153 [37mdebug[39m: [37m{[39m
+[37m  username: '8ouz6b',[39m
+[37m  password: '$2b$10$dkQ42bvi4RNCoeBtaVG5ZOtmViWBGTpCh6Rrf.RNvyGIZvyNpltgC',[39m
+[37m  email: '8ouz6b',[39m
+[37m  _id: new ObjectId("61d54e1920e5637d16f24794")[39m
+[37m}[39m
+2022-01-05 08:51:53:5153 [37mdebug[39m: [37m{[39m
+[37m  username: '8ouz6b',[39m
+[37m  password: '$2b$10$dkQ42bvi4RNCoeBtaVG5ZOtmViWBGTpCh6Rrf.RNvyGIZvyNpltgC',[39m
+[37m  email: '8ouz6b',[39m
+[37m  _id: new ObjectId("61d54e1920e5637d16f24794"),[39m
+[37m  createdAt: 2022-01-05T07:51:53.967Z,[39m
+[37m  updatedAt: 2022-01-05T07:51:53.967Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35mPOST /users 201 231 - 65.965 ms[39m
+[35m[39m
+2022-01-05 08:51:53:5153 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d4423ca0c78ebf75b70a80"),[39m
+[37m    username: 'larre',[39m
+[37m    password: '$2b$10$y2ZahfKmRC/EbPodeRJYAe0r9QUsoFzOaEqqWh2VKBno14CL0aZYC',[39m
+[37m    email: 'emilie@gmail.com',[39m
+[37m    createdAt: 2022-01-04T12:49:00.923Z,[39m
+[37m    updatedAt: 2022-01-04T12:49:00.923Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d54e1920e5637d16f24794"),[39m
+[37m    username: '8ouz6b',[39m
+[37m    password: '$2b$10$dkQ42bvi4RNCoeBtaVG5ZOtmViWBGTpCh6Rrf.RNvyGIZvyNpltgC',[39m
+[37m    email: '8ouz6b',[39m
+[37m    createdAt: 2022-01-05T07:51:53.967Z,[39m
+[37m    updatedAt: 2022-01-05T07:51:53.967Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-05 08:51:53:5153 [35mhttp[39m: [35mGET /users 200 474 - 3.609 ms[39m
+[35m[39m
+2022-01-05 08:51:54:5154 [35mhttp[39m: [35mID: 61d54e1920e5637d16f24794[39m
+2022-01-05 08:51:54:5154 [35mhttp[39m: [35mBody is: [object Object][39m
+2022-01-05 08:51:54:5154 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61d54e1920e5637d16f24794"),[39m
+[37m  username: '8ouz6b8ouz6b',[39m
+[37m  password: '$2b$10$JSiIFdQbWaPvkGhn/UkaQeE3NSo2HqoN3Qwbr4bZkyuEupsgAujLa',[39m
+[37m  email: '8ouz6b8ouz6b',[39m
+[37m  createdAt: 2022-01-05T07:51:53.967Z,[39m
+[37m  updatedAt: 2022-01-05T07:51:54.043Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-05 08:51:54:5154 [35mhttp[39m: [35mPUT /users/61d54e1920e5637d16f24794 200 243 - 61.258 ms[39m
+[35m[39m
+2022-01-05 08:51:54:5154 [35mhttp[39m: [35mDELETE /users/61d54e1920e5637d16f24794 200 100 - 2.108 ms[39m
+[35m[39m

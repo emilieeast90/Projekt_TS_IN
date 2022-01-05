@@ -48,7 +48,6 @@ const getFlows = () => {
                 .end((error, response) => {
                     expect(response.status).to.equal(StatusCode.OK)
                     expect(response.body).be.a('array')
-                    id = response.body._id
                     expect(response.body.length).be.eq(response.body.length)
                     done()
                 })

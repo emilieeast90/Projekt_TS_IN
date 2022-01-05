@@ -8,7 +8,6 @@ import SigninView from '../view/unauthorized/SigninView'
 import SignupView from '../view/unauthorized/SignupView'
 import FlowView from '../view/authorized/FlowView'
 import MessageView from '../view/authorized/MessageView'
-import LogoutView from '../view/authorized/LogoutView'
 import SettingView from '../view/authorized/SettingView'
 import AdminView from '../view/authorized/AdminView'
 import UsersView from '../view/authorized/UsersView'
@@ -46,7 +45,6 @@ export const RoutingPaths = (props: { children?: React.ReactChild }) => {
                 <Route path={RoutingPath.homeView} element={blockAuthorized(<HomeView/>)}/>
                 <Route path={RoutingPath.signinView} element={blockAuthorized(<SigninView/>)}/>
                 <Route path={RoutingPath.signupView} element={blockAuthorized(<SignupView/>)}/>
-                <Route path={RoutingPath.logoutView} element={blockUnauthorized(<LogoutView/>)}/>
                 <Route path={RoutingPath.messageView} element={blockUnauthorized(<MessageView/>)}/>
                 <Route path={RoutingPath.profileView} element={blockUnauthorized(<ProfileView/>)}/>
                 <Route path={RoutingPath.settingsView} element={blockUnauthorized(<SettingView/>)}/>

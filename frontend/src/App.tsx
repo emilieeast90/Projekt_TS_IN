@@ -6,17 +6,8 @@ import {RoutingPaths} from './routes/RoutingPaths'
 import FontStyle from './components/FontStyle'
 import {UserContext} from './utils/global/provider/UserProviderOrg'
 import NavigationBar from './components/navigation/NavigationBar'
-import StartView from './view/authorized/StartView'
-import SignupView from './view/unauthorized/SignupView'
 
 const App: React.FC = (): JSX.Element => {
-    const blockAuthorized = (navigateToView: any) => {
-        return authenticatedUser ? <StartView/> : navigateToView
-    }
-
-    const blockUnauthorized = (navigateToView: any) => {
-        return !authenticatedUser ? <SignupView/> : navigateToView
-    }
 
     const [authenticatedUser, setAuthenticatedUser] = useState<string>('')
 
