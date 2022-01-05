@@ -143,6 +143,7 @@ const deleteUser = async (req: Request, res: Response) => {
     try {
         const {userId} = req.params
         const response = await UserModel.findByIdAndDelete(userId)
+        Logger.http(response)
         res.status(StatusCode.OK).send({
             message: `Successfully deleted user with username: ${response.username} and ID: ${userId}`
         })
