@@ -46,7 +46,7 @@ const Section = styled.section`
   margin: 0.5em;
 `
 
-const Button = styled.button`
+export const Button = styled.button`
   margin-bottom: 0.3em;
   margin-right: 0.3em;
   background-color: #684848;
