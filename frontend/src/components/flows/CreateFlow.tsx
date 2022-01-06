@@ -31,6 +31,7 @@ function CreateFlow() {
         <Container>
             <Section>
                 <ArticleFlow>
+                    <h3>Create Flow</h3>
                     <ItemThree/>
                     <P>What's up? Tell the world...</P>
                     <ItemTwo>

@@ -23,6 +23,7 @@ function GetFlows() {
 
     return (
         <>
+            <h3>Get Flows</h3>
             <button onClick={getFlows}>Refresh</button>
             <Container>
                 <JsonToTable json={flowsDb}/>

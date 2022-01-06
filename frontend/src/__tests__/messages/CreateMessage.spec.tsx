@@ -9,6 +9,4 @@ describe('Create Message', () => {
     it('should render Create Message component correctly', () => {
         expect(wrapped.find('p').text()).toEqual(title)
     })
-
-
 })

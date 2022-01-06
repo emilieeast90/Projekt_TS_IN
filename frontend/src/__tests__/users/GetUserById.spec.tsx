@@ -7,6 +7,6 @@ let wrapped = shallow(<GetUserWithId/>)
 
 describe('Get User With Id', () => {
     it('should render Get User With Id component correctly', () => {
-        expect(wrapped.find('h1').text()).toEqual(title)
+        expect(wrapped.find('h3').text()).toEqual(title)
     })
 })

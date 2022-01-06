@@ -21,6 +21,7 @@ function DeleteFlowById() {
     return (
         <>
             <article>
+                <h3>Delete Flow</h3>
                 <Input type="text"
                        value={id}
                        placeholder='Id to remove'

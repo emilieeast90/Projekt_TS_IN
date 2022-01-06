@@ -32861,3 +32861,133 @@
 2022-01-05 12:51:20:5120 [35mhttp[39m: [35mnull[39m
 2022-01-05 12:51:20:5120 [35mhttp[39m: [35mDELETE /users/61d57c9f220a565ce66645b5 500 131 - 2.494 ms[39m
 [35m[39m
+2022-01-06 14:31:40:3140 [32minfo[39m: [32mServer connection established on http://localhost:3001[39m
+2022-01-06 14:31:40:3140 [33mwarn[39m: [33mSERVER UP AND RUNNING IN DEVELOPER MODE![39m
+2022-01-06 14:31:40:3140 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-01-06 14:31:53:3153 [37mdebug[39m: [37m[][39m
+2022-01-06 14:31:53:3153 [35mhttp[39m: [35mPOST /verifyUser 500 129 - 11.872 ms[39m
+[35m[39m
+2022-01-06 14:32:00:320 [37mdebug[39m: [37m[][39m
+2022-01-06 14:32:00:320 [35mhttp[39m: [35mPOST /verifyUser 500 129 - 3.866 ms[39m
+[35m[39m
+2022-01-06 14:32:12:3212 [35mhttp[39m: [35m{ username: 'emilie', password: 'hemligt', email: 'halloj' }[39m
+2022-01-06 14:32:12:3212 [33mwarn[39m: [33mhashed password is $2b$10$Ka76mVIiWg2Nc1H37j1UvOm40WDBd7emcTGj/xzP6YTQvbHakDyqm[39m
+2022-01-06 14:32:12:3212 [37mdebug[39m: [37m{[39m
+[37m  username: 'emilie',[39m
+[37m  password: '$2b$10$Ka76mVIiWg2Nc1H37j1UvOm40WDBd7emcTGj/xzP6YTQvbHakDyqm',[39m
+[37m  email: 'halloj',[39m
+[37m  _id: new ObjectId("61d6ef5caaee7a406b62f71c")[39m
+[37m}[39m
+2022-01-06 14:32:12:3212 [37mdebug[39m: [37m{[39m
+[37m  username: 'emilie',[39m
+[37m  password: '$2b$10$Ka76mVIiWg2Nc1H37j1UvOm40WDBd7emcTGj/xzP6YTQvbHakDyqm',[39m
+[37m  email: 'halloj',[39m
+[37m  _id: new ObjectId("61d6ef5caaee7a406b62f71c"),[39m
+[37m  createdAt: 2022-01-06T13:32:12.359Z,[39m
+[37m  updatedAt: 2022-01-06T13:32:12.359Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-06 14:32:12:3212 [35mhttp[39m: [35mPOST /users 201 231 - 69.970 ms[39m
+[35m[39m
+2022-01-06 14:32:22:3222 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d6ef5caaee7a406b62f71c"),[39m
+[37m    username: 'emilie',[39m
+[37m    password: '$2b$10$Ka76mVIiWg2Nc1H37j1UvOm40WDBd7emcTGj/xzP6YTQvbHakDyqm',[39m
+[37m    email: 'halloj',[39m
+[37m    createdAt: 2022-01-06T13:32:12.359Z,[39m
+[37m    updatedAt: 2022-01-06T13:32:12.359Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-06 14:32:22:3222 [37mdebug[39m: [37mbcrypt[39m
+2022-01-06 14:32:22:3222 [37mdebug[39m: [37mtrue[39m
+2022-01-06 14:32:22:3222 [35mhttp[39m: [35mPOST /verifyUser 200 113 - 60.297 ms[39m
+[35m[39m
+2022-01-06 14:32:35:3235 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d57a52220a565ce6664594"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2022-01-05T11:00:34.942Z,[39m
+[37m    updatedAt: 2022-01-05T11:00:34.942Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d57a53220a565ce6664596"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2022-01-05T11:00:35.099Z,[39m
+[37m    updatedAt: 2022-01-05T11:00:35.099Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d57a53220a565ce666459a"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2022-01-05T11:00:35.417Z,[39m
+[37m    updatedAt: 2022-01-05T11:00:35.417Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d57a53220a565ce666459c"),[39m
+[37m    subject: 'wait',[39m
+[37m    privateMessage: 'will you wait for me?',[39m
+[37m    createdAt: 2022-01-05T11:00:35.554Z,[39m
+[37m    updatedAt: 2022-01-05T11:16:31.448Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d57a53220a565ce666459e"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2022-01-05T11:00:35.674Z,[39m
+[37m    updatedAt: 2022-01-05T11:00:35.674Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d57a85220a565ce66645b0"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2022-01-05T11:01:25.962Z,[39m
+[37m    updatedAt: 2022-01-05T11:01:25.962Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d57da2220a565ce66645e3"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2022-01-05T11:14:42.769Z,[39m
+[37m    updatedAt: 2022-01-05T11:14:42.769Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d57df0ae1bca33d86f2ec3"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2022-01-05T11:16:00.254Z,[39m
+[37m    updatedAt: 2022-01-05T11:16:00.254Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61d57e0f45b1a911e6c31ee0"),[39m
+[37m    subject: 'whatsup',[39m
+[37m    privateMessage: 'hello, how are you?',[39m
+[37m    createdAt: 2022-01-05T11:16:31.386Z,[39m
+[37m    updatedAt: 2022-01-05T11:16:31.386Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-01-06 14:32:35:3235 [35mhttp[39m: [35mGET /messages 200 1620 - 6.150 ms[39m
+[35m[39m
+2022-01-06 14:32:39:3239 [35mhttp[39m: [35m61d57a52220a565ce6664594[39m
+2022-01-06 14:32:39:3239 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61d57a52220a565ce6664594"),[39m
+[37m  subject: 'whatsup',[39m
+[37m  privateMessage: 'hello, how are you?',[39m
+[37m  createdAt: 2022-01-05T11:00:34.942Z,[39m
+[37m  updatedAt: 2022-01-05T11:00:34.942Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-01-06 14:32:39:3239 [35mhttp[39m: [35mGET /messages/61d57a52220a565ce6664594 200 179 - 5.772 ms[39m
+[35m[39m

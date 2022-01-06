@@ -19,8 +19,8 @@ const GetUserWithId = () => {
     }
     return (
         <>
+            <h3>Get user with Id</h3>
             <article>
-                <h1>Get user with Id</h1>
                 <input type="text"
                        value={id}
                        placeholder="Id"
