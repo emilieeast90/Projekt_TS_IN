@@ -20,6 +20,7 @@ function GetAllMessages() {
 
     return (
         <Container>
+            <h3>Get All Messages</h3>
             <button onClick={getAllMessages}>Refresh</button>
             <JsonToTable json={messageObject}/>
         </Container>

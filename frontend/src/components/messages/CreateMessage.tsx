@@ -28,6 +28,7 @@ function CreateMessage() {
     return (
         <Container>
             <JsonToTable json={messages}/>
+            <p>Subject</p>
             <InputSubject type="text"
                           value={subject}
                           placeholder="Subject"

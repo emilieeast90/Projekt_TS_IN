@@ -1,13 +1,10 @@
 import MessageService from '../../utils/api/service/MessageService'
 import {useState} from 'react'
 import {MessageDataObject} from '../../utils/interfaces/MessageData'
-import {useLocation} from 'react-router-dom'
 import {JsonToTable} from 'react-json-to-table'
 import styled from 'styled-components'
 
 const GetMessageWithId = () => {
-    const search = useLocation().search
-    const subject = new URLSearchParams(search).get('subject')
 
     const [message, setMessage] = useState<MessageDataObject>()
     const [id, setId] = useState<string>('')
@@ -24,18 +21,21 @@ const GetMessageWithId = () => {
     }
 
     return (
-        <Container>
-            <Input type="text"
-                   value={id}
-                   placeholder="Search Id"
-                   onChange={event => setId(event.target.value)}/>
-            <br/>
-            <button onClick={getMessage}>Search</button>
-            <br/>
-            <button onClick={() => setMessage(undefined)}>Clear</button>
-            <JsonToTable json={message}/>
-            <p>{subject}</p>
-        </Container>
+        <>
+            <Container>
+                <h3>Get message with id</h3>
+                <Input type="text"
+                       value={id}
+                       placeholder="Search Id"
+                       onChange={event => setId(event.target.value)}/>
+                <br/>
+                <button onClick={getMessage}>Search</button>
+                <br/>
+                <button onClick={() => setMessage(undefined)}>Clear</button>
+                <JsonToTable json={message}/>
+
+            </Container>
+        </>
     )
 }
 

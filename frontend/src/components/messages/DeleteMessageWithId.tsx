@@ -19,6 +19,7 @@ function DeleteMessageWithId() {
 
     return (
         <Container>
+            <h3>Delete Message</h3>
             <input type="text"
                    value={id}
                    placeholder="Id"
