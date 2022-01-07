@@ -32,15 +32,19 @@ function CreateMessage() {
             <InputSubject type="text"
                           value={subject}
                           placeholder="Subject"
+                          data-testid='subject-input'
                           onChange={event => setSubject(event.target.value)}/>
             <br/>
             <InputText value={privateMessage}
                        placeholder="Private Message"
+                       data-testid='pm-input'
                        onChange={event => {
                            setPrivateMessage(event.target.value)
                        }}/>
             <br/>
-            <button onClick={createMessage}>Send</button>
+            <button onClick={createMessage}
+                    data-testid="create-button">Send
+            </button>
         </Container>
     )
 }

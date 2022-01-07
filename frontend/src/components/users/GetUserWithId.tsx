@@ -24,6 +24,7 @@ const GetUserWithId = () => {
                 <input type="text"
                        value={id}
                        placeholder="Id"
+                       data-testid='id-input'
                        onChange={event => setId(event.target.value)}/>
                 <button onClick={getUserWithId}>Get user</button>
                 <button onClick={() => setUser(undefined)}>Clear</button>
