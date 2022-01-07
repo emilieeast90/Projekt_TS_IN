@@ -7,7 +7,8 @@ export type AuthenticatedContent = {
 
 export const UserContext = createContext<AuthenticatedContent>({
     authenticatedUser: '',
-    setAuthenticatedUser: () => {}
+    setAuthenticatedUser: () => {
+    }
 })
 
 export const useUserContext = () => useContext(UserContext)

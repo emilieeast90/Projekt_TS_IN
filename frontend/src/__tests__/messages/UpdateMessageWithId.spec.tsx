@@ -1,6 +1,5 @@
 import React from 'react'
 import {shallow} from 'enzyme'
-import UpdateUser from '../../components/users/UpdateUser'
 import UpdateMessageWithId from '../../components/messages/UpdateMessageWithId'
 
 const title = 'Update Message'

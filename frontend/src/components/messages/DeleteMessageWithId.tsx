@@ -37,7 +37,7 @@ function DeleteMessageWithId() {
 }
 
 const Container = styled.div`
-    text-align: center;
+  text-align: center;
 `
 
 const Button = styled.button`

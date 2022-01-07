@@ -45,10 +45,10 @@ const SectionTwo = styled.section`
 `
 
 const StyledLink = styled(Link)`
-    &:hover {
-      color: #222;
-      transition: 0.2s all ease-in-out;
-    }
+  &:hover {
+    color: #222;
+    transition: 0.2s all ease-in-out;
+  }
 `
 
 const Li = styled.li`

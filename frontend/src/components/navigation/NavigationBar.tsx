@@ -23,7 +23,7 @@ const StyledNav = styled.div`
   position: fixed;
   top: 0;
   background-color: #684848;
-  
+
   ul {
     margin: 0 auto;
     text-align: center;

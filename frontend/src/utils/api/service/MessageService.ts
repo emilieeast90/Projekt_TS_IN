@@ -1,8 +1,7 @@
 import http from '../BookfaceApi'
-import {MessageDataObject, CreateMessageObject, Message} from '../../interfaces/MessageData'
+import {CreateMessageObject, Message, MessageDataObject} from '../../interfaces/MessageData'
 
 const messageUrl = '/messages'
-const searchMessage = '/searchMessage'
 
 const MessageService = {
     createNewMessage: (newMessagePayload: Message) => {

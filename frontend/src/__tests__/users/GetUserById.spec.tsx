@@ -22,7 +22,7 @@ describe('Get User With Id', () => {
         expect(input).toHaveAttribute('type', 'text')
     })
 
-    it('pass id to input field', () =>  {
+    it('pass id to input field', () => {
         render(<GetUserWithId/>)
 
         const input = screen.getByTestId('id-input')

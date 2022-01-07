@@ -24,7 +24,7 @@ function DeleteFlowById() {
                 <h3>Delete Flow</h3>
                 <Input type="text"
                        value={id}
-                       placeholder='Id to remove'
+                       placeholder="Id to remove"
                        onChange={event => setId(event.target.value)}
                 />
                 <Button onClick={deleteFlow}>Remove</Button>

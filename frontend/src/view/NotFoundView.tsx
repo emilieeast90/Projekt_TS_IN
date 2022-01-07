@@ -2,7 +2,8 @@ import React, {useEffect} from 'react'
 import styled from 'styled-components'
 
 export const NotFoundView = () => {
-    useEffect(() => {}, [])
+    useEffect(() => {
+    }, [])
     return (
         <>
             <H2>404</H2>
@@ -11,11 +12,11 @@ export const NotFoundView = () => {
     )
 }
 
-const H2 = styled.h2 `
+const H2 = styled.h2`
   margin-top: 2em;
-    text-align: center;
+  text-align: center;
 `
 
-const P = styled.p `
-    text-align: center;
+const P = styled.p`
+  text-align: center;
 `

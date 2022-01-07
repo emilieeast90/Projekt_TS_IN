@@ -1,5 +1,5 @@
 import http from '../BookfaceApi'
-import {CreateFlowObject, FlowDataObject, Flow} from '../../interfaces/FlowData'
+import {CreateFlowObject, Flow, FlowDataObject} from '../../interfaces/FlowData'
 
 const flowsUrl = '/flow'
 

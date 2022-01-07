@@ -1,6 +1,5 @@
 import FontStyle from '../../components/FontStyle'
 import sociallogo from '../../utils/global/images/socialmedia.jpg'
-import RoutingPath from '../../routes/RoutingPathUrl'
 import React from 'react'
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
@@ -39,10 +38,10 @@ const SectionTwo = styled.section`
 `
 
 const StyledLink = styled(Link)`
-    &:hover {
-      color: #222;
-      transition: 0.2s all ease-in-out;
-    }
+  &:hover {
+    color: #222;
+    transition: 0.2s all ease-in-out;
+  }
 `
 
 const Li = styled.li`

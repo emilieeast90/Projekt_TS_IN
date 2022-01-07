@@ -9,6 +9,4 @@ describe('Create User', () => {
     it('should render Create User component correctly', () => {
         expect(wrapped.find('h1').text()).toEqual(title)
     })
-
-
 })

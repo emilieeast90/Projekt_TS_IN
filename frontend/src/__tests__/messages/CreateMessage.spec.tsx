@@ -1,8 +1,7 @@
 import React from 'react'
 import {shallow} from 'enzyme'
 import CreateMessage from '../../components/messages/CreateMessage'
-import {cleanup, fireEvent, render, screen} from '@testing-library/react'
-import GetUserWithId from '../../components/users/GetUserWithId'
+import {cleanup, render, screen} from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
 afterEach(cleanup)
@@ -20,7 +19,7 @@ describe('Create Message', () => {
         expect(screen.getByTestId('create-button')).toHaveTextContent('Send')
     })
 
-    it('pass subject to input field', () =>  {
+    it('pass subject to input field', () => {
         render(<CreateMessage/>)
 
         const input = screen.getByTestId('subject-input')
@@ -30,7 +29,7 @@ describe('Create Message', () => {
         expect(screen.queryByTestId('error-msg')).not.toBeInTheDocument()
     })
 
-    it('pass pm to input field', () =>  {
+    it('pass pm to input field', () => {
         render(<CreateMessage/>)
 
         const input = screen.getByTestId('pm-input')

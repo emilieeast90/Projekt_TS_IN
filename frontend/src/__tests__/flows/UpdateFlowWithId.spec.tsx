@@ -12,7 +12,7 @@ describe('Update Flow', () => {
         expect(wrapped.find('h3').text()).toEqual(title)
     })
 
-    it('pass id to input field', () =>  {
+    it('pass id to input field', () => {
         render(<UpdateFlowById/>)
 
         const input = screen.getByTestId('id-input')
@@ -22,7 +22,7 @@ describe('Update Flow', () => {
         expect(screen.queryByTestId('error-msg')).not.toBeInTheDocument()
     })
 
-    it('pass username to input field', () =>  {
+    it('pass username to input field', () => {
         render(<UpdateFlowById/>)
 
         const input = screen.getByTestId('username-input')
@@ -33,7 +33,7 @@ describe('Update Flow', () => {
     })
 
 
-    it('pass post to input field', () =>  {
+    it('pass post to input field', () => {
         render(<UpdateFlowById/>)
 
         const input = screen.getByTestId('post-input')

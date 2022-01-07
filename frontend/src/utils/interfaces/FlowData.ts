@@ -18,13 +18,6 @@ export interface FlowObjectWithDate {
     updatedAt: Date
 }
 
-export interface FlowDataObjectWithDate {
-    username: string,
-    post: string,
-    createdAt: Date,
-    updatedAt: Date
-}
-
 export interface CreateFlowObject {
     username: string,
     post: string,

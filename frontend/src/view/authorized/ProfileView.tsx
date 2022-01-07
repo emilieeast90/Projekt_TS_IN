@@ -37,7 +37,7 @@ const Li = styled.li`
     grid-column: 0/1;
     width: 10em;
     height: 10em;
-    
+
   }
 `
 

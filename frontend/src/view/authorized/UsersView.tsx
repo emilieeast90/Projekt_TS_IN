@@ -24,7 +24,7 @@ const Div = styled.div`
 `
 
 const Section = styled.section`
-    margin: 5em;
+  margin: 5em;
 `
 
 export default UsersView

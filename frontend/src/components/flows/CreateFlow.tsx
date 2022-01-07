@@ -114,14 +114,15 @@ const Post = styled.div`
     height: 100%;
     border: solid 4px white;
   }
-  
+
   td {
     border: solid 4px white;
   }
-  
+
   tr {
     border: solid 6px white;
     height: 3em;
+
     &:nth-child(even) {
       background-color: #684848;
     }
